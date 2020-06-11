@@ -39,7 +39,8 @@ def on_press(key):
 
     for combination in combination_to_function:  # Loop through each combination
         if is_combination_pressed(combination):  # Check if all keys in the combination are pressed
-            combination_to_function[combination]  # If so, execute the function
+            func, params = combination_to_function[combination]
+            func(*params)
 
 
 def on_release(key):
@@ -76,8 +77,9 @@ def double_menu(x1, y1, x2, y2, msg):
 # Create a mapping of keys to function (use frozenset as sets/lists are not hashable - so they can't be used as keys)
 # Note the missing `()` after function_1 and function_2 as want to pass the function, not the return value of the function
 combination_to_function = {
-    frozenset([Key.ctrl, KeyCode(vk=114)]): single_menu(20, 20, 'eae blz'), # Ctrl + R
-    frozenset([Key.ctrl, KeyCode(vk=116)]): single_menu(40, 40, 'opa ota cosa'), #
+    frozenset([Key.ctrl, KeyCode(vk=114)]): [single_menu, [20, 10, 'ink_red']],
+    frozenset([Key.ctrl, KeyCode(vk=103)]): [single_menu, [40, 10, 'ink_green']],
+    frozenset([Key.ctrl, KeyCode(vk=98)]): [single_menu, [60, 10, 'ink_blue']],
 }
 
 
