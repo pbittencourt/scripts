@@ -238,7 +238,7 @@ def on_press(key):
 
     for combination in combination_to_function:  # Loop through each combination
         if is_combination_pressed(combination):  # Check if all keys in the combination are pressed
-            combination_to_function[combination]()  # If so, execute the function
+            combination_to_function[combination]  # If so, execute the function
 
 
 def on_release(key):
@@ -256,7 +256,8 @@ def on_release(key):
 # Note the missing `()` after function_1 and function_2 as want to pass the function, not the return value of the function
 combination_to_function = {
     # INK COLORS
-    frozenset([KeyCode(vk=114)]): ink_red, # R
+    #frozenset([KeyCode(vk=114)]): ink_red, # R
+    frozenset([KeyCode(vk=114)]): ink_red(), # R
     frozenset([KeyCode(vk=103)]): ink_green, # G
     frozenset([KeyCode(vk=98)]): ink_blue, # B
 
