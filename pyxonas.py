@@ -16,7 +16,7 @@ from time import sleep
 def ink_black():
     mouse.position = (973, 40)
     mouse.click(Button.left, 1)
-    print('executei função ink_black')
+    print(ink_black.__name__)
 
 
 def ink_green():
@@ -219,10 +219,7 @@ def thick3():
 
 
 def get_vk(key):
-    """
-    Get the virtual key code from a key.
-    These are used so case/shift modifications are ignored.
-    """
+    """ Get the virtual key code from a key. These are used so case/shift modifications are ignored. """
     return key.vk if hasattr(key, 'vk') else key.value.vk
 
 
@@ -243,13 +240,12 @@ def on_press(key):
 
 def on_release(key):
     """ When a key is released """
+    vk = get_vk(key)  # Get the key's vk
+    pressed_vks.remove(vk)  # Remove it from the set of currently pressed keys
     if key == Key.esc:
         # Stop listener
         print('\n\nG00DBY3 MR R0B07!\n')
         return False
-
-    vk = get_vk(key)  # Get the key's vk
-    pressed_vks.remove(vk)  # Remove it from the set of currently pressed keys
 
 
 # Create a mapping of keys to function (use frozenset as sets/lists are not hashable - so they can't be used as keys)
