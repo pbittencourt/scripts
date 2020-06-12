@@ -1,4 +1,4 @@
-#!/usr/bin/python3
+#!/usr/bin/env python3
 """
 Atalhos de teclado para serem usados com o xournal++, uma vez que
 não há a possibilidade de customizar atalhos de forma nativa no app.
@@ -11,6 +11,7 @@ Link:   https://github.com/pbittencourt
 from pynput.keyboard import Key, KeyCode, Listener
 from pynput.mouse import Button, Controller
 from time import sleep
+import argparse
 
 
 def ink_black():
