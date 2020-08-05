@@ -1,0 +1,267 @@
+1596622660923	geckodriver	INFO	Listening on 127.0.0.1:45375
+1596622660972	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "--marionette" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofilem4dlwt"
+console.error: SearchCache: "_readCacheFile: Error reading cache file:" (new Error("", "(unknown module)"))
+1596622674971	Marionette	INFO	Listening on port 39947
+1596622675071	Marionette	WARN	TLS certificate errors will be ignored for this session
+1596622912820	geckodriver	INFO	Listening on 127.0.0.1:48027
+1596622912878	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "--marionette" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofileZXlcrE"
+console.error: SearchCache: "_readCacheFile: Error reading cache file:" (new Error("", "(unknown module)"))
+1596622926743	Marionette	INFO	Listening on port 40947
+1596622926846	Marionette	WARN	TLS certificate errors will be ignored for this session
+1596622933383	Marionette	INFO	Stopped listening on port 39947
+console.error: "Error while calling actor 'pagestyle's method 'getLayout'" "node is null"
+console.error: "getLayout@resource://devtools/server/actors/styles.js:1013:5\nhandler@resource://devtools/shared/protocol/Actor.js:162:37\nonPacket@resource://devtools/server/devtools-server-connection.js:379:58\nreceiveMessage@resource://devtools/shared/transport/child-transport.js:66:16\n"
+console.error: (new TypeError("parent is null", "resource://devtools/client/inspector/shared/style-change-tracker.js", 67))
+TypeError: parent is null: canMutationImpactCurrentStyles@resource://devtools/client/inspector/shared/style-change-tracker.js:67:24
+onMutations@resource://devtools/client/inspector/shared/style-change-tracker.js:84:41
+_emit@resource://devtools/shared/event-emitter.js:226:34
+emit@resource://devtools/shared/event-emitter.js:172:18
+emit@resource://devtools/shared/event-emitter.js:324:18
+getMutations@resource://devtools/client/fronts/walker.js:409:10
+
+console.error: (new TypeError("container.node.targetFront is null", "resource://devtools/client/inspector/markup/markup.js", 2245))
+console.error: (new TypeError("container.node.targetFront is null", "resource://devtools/client/inspector/markup/markup.js", 2245))
+console.error: (new TypeError("container.node.targetFront is null", "resource://devtools/client/inspector/markup/markup.js", 2245))
+console.error: (new Error("Protocol error (TypeError): node is null from: server0.conn0.child2/pagestyle26 (resource://devtools/server/actors/styles.js:1013:5)", "resource://devtools/shared/protocol/Front.js", 323))
+JavaScript error: https://maestro.plurall.net/app/js/teachers.directives.min.c6b03f8410ec8e20f5da5c329c69fa3c.js, line 6: TypeError: $(...).offset() is undefined
+JavaScript error: https://maestro.plurall.net/app/js/teachers.directives.min.c6b03f8410ec8e20f5da5c329c69fa3c.js, line 6: TypeError: $(...).offset() is undefined
+JavaScript error: https://maestro.plurall.net/app/js/teachers.directives.min.c6b03f8410ec8e20f5da5c329c69fa3c.js, line 6: TypeError: $(...).offset() is undefined
+JavaScript error: https://maestro.plurall.net/app/js/teachers.directives.min.c6b03f8410ec8e20f5da5c329c69fa3c.js, line 6: TypeError: $(...).offset() is undefined
+JavaScript error: https://maestro.plurall.net/app/js/teachers.directives.min.c6b03f8410ec8e20f5da5c329c69fa3c.js, line 6: TypeError: $(...).offset() is undefined
+JavaScript error: https://maestro.plurall.net/app/js/teachers.directives.min.c6b03f8410ec8e20f5da5c329c69fa3c.js, line 6: TypeError: $(...).offset() is undefined
+JavaScript error: https://maestro.plurall.net/app/js/teachers.directives.min.c6b03f8410ec8e20f5da5c329c69fa3c.js, line 6: TypeError: $(...).offset() is undefined
+JavaScript error: https://maestro.plurall.net/app/js/teachers.directives.min.c6b03f8410ec8e20f5da5c329c69fa3c.js, line 6: TypeError: $(...).offset() is undefined
+JavaScript error: https://maestro.plurall.net/app/js/teachers.directives.min.c6b03f8410ec8e20f5da5c329c69fa3c.js, line 6: TypeError: $(...).offset() is undefined
+1596623832105	Marionette	WARN	TimedPromise timed out after 500 ms: stacktrace:
+TimedPromise/<@chrome://marionette/content/sync.js:245:13
+TimedPromise@chrome://marionette/content/sync.js:230:10
+interaction.flushEventLoop@chrome://marionette/content/interaction.js:416:10
+webdriverClickElement@chrome://marionette/content/interaction.js:182:31
+1596624431386	Marionette	INFO	Stopped listening on port 40947
+IPDL protocol error: Handler returned error code!
+
+###!!! [Parent][DispatchAsyncMessage] Error: PLayerTransaction::Msg_ReleaseLayer Processing error: message was deserialized, but the handler returned false (indicating failure)
+
+IPDL protocol error: Handler returned error code!
+
+###!!! [Parent][DispatchAsyncMessage] Error: PLayerTransaction::Msg_ReleaseLayer Processing error: message was deserialized, but the handler returned false (indicating failure)
+
+1596624453904	geckodriver	INFO	Listening on 127.0.0.1:38571
+1596624454003	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "--marionette" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofilejwXjth"
+console.error: SearchCache: "_readCacheFile: Error reading cache file:" (new Error("", "(unknown module)"))
+1596624468613	Marionette	INFO	Listening on port 38463
+1596624468730	Marionette	WARN	TLS certificate errors will be ignored for this session
+
+###!!! [Parent][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+JavaScript error: https://maestro.plurall.net/app/js/teachers.directives.min.c6b03f8410ec8e20f5da5c329c69fa3c.js, line 6: TypeError: $(...).offset() is undefined
+JavaScript error: https://maestro.plurall.net/app/js/teachers.directives.min.c6b03f8410ec8e20f5da5c329c69fa3c.js, line 6: TypeError: $(...).offset() is undefined
+JavaScript error: https://maestro.plurall.net/app/js/teachers.directives.min.c6b03f8410ec8e20f5da5c329c69fa3c.js, line 6: TypeError: $(...).offset() is undefined
+JavaScript error: https://maestro.plurall.net/app/js/teachers.directives.min.c6b03f8410ec8e20f5da5c329c69fa3c.js, line 6: TypeError: $(...).offset() is undefined
+1596624610321	Marionette	INFO	Stopped listening on port 38463
+1596624643899	geckodriver	INFO	Listening on 127.0.0.1:35487
+1596624643923	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "--marionette" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofilec5U8Tq"
+console.error: SearchCache: "_readCacheFile: Error reading cache file:" (new Error("", "(unknown module)"))
+1596624655520	Marionette	INFO	Listening on port 43399
+1596624655660	Marionette	WARN	TLS certificate errors will be ignored for this session
+1596624790552	Marionette	INFO	Stopped listening on port 43399
+1596624794767	geckodriver	INFO	Listening on 127.0.0.1:46217
+1596624794802	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "--marionette" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofile8qcffT"
+console.error: SearchCache: "_readCacheFile: Error reading cache file:" (new Error("", "(unknown module)"))
+1596624806764	Marionette	INFO	Listening on port 39297
+1596624806860	Marionette	WARN	TLS certificate errors will be ignored for this session
+1596624957501	Marionette	INFO	Stopped listening on port 39297
+1596625225214	geckodriver	INFO	Listening on 127.0.0.1:53881
+1596625225256	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "--marionette" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofileYVQyNP"
+console.error: SearchCache: "_readCacheFile: Error reading cache file:" (new Error("", "(unknown module)"))
+1596625237228	Marionette	INFO	Listening on port 41833
+1596625237314	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript error: https://maestro.plurall.net/app/js/teachers.directives.min.c6b03f8410ec8e20f5da5c329c69fa3c.js, line 6: TypeError: $(...).offset() is undefined
+JavaScript error: https://maestro.plurall.net/app/js/teachers.directives.min.c6b03f8410ec8e20f5da5c329c69fa3c.js, line 6: TypeError: $(...).offset() is undefined
+JavaScript error: https://maestro.plurall.net/app/js/teachers.directives.min.c6b03f8410ec8e20f5da5c329c69fa3c.js, line 6: TypeError: $(...).offset() is undefined
+1596625373502	Marionette	INFO	Stopped listening on port 41833
+1596625375224	geckodriver	INFO	Listening on 127.0.0.1:50237
+1596625375248	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "--marionette" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofilehib2r2"
+console.error: SearchCache: "_readCacheFile: Error reading cache file:" (new Error("", "(unknown module)"))
+1596625387205	Marionette	INFO	Listening on port 44247
+1596625387312	Marionette	WARN	TLS certificate errors will be ignored for this session
+1596625494467	Marionette	INFO	Stopped listening on port 44247
+1596625495967	geckodriver	INFO	Listening on 127.0.0.1:48185
+1596625495991	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "--marionette" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofilezktjmc"
+console.error: SearchCache: "_readCacheFile: Error reading cache file:" (new Error("", "(unknown module)"))
+1596625508114	Marionette	INFO	Listening on port 36027
+1596625508177	Marionette	WARN	TLS certificate errors will be ignored for this session
+1596625524878	Marionette	WARN	TimedPromise timed out after 500 ms: stacktrace:
+TimedPromise/<@chrome://marionette/content/sync.js:245:13
+TimedPromise@chrome://marionette/content/sync.js:230:10
+interaction.flushEventLoop@chrome://marionette/content/interaction.js:416:10
+webdriverClickElement@chrome://marionette/content/interaction.js:182:31
+IPDL protocol error: Handler returned error code!
+
+###!!! [Parent][DispatchAsyncMessage] Error: PLayerTransaction::Msg_ReleaseLayer Processing error: message was deserialized, but the handler returned false (indicating failure)
+
+1596625716545	Marionette	INFO	Stopped listening on port 36027
+1596625719621	geckodriver	INFO	Listening on 127.0.0.1:42615
+1596625719643	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "--marionette" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofileUwvjvV"
+console.error: SearchCache: "_readCacheFile: Error reading cache file:" (new Error("", "(unknown module)"))
+1596625731260	Marionette	INFO	Listening on port 37609
+1596625731360	Marionette	WARN	TLS certificate errors will be ignored for this session
+1596625748170	Marionette	WARN	TimedPromise timed out after 500 ms: stacktrace:
+TimedPromise/<@chrome://marionette/content/sync.js:245:13
+TimedPromise@chrome://marionette/content/sync.js:230:10
+interaction.flushEventLoop@chrome://marionette/content/interaction.js:416:10
+webdriverClickElement@chrome://marionette/content/interaction.js:182:31
+IPDL protocol error: Handler returned error code!
+
+###!!! [Parent][DispatchAsyncMessage] Error: PLayerTransaction::Msg_ReleaseLayer Processing error: message was deserialized, but the handler returned false (indicating failure)
+
+1596626510547	Marionette	INFO	Stopped listening on port 37609
+1596626512628	geckodriver	INFO	Listening on 127.0.0.1:56899
+1596626512661	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "--marionette" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofileIjxVzw"
+console.error: SearchCache: "_readCacheFile: Error reading cache file:" (new Error("", "(unknown module)"))
+1596626524506	Marionette	INFO	Listening on port 33951
+1596626524617	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript error: resource://gre/modules/UrlClassifierListManager.jsm, line 691: TypeError: this.tablesData[table] is undefined
+IPDL protocol error: Handler returned error code!
+
+###!!! [Parent][DispatchAsyncMessage] Error: PLayerTransaction::Msg_ReleaseLayer Processing error: message was deserialized, but the handler returned false (indicating failure)
+
+IPDL protocol error: Handler returned error code!
+
+###!!! [Parent][DispatchAsyncMessage] Error: PLayerTransaction::Msg_ReleaseLayer Processing error: message was deserialized, but the handler returned false (indicating failure)
+
+IPDL protocol error: Handler returned error code!
+
+###!!! [Parent][DispatchAsyncMessage] Error: PLayerTransaction::Msg_ReleaseLayer Processing error: message was deserialized, but the handler returned false (indicating failure)
+
+IPDL protocol error: Handler returned error code!
+
+###!!! [Parent][DispatchAsyncMessage] Error: PLayerTransaction::Msg_ReleaseLayer Processing error: message was deserialized, but the handler returned false (indicating failure)
+
+JavaScript error: https://maestro.plurall.net/app/js/vendors.min.af65ce631c3789145dcace18330be336.js?v_build=1596514359884, line 3: Error: [$injector:modulerr] Failed to instantiate module adapta-app due to:
+[$injector:nomod] Module 'adapta-app' is not available! You either misspelled the module name or forgot to load it. If registering a module ensure that you specify the dependencies as the second argument.
+http://errors.angularjs.org/1.5.8/$injector/nomod?p0=adapta-app
+b/<@https://maestro.plurall.net/app/js/vendors.min.af65ce631c3789145dcace18330be336.js?v_build=1596514359884:3:25196
+pa/</</<@https://maestro.plurall.net/app/js/vendors.min.af65ce631c3789145dcace18330be336.js?v_build=1596514359884:4:3304
+c@https://maestro.plurall.net/app/js/vendors.min.af65ce631c3789145dcace18330be336.js?v_build=1596514359884:4:2777
+pa/</<@https://maestro.plurall.net/app/js/vendors.min.af65ce631c3789145dcace18330be336.js?v_build=1596514359884:4:3089
+m/<@https://maestro.plurall.net/app/js/vendors.min.af65ce631c3789145dcace18330be336.js?v_build=1596514359884:4:12437
+d@https://maestro.plurall.net/app/js/vendors.min.af65ce631c3789145dcace18330be336.js?v_build=1596514359884:3:25644
+m@https://maestro.plurall.net/app/js/vendors.min.af65ce631c3789145dcace18330be336.js?v_build=1596514359884:4:12286
+db@https://maestro.plurall.net/app/js/vendors.min.af65ce631c3789145dcace18330be336.js?v_build=1596514359884:4:14215
+g@https://maestro.plurall.net/app/js/vendors.min.af65ce631c3789145dcace18330be336.js?v_build=1596514359884:4:849
+ea@https://maestro.plurall.net/app/js/vendors.min.af65ce631c3789145dcace18330be336.js?v_build=1596514359884:4:1157
+da@https://maestro.plurall.net/app/js/vendors.min.af65ce631c3789145dcace18330be336.js?v_build=1596514359884:4:396
+@https://maestro.plurall.net/app/js/vendors.min.af65ce631c3789145dcace18330be336.js?v_build=1596514359884:9:1010
+j@https://maestro.plurall.net/app/js/vendors.min.af65ce631c3789145dcace18330be336.js?v_build=1596514359884:2:6571
+fireWith@https://maestro.plurall.net/app/js/vendors.min.af65ce631c3789145dcace18330be336.js?v_build=1596514359884:2:7339
+ready@https://maestro.plurall.net/app/js/vendors.min.af65ce631c3789145dcace18330be336.js?v_build=1596514359884:2:9156
+g@https://maestro.plurall.net/app/js/vendors.min.af65ce631c3789145dcace18330be336.js?v_build=1596514359884:1:958
+
+http://errors.angularjs.org/1.5.8/$injector/modulerr?p0=adapta-app&p1=%5B%24injector%3Anomod%5D%20Module%20'adapta-app'%20is%20not%20available!%20You%20either%20misspelled%20the%20module%20name%20or%20forgot%20to%20load%20it.%20If%20registering%20a%20module%20ensure%20that%20you%20specify%20the%20dependencies%20as%20the%20second%20argument.%0Ahttp%3A%2F%2Ferrors.angularjs.org%2F1.5.8%2F%24injector%2Fnomod%3Fp0%3Dadapta-app%0Ab%2F%3C%40https%3A%2F%2Fmaestro.plurall.net%2Fapp%2Fjs%2Fvendors.min.af65ce631c3789145dcace18330be336.js%3Fv_build%3D1596514359884%3A3%3A25196%0Apa%2F%3C%2F%3C%2F%3C%40https%3A%2F%2Fmaestro.plurall.net%2Fapp%2Fjs%2Fvendors.min.af65ce631c3789145dcace18330be336.js%3Fv_build%3D1596514359884%3A4%3A3304%0Ac%40https%3A%2F%2Fmaestro.plurall.net%2Fapp%2Fjs%2Fvendors.min.af65ce631c3789145dcace18330be336.js%3Fv_build%3D1596514359884%3A4%3A2777%0Apa%2F%3C%2F%3C%40https%3A%2F%2Fmaestro.plurall.net%2Fapp%2Fjs%2Fvendors.min.af65ce631c3789145dcace18330be336.js%3Fv_build%3D1596514359884%3A4%3A3089%0Am%2F%3C%40https%3A%2F%2Fmaestro.plurall.net%2Fapp%2Fjs%2Fvendors.min.af65ce631c3789145dcace18330be336.js%3Fv_build%3D1596514359884%3A4%3A12437%0Ad%40https%3A%2F%2Fmaestro.plurall.net%2Fapp%2Fjs%2Fvendors.min.af65ce631c3789145dcace18330be336.js%3Fv_build%3D1596514359884%3A3%3A25644%0Am%40https%3A%2F%2Fmaestro.plurall.net%2Fapp%2Fjs%2Fvendors.min.af65ce631c3789145dcace18330be336.js%3Fv_build%3D1596514359884%3A4%3A12286%0Adb%40https%3A%2F%2Fmaestro.plurall.net%2Fapp%2Fjs%2Fvendors.min.af65ce631c3789145dcace18330be336.js%3Fv_build%3D1596514359884%3A4%3A14215%0Ag%40https%3A%2F%2Fmaestro.plurall.net%2Fapp%2Fjs%2Fvendors.min.af65ce631c3789145dcace18330be336.js%3Fv_build%3D1596514359884%3A4%3A849%0Aea%40https%3A%2F%2Fmaestro.plurall.net%2Fapp%2Fjs%2Fvendors.min.af65ce631c3789145dcace18330be336.js%3Fv_build%3D1596514359884%3A4%3A1157%0Ada%40https%3A%2F%2Fmaestro.plurall.net%2Fapp%2Fjs%2Fvendors.min.af65ce631c3789145dcace18330be336.js%3Fv_build%3D1596514359884%3A4%3A396%0A%40https%3A%2F%2Fmaestro.plurall.net%2Fapp%2Fjs%2Fvendors.min.af65ce631c3789145dcace18330be336.js%3Fv_build%3D1596514359884%3A9%3A1010%0Aj%40https%3A%2F%2Fmaestro.plurall.net%2Fapp%2Fjs%2Fvendors.min.af65ce631c3789145dcace18330be336.js%3Fv_build%3D1596514359884%3A2%3A6571%0AfireWith%40https%3A%2F%2Fmaestro.plurall.net%2Fapp%2Fjs%2Fvendors.min.af65ce631c3789145dcace18330be336.js%3Fv_build%3D1596514359884%3A2%3A7339%0Aready%40https%3A%2F%2Fmaestro.plurall.net%2Fapp%2Fjs%2Fvendors.min.af65ce631c3789145dcace18330be336.js%3Fv_build%3D1596514359884%3A2%3A9156%0Ag%40https%3A%2F%2Fmaestro.plurall.net%2Fapp%2Fjs%2Fvendors.min.af65ce631c3789145dcace18330be336.js%3Fv_build%3D1596514359884%3A1%3A958%0A
+1596626531175	Marionette	INFO	Stopped listening on port 33951
+1596626535978	geckodriver	INFO	Listening on 127.0.0.1:34083
+1596626536012	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "--marionette" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofilefUP37p"
+console.error: SearchCache: "_readCacheFile: Error reading cache file:" (new Error("", "(unknown module)"))
+1596626547833	Marionette	INFO	Listening on port 45925
+1596626547862	Marionette	WARN	TLS certificate errors will be ignored for this session
+1596626574838	Marionette	WARN	TimedPromise timed out after 500 ms: stacktrace:
+TimedPromise/<@chrome://marionette/content/sync.js:245:13
+TimedPromise@chrome://marionette/content/sync.js:230:10
+interaction.flushEventLoop@chrome://marionette/content/interaction.js:416:10
+webdriverClickElement@chrome://marionette/content/interaction.js:182:31
+1596626782522	Marionette	WARN	TimedPromise timed out after 500 ms: stacktrace:
+TimedPromise/<@chrome://marionette/content/sync.js:245:13
+TimedPromise@chrome://marionette/content/sync.js:230:10
+interaction.flushEventLoop@chrome://marionette/content/interaction.js:416:10
+webdriverClickElement@chrome://marionette/content/interaction.js:182:31
+IPDL protocol error: Handler returned error code!
+
+###!!! [Parent][DispatchAsyncMessage] Error: PLayerTransaction::Msg_ReleaseLayer Processing error: message was deserialized, but the handler returned false (indicating failure)
+
+1596627617722	Marionette	INFO	Stopped listening on port 45925
+1596627627518	geckodriver	INFO	Listening on 127.0.0.1:51527
+1596627627539	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "--marionette" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofilejDymnM"
+console.error: SearchCache: "_readCacheFile: Error reading cache file:" (new Error("", "(unknown module)"))
+1596627638956	Marionette	INFO	Listening on port 42661
+1596627638995	Marionette	WARN	TLS certificate errors will be ignored for this session
+1596627656022	Marionette	WARN	TimedPromise timed out after 500 ms: stacktrace:
+TimedPromise/<@chrome://marionette/content/sync.js:245:13
+TimedPromise@chrome://marionette/content/sync.js:230:10
+interaction.flushEventLoop@chrome://marionette/content/interaction.js:416:10
+webdriverClickElement@chrome://marionette/content/interaction.js:182:31
+1596627682412	Marionette	WARN	TimedPromise timed out after 500 ms: stacktrace:
+TimedPromise/<@chrome://marionette/content/sync.js:245:13
+TimedPromise@chrome://marionette/content/sync.js:230:10
+interaction.flushEventLoop@chrome://marionette/content/interaction.js:416:10
+webdriverClickElement@chrome://marionette/content/interaction.js:182:31
+JavaScript error: chrome://browser/content/browser-customization.js, line 172: NS_ERROR_NOT_INITIALIZED: 
+1596627900634	Marionette	INFO	Stopped listening on port 42661
+1596627902703	geckodriver	INFO	Listening on 127.0.0.1:42075
+1596627902724	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "--marionette" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofileGYqJcp"
+console.error: SearchCache: "_readCacheFile: Error reading cache file:" (new Error("", "(unknown module)"))
+1596627913936	Marionette	INFO	Listening on port 46173
+1596627914182	Marionette	WARN	TLS certificate errors will be ignored for this session
+1596627931011	Marionette	WARN	TimedPromise timed out after 500 ms: stacktrace:
+TimedPromise/<@chrome://marionette/content/sync.js:245:13
+TimedPromise@chrome://marionette/content/sync.js:230:10
+interaction.flushEventLoop@chrome://marionette/content/interaction.js:416:10
+webdriverClickElement@chrome://marionette/content/interaction.js:182:31
+1596627957236	Marionette	WARN	TimedPromise timed out after 500 ms: stacktrace:
+TimedPromise/<@chrome://marionette/content/sync.js:245:13
+TimedPromise@chrome://marionette/content/sync.js:230:10
+interaction.flushEventLoop@chrome://marionette/content/interaction.js:416:10
+webdriverClickElement@chrome://marionette/content/interaction.js:182:31
+console.error: (new TypeError("parent is null", "resource://devtools/client/inspector/shared/style-change-tracker.js", 67))
+TypeError: parent is null: canMutationImpactCurrentStyles@resource://devtools/client/inspector/shared/style-change-tracker.js:67:24
+onMutations@resource://devtools/client/inspector/shared/style-change-tracker.js:84:41
+_emit@resource://devtools/shared/event-emitter.js:226:34
+emit@resource://devtools/shared/event-emitter.js:172:18
+emit@resource://devtools/shared/event-emitter.js:324:18
+getMutations@resource://devtools/client/fronts/walker.js:409:10
+
+console.error: (new TypeError("container.node.targetFront is null", "resource://devtools/client/inspector/markup/markup.js", 2245))
+console.error: (new TypeError("container.node.targetFront is null", "resource://devtools/client/inspector/markup/markup.js", 2245))
+console.error: (new TypeError("container.node.targetFront is null", "resource://devtools/client/inspector/markup/markup.js", 2245))
+1596628204606	Marionette	INFO	Stopped listening on port 46173
+1596644864391	geckodriver	INFO	Listening on 127.0.0.1:53409
+1596644864663	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "--marionette" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofileErDGVl"
+console.error: SearchCache: "_readCacheFile: Error reading cache file:" (new Error("", "(unknown module)"))
+1596644881371	Marionette	INFO	Listening on port 33179
+1596644881480	Marionette	WARN	TLS certificate errors will be ignored for this session
+1596644949683	Marionette	INFO	Stopped listening on port 33179
+1596644955083	geckodriver	INFO	Listening on 127.0.0.1:46437
+1596644955187	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "--marionette" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofileuhe4jX"
+console.error: SearchCache: "_readCacheFile: Error reading cache file:" (new Error("", "(unknown module)"))
+1596644966816	Marionette	INFO	Listening on port 35081
+1596644968759	Marionette	WARN	TLS certificate errors will be ignored for this session
+1596644985759	Marionette	WARN	TimedPromise timed out after 500 ms: stacktrace:
+TimedPromise/<@chrome://marionette/content/sync.js:245:13
+TimedPromise@chrome://marionette/content/sync.js:230:10
+interaction.flushEventLoop@chrome://marionette/content/interaction.js:416:10
+webdriverClickElement@chrome://marionette/content/interaction.js:182:31
+1596645012059	Marionette	WARN	TimedPromise timed out after 500 ms: stacktrace:
+TimedPromise/<@chrome://marionette/content/sync.js:245:13
+TimedPromise@chrome://marionette/content/sync.js:230:10
+interaction.flushEventLoop@chrome://marionette/content/interaction.js:416:10
+webdriverClickElement@chrome://marionette/content/interaction.js:182:31
+1596645023778	Marionette	WARN	TimedPromise timed out after 500 ms: stacktrace:
+TimedPromise/<@chrome://marionette/content/sync.js:245:13
+TimedPromise@chrome://marionette/content/sync.js:230:10
+interaction.flushEventLoop@chrome://marionette/content/interaction.js:416:10
+webdriverClickElement@chrome://marionette/content/interaction.js:182:31
+1596645104313	Marionette	INFO	Stopped listening on port 35081
+1596655500689	geckodriver	INFO	Listening on 127.0.0.1:56505
+1596655502267	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "--marionette" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofilecbpLg9"
+console.error: SearchCache: "_readCacheFile: Error reading cache file:" (new Error("", "(unknown module)"))
+1596655530799	Marionette	INFO	Listening on port 39965
+1596655530864	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript error: https://www.notasonline.com/pages/nol_logon.asp, line 1: ReferenceError: captchaMathEquations is not defined
+1596655616949	Marionette	INFO	Stopped listening on port 39965
+1596655647918	geckodriver	INFO	Listening on 127.0.0.1:58713
+1596655648025	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "--marionette" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofileij3ld8"
+console.error: SearchCache: "_readCacheFile: Error reading cache file:" (new Error("", "(unknown module)"))
+1596655667506	Marionette	INFO	Listening on port 37347
+1596655667578	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript error: https://www.notasonline.com/pages/nol_logon.asp, line 1: ReferenceError: captchaMathEquations is not defined
+1596655693459	Marionette	INFO	Stopped listening on port 37347
