@@ -68,15 +68,15 @@ def single_menu(x, msg):
     pass
 
 
-def double_menu(x1, y1, x2, y2, msg):
+def double_menu(x, y1, y2, msg):
     """ Open a dropdown menu and then select a tool """
     # click on arrow to open menu
-    mouse.position = (x1, y1)
+    mouse.position = (x, y1)
     mouse.click(Button.left, 1)
     sleep(0.25)
 
     # select tool
-    mouse.position = (x2, y2)
+    mouse.position = (x, y2)
     mouse.click(Button.left, 1)
     print(msg)
 
@@ -88,85 +88,91 @@ combination_to_function = {
 
     # INK COLORS
     frozenset([KeyCode(vk=114)]): [  # R
-        single_menu, [1159, 'ink_red']
+        single_menu, [1210, 'ink_red']
     ],
     frozenset([KeyCode(vk=103)]): [  # G
-        single_menu, [1004, 'ink_green']
+        single_menu, [1060, 'ink_green']
     ],
     frozenset([KeyCode(vk=98)]): [  # B
-        single_menu, [1097, 'ink_blue']
+        single_menu, [1150, 'ink_blue']
     ],
 
     frozenset([KeyCode(vk=107)]): [  # K
-        single_menu, [973, 'ink_black']
+        single_menu, [1030, 'ink_black']
     ],
     frozenset([KeyCode(vk=108)]): [  # L
-        single_menu, [1128, 'ink_grey']
+        single_menu, [1180, 'ink_grey']
     ],
 
     frozenset([Key.ctrl, KeyCode(vk=114)]): [  # Ctrl + R
-        single_menu, [1190, 'ink_pink']
+        single_menu, [1240, 'ink_pink']
     ],
     frozenset([Key.ctrl, KeyCode(vk=103)]): [  # Ctrl + G
-        single_menu, [1066, 'ink_light_green']
+        single_menu, [1120, 'ink_light_green']
     ],
     frozenset([Key.ctrl, KeyCode(vk=98)]): [  # Ctrl + B
-        single_menu, [1035, 'ink_light_blue']
+        single_menu, [1090, 'ink_light_blue']
     ],
     frozenset([KeyCode(vk=111)]): [  # O
-        single_menu, [1221, 'ink_orange']
+        single_menu, [1270, 'ink_orange']
     ],
     frozenset([KeyCode(vk=121)]): [  # Y
-        single_menu, [1252, 'ink_yellow']
+        single_menu, [1300, 'ink_yellow']
     ],
 
     # STROKE FORMATS
     frozenset([KeyCode(vk=44)]): [  # ,
-        double_menu, [354, 50, 354, 70, 'stroke_standard']
+        double_menu, [390, 50, 70, 'stroke_standard']
     ],
     frozenset([KeyCode(vk=46)]): [  # .
-        double_menu, [354, 50, 354, 145, 'stroke_dotted']
+        double_menu, [390, 50, 145, 'stroke_dotted']
     ],
     frozenset([KeyCode(vk=59)]): [  # ;
-        double_menu, [354, 50, 354, 95, 'stroke_dashed']
+        double_menu, [390, 50, 95, 'stroke_dashed']
     ],
 
     # TOOLS
     frozenset([KeyCode(vk=39)]): [  # "
-        single_menu, [590, 'on_off_tools']
+        single_menu, [630, 'on_off_tools']
     ],
     frozenset([KeyCode(vk=112)]): [  # P
-        single_menu, [320, 'pen']
+        single_menu, [350, 'pen']
     ],
     frozenset([KeyCode(vk=101)]): [  # E
-        single_menu, [385, 'eraser']
+        single_menu, [420, 'eraser']
     ],
     frozenset([KeyCode(vk=104)]): [  # H
-        single_menu, [456, 'highlighter']
+        single_menu, [480, 'highlighter']
     ],
 
     frozenset([KeyCode(vk=231)]): [  # ç
-        double_menu, [618, 50, 618, 70, 'rectangle']
+        double_menu, [660, 50, 70, 'rectangle']
     ],
     frozenset([KeyCode(vk=65107)]): [  # ~
-        double_menu, [618, 50, 618, 120, 'arrow']
+        double_menu, [660, 50, 120, 'arrow']
     ],
     frozenset([KeyCode(vk=93)]): [  # ]
-        double_menu, [618, 50, 618, 145, 'line']
+        double_menu, [660, 50, 145, 'line']
     ],
 
     # SELECTION
     frozenset([KeyCode(vk=65105)]): [  # `
-        double_menu, [700, 50, 700, 75, 'select_rectangle']
+        double_menu, [740, 50, 75, 'select_rectangle']
     ],
     frozenset([KeyCode(vk=91)]): [  # [
-        double_menu, [700, 50, 700, 125, 'select_object']
+        double_menu, [740, 50, 125, 'select_object']
     ],
 
     # THICKNESS
-    frozenset([KeyCode(vk=48)]): [single_menu, [810, 'thickness light']],  # )
-    frozenset([KeyCode(vk=45)]): [single_menu, [844, 'thickness medium']],  # -
-    frozenset([KeyCode(vk=61)]): [single_menu, [877, 'thickness strong']],  # +
+    frozenset([KeyCode(vk=48)]): [  # )
+        single_menu, [810, 'thickness light']
+    ],
+    frozenset([KeyCode(vk=45)]): [  # -
+        single_menu, [844, 'thickness medium']
+    ],
+    frozenset([KeyCode(vk=61)]): [  # +
+        single_menu, [877, 'thickness strong']
+    ],
 }
 
 # Send start message
