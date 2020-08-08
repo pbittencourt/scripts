@@ -6,6 +6,7 @@ from csv import reader
 from time import sleep
 from datetime import datetime
 import logging
+import sys
 
 
 # configuration
@@ -26,10 +27,6 @@ disciplinas = {
 }
 ocorrencias = {
     'sincrona': '8C8A120C-755E-4650-883B-1EB8D033513C'
-}
-user = {
-    'name': 'pedro.bittencourt',
-    'pass': 'qwpo1209'
 }
 
 ##############################
@@ -60,6 +57,14 @@ logger.addHandler(console)
 # END OF SETUP LOGGING
 ##############################
 
+# get username and password from CLI
+if (len(sys.argv) == 3):
+    username = sys.argv[1]
+    password = sys.argv[2]
+else:
+    # we need to interrupt you, man ...
+    logger.warning('Você não inseriu seus dados de usuário!')
+
 # abre página
 browser = webdriver.Chrome(executable_path=r'/home/monolito/selenium_drivers/chromedriver')
 browser.get('https://www.notasonline.com/pages/nol_logon.asp')
@@ -68,9 +73,9 @@ sleep(2)
 
 # login no sistema
 
-browser.find_element_by_id('txtLogin').send_keys(user['name'])
+browser.find_element_by_id('txtLogin').send_keys(username)
 sleep(1)
-browser.find_element_by_id('txtPassword').send_keys(user['pass'])
+browser.find_element_by_id('txtPassword').send_keys(password)
 sleep(1)
 browser.find_element_by_id('frmForm').submit()
 logger.info('Logou com sucesso!')
@@ -166,8 +171,8 @@ with open('ocorrencias.csv') as handle:
             # envia formulário
             if success:
                 try:
-                    ok_button = browser.find_element_by_xpath('//*[@id="OKbutton"]/a')
-                    ok_button.click()
+                    '''ok_button = browser.find_element_by_xpath('//*[@id="OKbutton"]/a')
+                    ok_button.click()'''
                     logger.info('Ocorrência adicionada!')
                 except:
                     logger.warning('Houve algum erro ao enviar o formulário ...')
