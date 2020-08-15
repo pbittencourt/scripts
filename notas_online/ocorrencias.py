@@ -1,12 +1,20 @@
 #!/usr/bin/env python3
+"""
+AUTOMATIZANDO REGISTROS NO NOTAS ONLINE
+Acessa notasonline via selenium e insere
+registros contidos em ocorrencias.csv
+
+Autor: Pedro P. Bittencourt
+Email: contato@pedrobittencourt.com.br
+Site: pedrobittencourt.com.br
+"""
 
 from selenium import webdriver
 from selenium.webdriver.support.ui import Select
 from csv import reader
 from time import sleep
-from datetime import datetime
 import logging
-import sys
+import getpass
 
 
 # configuration
@@ -26,7 +34,24 @@ disciplinas = {
     'GMT': 'Geometria / Pedro Pompermayer Bittencourt'
 }
 ocorrencias = {
-    'sincrona': '8C8A120C-755E-4650-883B-1EB8D033513C'
+    'A': 'C6AE796F-E4BA-47C2-A725-98C36CD12E11',
+    'B': 'AE890406-F8E3-442D-BF98-44498DC1F517',
+    'C': '743091FC-5899-477C-8C68-35A55343B70F',
+    'D': '733DA849-6942-44C4-B170-F3B7A97F518A',
+    'E': 'E6F973C7-8146-450F-AE4F-02D2C2D451D1',
+    'F': '7A80526B-387F-4743-87AF-DB2666CE6639',
+    'G': '80860D8F-1152-43BE-ABE3-FCE16987F413',
+    'H': '3F67CD55-86B0-4C5F-9502-83F04CF3EE5A',
+    'I': '4B55A896-FDA8-484C-81C5-882E140C290E',
+    'J': '31F0C7AE-8528-463E-81E0-EF4B4F9A65C7',
+    'K': '40A94F21-D8A3-408F-AA30-10BE6F7BCE49',
+    'L': 'B43C3E32-2BDC-47C3-90A3-B7004920E0CC',
+    'M': 'E8E54836-8579-49CC-B66A-57D7AC7D67C4',
+    'N': '4342E427-808E-4BE7-AF73-8E2540FA84C9',
+    'O': 'BDD11FB6-BF3F-42C2-B7DB-B81D1CE2AE5E',
+    'P': '8C8A120C-755E-4650-883B-1EB8D033513C',
+    'Q': 'E07BC23B-5247-4494-9C95-9E7DB46A84E2',
+    'R': '90D4F55A-B000-46BB-B90B-99D205911188'
 }
 
 ##############################
@@ -57,13 +82,9 @@ logger.addHandler(console)
 # END OF SETUP LOGGING
 ##############################
 
-# get username and password from CLI
-if (len(sys.argv) == 3):
-    username = sys.argv[1]
-    password = sys.argv[2]
-else:
-    # we need to interrupt you, man ...
-    logger.warning('Você não inseriu seus dados de usuário!')
+# ask for user and pass
+username = str(input('Usuário: _ '))
+password = getpass.getpass('Senha: _ ')
 
 # abre página
 browser = webdriver.Chrome(executable_path=r'/home/monolito/selenium_drivers/chromedriver')
@@ -171,8 +192,8 @@ with open('ocorrencias.csv') as handle:
             # envia formulário
             if success:
                 try:
-                    '''ok_button = browser.find_element_by_xpath('//*[@id="OKbutton"]/a')
-                    ok_button.click()'''
+                    ok_button = browser.find_element_by_xpath('//*[@id="OKbutton"]/a')
+                    ok_button.click()
                     logger.info('Ocorrência adicionada!')
                 except:
                     logger.warning('Houve algum erro ao enviar o formulário ...')

@@ -1,0 +1,18 @@
+(A) - Não apresentou a lição de casa
+(B) - Lição de casa incompleta
+(C) - Não entregou trabalho (1a data)
+(D) - Não entregou trabalho (2a data)
+(E) - Trabalho fora das especificações solicitadas.
+(F) - Não trouxe material
+(G) - Atraso
+(H) - Não fez atividades em classe
+(I) - Sem uniforme (Educação Física)
+(J) - Outras ocorrências
+(K) - Não compareceu ao plantão.
+(L) - Não compareceu à aula - período intensivo de estudos
+(M) - Não compareceu para a prova de recuperação.
+(N) - Não compareceu ao Exame.
+(O) - Não realizou as atividades no Plurall.
+(P) - Não assistiu a aula síncrona (ao vivo).
+(Q) - Não visualizou as atividades enviadas no PLURALL.
+(R) - Não participou da avaliação síncrona.

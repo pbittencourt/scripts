@@ -16,3 +16,353 @@
 07-Aug-2020 12:20:13 INFO Ocorrência adicionada!
 07-Aug-2020 12:20:18 INFO PROCESSO FINALIZADO!
 ========================================
+10-Aug-2020 12:01:52 WARNING Você não inseriu seus dados de usuário!
+10-Aug-2020 12:02:26 INFO ACESSO À PÁGINA EFETUADO!
+10-Aug-2020 12:02:32 INFO Logou com sucesso!
+10-Aug-2020 12:02:35 INFO Inserindo registro 1 ...
+10-Aug-2020 12:02:36 INFO Inseriu data 10/08/2020.
+10-Aug-2020 12:02:37 INFO Inseriu turma Primeira Série / 2M1A / Manhã.
+10-Aug-2020 12:02:39 INFO Inseriu disciplina Geometria / Pedro Pompermayer Bittencourt.
+10-Aug-2020 12:02:40 INFO Inseriu estudante 5 Manuel Augusto Peralta.
+10-Aug-2020 12:02:41 INFO Inseriu ocorrência: 8C8A120C-755E-4650-883B-1EB8D033513C.
+10-Aug-2020 12:02:44 INFO Ocorrência adicionada!
+10-Aug-2020 12:02:48 INFO Inserindo registro 2 ...
+10-Aug-2020 12:02:49 INFO Inseriu data 10/08/2020.
+10-Aug-2020 12:02:50 INFO Inseriu turma Primeira Série / 2M1A / Manhã.
+10-Aug-2020 12:02:51 INFO Inseriu disciplina Geometria / Pedro Pompermayer Bittencourt.
+10-Aug-2020 12:02:53 INFO Inseriu estudante 9 Rayane Lucena de Carvalho.
+10-Aug-2020 12:02:54 INFO Inseriu ocorrência: 8C8A120C-755E-4650-883B-1EB8D033513C.
+10-Aug-2020 12:02:57 INFO Ocorrência adicionada!
+10-Aug-2020 12:03:02 INFO Inserindo registro 3 ...
+10-Aug-2020 12:03:02 INFO Inseriu data 10/08/2020.
+10-Aug-2020 12:03:04 INFO Inseriu turma Primeira Série / 2M1A / Manhã.
+10-Aug-2020 12:03:05 INFO Inseriu disciplina Geometria / Pedro Pompermayer Bittencourt.
+10-Aug-2020 12:03:06 INFO Inseriu estudante 10 Samara Bazane Trindade.
+10-Aug-2020 12:03:07 INFO Inseriu ocorrência: 8C8A120C-755E-4650-883B-1EB8D033513C.
+10-Aug-2020 12:03:10 INFO Ocorrência adicionada!
+10-Aug-2020 12:03:15 INFO Inserindo registro 4 ...
+10-Aug-2020 12:03:15 INFO Inseriu data 10/08/2020.
+10-Aug-2020 12:03:17 INFO Inseriu turma Terceira Série / 2M3A / Manhã.
+10-Aug-2020 12:03:18 INFO Inseriu disciplina Geometria / Pedro Pompermayer Bittencourt.
+10-Aug-2020 12:03:19 INFO Inseriu estudante 6 Livia Borges Tagliapietra.
+10-Aug-2020 12:03:20 INFO Inseriu ocorrência: 8C8A120C-755E-4650-883B-1EB8D033513C.
+10-Aug-2020 12:03:23 INFO Ocorrência adicionada!
+10-Aug-2020 12:03:28 INFO Inserindo registro 5 ...
+10-Aug-2020 12:03:29 INFO Inseriu data 10/08/2020.
+10-Aug-2020 12:03:30 INFO Inseriu turma Terceira Série / 2M3A / Manhã.
+10-Aug-2020 12:03:31 INFO Inseriu disciplina Geometria / Pedro Pompermayer Bittencourt.
+10-Aug-2020 12:03:33 INFO Inseriu estudante 8 Gabriel Elias Louzada Gonçalves.
+10-Aug-2020 12:03:34 INFO Inseriu ocorrência: 8C8A120C-755E-4650-883B-1EB8D033513C.
+10-Aug-2020 12:03:36 INFO Ocorrência adicionada!
+10-Aug-2020 12:03:37 INFO PROCESSO FINALIZADO!
+========================================
+11-Aug-2020 16:06:35 INFO ACESSO À PÁGINA EFETUADO!
+11-Aug-2020 16:06:40 INFO Logou com sucesso!
+11-Aug-2020 16:06:44 INFO Inserindo registro 1 ...
+11-Aug-2020 16:06:45 INFO Inseriu data 11/08/2020.
+11-Aug-2020 16:06:46 INFO Inseriu turma Primeira Série / 2M1A / Manhã.
+11-Aug-2020 16:06:47 INFO Inseriu disciplina Física / Pedro Pompermayer Bittencourt.
+11-Aug-2020 16:06:48 INFO Inseriu estudante 9 Rayane Lucena de Carvalho.
+11-Aug-2020 16:06:50 INFO Inseriu ocorrência: 8C8A120C-755E-4650-883B-1EB8D033513C.
+11-Aug-2020 16:06:53 INFO Ocorrência adicionada!
+11-Aug-2020 16:06:57 INFO Inserindo registro 2 ...
+11-Aug-2020 16:06:58 INFO Inseriu data 11/08/2020.
+11-Aug-2020 16:06:59 INFO Inseriu turma Terceira Série / 2M3A / Manhã.
+11-Aug-2020 16:07:01 INFO Inseriu disciplina Física / Pedro Pompermayer Bittencourt.
+11-Aug-2020 16:07:02 INFO Inseriu estudante 8 Gabriel Elias Louzada Gonçalves.
+11-Aug-2020 16:07:03 INFO Inseriu ocorrência: 8C8A120C-755E-4650-883B-1EB8D033513C.
+11-Aug-2020 16:07:06 INFO Ocorrência adicionada!
+11-Aug-2020 16:07:11 INFO Inserindo registro 3 ...
+11-Aug-2020 16:07:11 INFO Inseriu data 11/08/2020.
+11-Aug-2020 16:07:12 INFO Inseriu turma Oitavo Ano / 1M8A / Manhã.
+11-Aug-2020 16:07:14 INFO Inseriu disciplina Física / Pedro Pompermayer Bittencourt.
+11-Aug-2020 16:07:15 INFO Inseriu estudante 5 Gabriel Toffoletto Papaiz.
+11-Aug-2020 16:07:16 INFO Inseriu ocorrência: 40A94F21-D8A3-408F-AA30-10BE6F7BCE49.
+11-Aug-2020 16:07:19 INFO Ocorrência adicionada!
+11-Aug-2020 16:07:24 INFO Inserindo registro 4 ...
+11-Aug-2020 16:07:24 INFO Inseriu data 11/08/2020.
+11-Aug-2020 16:07:26 INFO Inseriu turma Nono Ano / 1M9A / Manhã.
+11-Aug-2020 16:07:27 INFO Inseriu disciplina Física / Pedro Pompermayer Bittencourt.
+11-Aug-2020 16:07:28 INFO Inseriu estudante 3 Bárbara Varoto Arruda.
+11-Aug-2020 16:07:29 INFO Inseriu ocorrência: 40A94F21-D8A3-408F-AA30-10BE6F7BCE49.
+11-Aug-2020 16:07:32 INFO Ocorrência adicionada!
+11-Aug-2020 16:07:37 INFO Inserindo registro 5 ...
+11-Aug-2020 16:07:37 INFO Inseriu data 11/08/2020.
+11-Aug-2020 16:07:39 INFO Inseriu turma Nono Ano / 1M9A / Manhã.
+11-Aug-2020 16:07:40 INFO Inseriu disciplina Física / Pedro Pompermayer Bittencourt.
+11-Aug-2020 16:07:41 INFO Inseriu estudante 7 Mateus Guilardi de Souza.
+11-Aug-2020 16:07:42 INFO Inseriu ocorrência: 40A94F21-D8A3-408F-AA30-10BE6F7BCE49.
+11-Aug-2020 16:07:45 INFO Ocorrência adicionada!
+11-Aug-2020 16:07:50 INFO Inserindo registro 6 ...
+11-Aug-2020 16:07:50 INFO Inseriu data 11/08/2020.
+11-Aug-2020 16:07:52 INFO Inseriu turma Primeira Série / 2M1A / Manhã.
+11-Aug-2020 16:07:53 INFO Inseriu disciplina Física / Pedro Pompermayer Bittencourt.
+11-Aug-2020 16:07:54 INFO Inseriu estudante 5 Manuel Augusto Peralta.
+11-Aug-2020 16:07:56 INFO Inseriu ocorrência: 40A94F21-D8A3-408F-AA30-10BE6F7BCE49.
+11-Aug-2020 16:07:58 INFO Ocorrência adicionada!
+11-Aug-2020 16:07:59 INFO PROCESSO FINALIZADO!
+========================================
+12-Aug-2020 16:05:50 INFO ACESSO À PÁGINA EFETUADO!
+12-Aug-2020 16:05:55 INFO Logou com sucesso!
+12-Aug-2020 16:05:59 INFO Inserindo registro 1 ...
+12-Aug-2020 16:05:59 INFO Inseriu data 12/08/2020.
+12-Aug-2020 16:06:00 INFO Inseriu turma Sexto Ano / 1M6A / Manhã.
+12-Aug-2020 16:06:02 INFO Inseriu disciplina Desenho Geométrico / Pedro Pompermayer Bittencourt.
+12-Aug-2020 16:06:03 INFO Inseriu estudante 3 Camilla de Almeida Rodiani Plaça.
+12-Aug-2020 16:06:04 INFO Inseriu ocorrência: 40A94F21-D8A3-408F-AA30-10BE6F7BCE49.
+12-Aug-2020 16:06:07 INFO Ocorrência adicionada!
+12-Aug-2020 16:06:11 INFO Inserindo registro 2 ...
+12-Aug-2020 16:06:12 INFO Inseriu data 12/08/2020.
+12-Aug-2020 16:06:13 INFO Inseriu turma Sexto Ano / 1M6A / Manhã.
+12-Aug-2020 16:06:14 INFO Inseriu disciplina Desenho Geométrico / Pedro Pompermayer Bittencourt.
+12-Aug-2020 16:06:15 INFO Inseriu estudante 4 Guilherme de Castro Amaral Costa.
+12-Aug-2020 16:06:17 INFO Inseriu ocorrência: 40A94F21-D8A3-408F-AA30-10BE6F7BCE49.
+12-Aug-2020 16:06:19 INFO Ocorrência adicionada!
+12-Aug-2020 16:06:24 INFO Inserindo registro 3 ...
+12-Aug-2020 16:06:24 INFO Inseriu data 12/08/2020.
+12-Aug-2020 16:06:26 INFO Inseriu turma Sexto Ano / 1M6B / Manhã.
+12-Aug-2020 16:06:27 INFO Inseriu disciplina Desenho Geométrico / Pedro Pompermayer Bittencourt.
+12-Aug-2020 16:06:28 INFO Inseriu estudante 7 Leticia Garrido Neri.
+12-Aug-2020 16:06:30 INFO Inseriu ocorrência: 40A94F21-D8A3-408F-AA30-10BE6F7BCE49.
+12-Aug-2020 16:06:32 INFO Ocorrência adicionada!
+12-Aug-2020 16:06:37 INFO Inserindo registro 4 ...
+12-Aug-2020 16:06:38 INFO Inseriu data 12/08/2020.
+12-Aug-2020 16:06:39 INFO Inseriu turma Sexto Ano / 1M6B / Manhã.
+12-Aug-2020 16:06:40 INFO Inseriu disciplina Desenho Geométrico / Pedro Pompermayer Bittencourt.
+12-Aug-2020 16:06:41 INFO Inseriu estudante 9 Marcos Vinícios de Luna.
+12-Aug-2020 16:06:43 INFO Inseriu ocorrência: 40A94F21-D8A3-408F-AA30-10BE6F7BCE49.
+12-Aug-2020 16:06:45 INFO Ocorrência adicionada!
+12-Aug-2020 16:06:50 INFO Inserindo registro 5 ...
+12-Aug-2020 16:06:50 INFO Inseriu data 12/08/2020.
+12-Aug-2020 16:06:52 INFO Inseriu turma Sexto Ano / 1M6B / Manhã.
+12-Aug-2020 16:06:53 INFO Inseriu disciplina Desenho Geométrico / Pedro Pompermayer Bittencourt.
+12-Aug-2020 16:06:54 INFO Inseriu estudante 10 Mariana Yumi Brossi Correa Ikeda.
+12-Aug-2020 16:06:56 INFO Inseriu ocorrência: 40A94F21-D8A3-408F-AA30-10BE6F7BCE49.
+12-Aug-2020 16:06:58 INFO Ocorrência adicionada!
+12-Aug-2020 16:07:06 INFO Inserindo registro 6 ...
+12-Aug-2020 16:07:06 INFO Inseriu data 12/08/2020.
+12-Aug-2020 16:07:08 INFO Inseriu turma Sexto Ano / 1M6B / Manhã.
+12-Aug-2020 16:07:09 INFO Inseriu disciplina Desenho Geométrico / Pedro Pompermayer Bittencourt.
+12-Aug-2020 16:07:10 INFO Inseriu estudante 13 Pedro Cezar Sousa da Costa.
+12-Aug-2020 16:07:12 INFO Inseriu ocorrência: 40A94F21-D8A3-408F-AA30-10BE6F7BCE49.
+12-Aug-2020 16:07:14 INFO Ocorrência adicionada!
+12-Aug-2020 16:07:19 INFO Inserindo registro 7 ...
+12-Aug-2020 16:07:19 INFO Inseriu data 12/08/2020.
+12-Aug-2020 16:07:21 INFO Inseriu turma Sexto Ano / 1M6B / Manhã.
+12-Aug-2020 16:07:22 INFO Inseriu disciplina Desenho Geométrico / Pedro Pompermayer Bittencourt.
+12-Aug-2020 16:07:23 INFO Inseriu estudante 15 Wallyson Frutuoso Amaral.
+12-Aug-2020 16:07:25 INFO Inseriu ocorrência: 40A94F21-D8A3-408F-AA30-10BE6F7BCE49.
+12-Aug-2020 16:07:27 INFO Ocorrência adicionada!
+12-Aug-2020 16:07:32 INFO Inserindo registro 8 ...
+12-Aug-2020 16:07:32 INFO Inseriu data 12/08/2020.
+12-Aug-2020 16:07:34 INFO Inseriu turma Sétimo Ano / 1M7A / Manhã.
+12-Aug-2020 16:07:35 INFO Inseriu disciplina Desenho Geométrico / Pedro Pompermayer Bittencourt.
+12-Aug-2020 16:07:36 INFO Inseriu estudante 7 Lucas Bianchini de Paula.
+12-Aug-2020 16:07:38 INFO Inseriu ocorrência: 40A94F21-D8A3-408F-AA30-10BE6F7BCE49.
+12-Aug-2020 16:07:40 INFO Ocorrência adicionada!
+12-Aug-2020 16:07:45 INFO Inserindo registro 9 ...
+12-Aug-2020 16:07:45 INFO Inseriu data 12/08/2020.
+12-Aug-2020 16:07:47 INFO Inseriu turma Primeira Série / 2M1A / Manhã.
+12-Aug-2020 16:07:48 INFO Inseriu disciplina Geometria / Pedro Pompermayer Bittencourt.
+12-Aug-2020 16:07:49 INFO Inseriu estudante 2 Danilo Abramowicz.
+12-Aug-2020 16:07:51 INFO Inseriu ocorrência: 40A94F21-D8A3-408F-AA30-10BE6F7BCE49.
+12-Aug-2020 16:07:53 INFO Ocorrência adicionada!
+12-Aug-2020 16:07:58 INFO Inserindo registro 10 ...
+12-Aug-2020 16:07:58 INFO Inseriu data 12/08/2020.
+12-Aug-2020 16:08:00 INFO Inseriu turma Primeira Série / 2M1A / Manhã.
+12-Aug-2020 16:08:01 INFO Inseriu disciplina Geometria / Pedro Pompermayer Bittencourt.
+12-Aug-2020 16:08:02 INFO Inseriu estudante 5 Manuel Augusto Peralta.
+12-Aug-2020 16:08:04 INFO Inseriu ocorrência: 40A94F21-D8A3-408F-AA30-10BE6F7BCE49.
+12-Aug-2020 16:08:06 INFO Ocorrência adicionada!
+12-Aug-2020 16:08:11 INFO Inserindo registro 11 ...
+12-Aug-2020 16:08:11 INFO Inseriu data 12/08/2020.
+12-Aug-2020 16:08:13 INFO Inseriu turma Segunda Série / 2M2A / Manhã.
+12-Aug-2020 16:08:14 INFO Inseriu disciplina Geometria / Pedro Pompermayer Bittencourt.
+12-Aug-2020 16:08:16 INFO Inseriu estudante 6 Hyann De Bretas Mello.
+12-Aug-2020 16:08:17 INFO Inseriu ocorrência: 40A94F21-D8A3-408F-AA30-10BE6F7BCE49.
+12-Aug-2020 16:08:19 INFO Ocorrência adicionada!
+12-Aug-2020 16:08:24 INFO Inserindo registro 12 ...
+12-Aug-2020 16:08:25 INFO Inseriu data 12/08/2020.
+12-Aug-2020 16:08:26 INFO Inseriu turma Segunda Série / 2M2A / Manhã.
+12-Aug-2020 16:08:27 INFO Inseriu disciplina Geometria / Pedro Pompermayer Bittencourt.
+12-Aug-2020 16:08:29 INFO Inseriu estudante 11 Mateus Petraites Bertini.
+12-Aug-2020 16:08:30 INFO Inseriu ocorrência: 40A94F21-D8A3-408F-AA30-10BE6F7BCE49.
+12-Aug-2020 16:08:32 INFO Ocorrência adicionada!
+12-Aug-2020 16:08:37 INFO Inserindo registro 13 ...
+12-Aug-2020 16:08:38 INFO Inseriu data 12/08/2020.
+12-Aug-2020 16:08:39 INFO Inseriu turma Segunda Série / 2M2A / Manhã.
+12-Aug-2020 16:08:41 INFO Inseriu disciplina Geometria / Pedro Pompermayer Bittencourt.
+12-Aug-2020 16:08:42 INFO Inseriu estudante 14 Ricardo Luís de Oliveira Cheschini.
+12-Aug-2020 16:08:43 INFO Inseriu ocorrência: 40A94F21-D8A3-408F-AA30-10BE6F7BCE49.
+12-Aug-2020 16:08:46 INFO Ocorrência adicionada!
+12-Aug-2020 16:08:50 INFO Inserindo registro 14 ...
+12-Aug-2020 16:08:50 INFO Inseriu data 12/08/2020.
+12-Aug-2020 16:08:52 INFO Inseriu turma Terceira Série / 2M3A / Manhã.
+12-Aug-2020 16:08:53 INFO Inseriu disciplina Geometria / Pedro Pompermayer Bittencourt.
+12-Aug-2020 16:08:55 INFO Inseriu estudante 8 Gabriel Elias Louzada Gonçalves.
+12-Aug-2020 16:08:56 INFO Inseriu ocorrência: 40A94F21-D8A3-408F-AA30-10BE6F7BCE49.
+12-Aug-2020 16:08:58 INFO Ocorrência adicionada!
+12-Aug-2020 16:09:03 INFO Inserindo registro 15 ...
+12-Aug-2020 16:09:04 INFO Inseriu data 12/08/2020.
+12-Aug-2020 16:09:05 INFO Inseriu turma Sexto Ano / 1M6A / Manhã.
+12-Aug-2020 16:09:06 INFO Inseriu disciplina Desenho Geométrico / Pedro Pompermayer Bittencourt.
+12-Aug-2020 16:09:07 INFO Inseriu estudante 4 Guilherme de Castro Amaral Costa.
+12-Aug-2020 16:09:08 INFO Inseriu ocorrência: 8C8A120C-755E-4650-883B-1EB8D033513C.
+12-Aug-2020 16:09:11 INFO Ocorrência adicionada!
+12-Aug-2020 16:09:16 INFO Inserindo registro 16 ...
+12-Aug-2020 16:09:16 INFO Inseriu data 12/08/2020.
+12-Aug-2020 16:09:18 INFO Inseriu turma Sexto Ano / 1M6B / Manhã.
+12-Aug-2020 16:09:19 INFO Inseriu disciplina Desenho Geométrico / Pedro Pompermayer Bittencourt.
+12-Aug-2020 16:09:20 INFO Inseriu estudante 13 Pedro Cezar Sousa da Costa.
+12-Aug-2020 16:09:21 INFO Inseriu ocorrência: 8C8A120C-755E-4650-883B-1EB8D033513C.
+12-Aug-2020 16:09:24 INFO Ocorrência adicionada!
+12-Aug-2020 16:09:25 INFO PROCESSO FINALIZADO!
+========================================
+13-Aug-2020 11:34:42 INFO ACESSO À PÁGINA EFETUADO!
+13-Aug-2020 11:34:47 INFO Logou com sucesso!
+13-Aug-2020 11:34:51 INFO Inserindo registro 1 ...
+13-Aug-2020 11:34:51 INFO Inseriu data 13/08/2020.
+13-Aug-2020 11:34:53 INFO Inseriu turma Terceira Série / 2M3A / Manhã.
+13-Aug-2020 11:34:54 INFO Inseriu disciplina Física / Pedro Pompermayer Bittencourt.
+13-Aug-2020 11:34:55 INFO Inseriu estudante 3 Gabriela Correa da Silva.
+13-Aug-2020 11:34:56 INFO Inseriu ocorrência: 8C8A120C-755E-4650-883B-1EB8D033513C.
+13-Aug-2020 11:34:59 INFO Ocorrência adicionada!
+13-Aug-2020 11:35:04 INFO Inserindo registro 2 ...
+13-Aug-2020 11:35:04 INFO Inseriu data 13/08/2020.
+13-Aug-2020 11:35:06 INFO Inseriu turma Terceira Série / 2M3A / Manhã.
+13-Aug-2020 11:35:07 INFO Inseriu disciplina Física / Pedro Pompermayer Bittencourt.
+13-Aug-2020 11:35:08 INFO Inseriu estudante 5 Laura Toni Furtado.
+13-Aug-2020 11:35:10 INFO Inseriu ocorrência: 8C8A120C-755E-4650-883B-1EB8D033513C.
+13-Aug-2020 11:35:12 INFO Ocorrência adicionada!
+13-Aug-2020 11:35:17 INFO Inserindo registro 3 ...
+13-Aug-2020 11:35:17 INFO Inseriu data 13/08/2020.
+13-Aug-2020 11:35:19 INFO Inseriu turma Terceira Série / 2M3A / Manhã.
+13-Aug-2020 11:35:20 INFO Inseriu disciplina Física / Pedro Pompermayer Bittencourt.
+13-Aug-2020 11:35:21 INFO Inseriu estudante 8 Gabriel Elias Louzada Gonçalves.
+13-Aug-2020 11:35:23 INFO Inseriu ocorrência: 8C8A120C-755E-4650-883B-1EB8D033513C.
+13-Aug-2020 11:35:25 INFO Ocorrência adicionada!
+13-Aug-2020 11:35:30 INFO Inserindo registro 4 ...
+13-Aug-2020 11:35:30 INFO Inseriu data 13/08/2020.
+13-Aug-2020 11:35:32 INFO Inseriu turma Primeira Série / 2M1A / Manhã.
+13-Aug-2020 11:35:33 INFO Inseriu disciplina Física / Pedro Pompermayer Bittencourt.
+13-Aug-2020 11:35:34 INFO Inseriu estudante 9 Rayane Lucena de Carvalho.
+13-Aug-2020 11:35:35 INFO Inseriu ocorrência: 8C8A120C-755E-4650-883B-1EB8D033513C.
+13-Aug-2020 11:35:38 INFO Ocorrência adicionada!
+13-Aug-2020 11:35:39 INFO PROCESSO FINALIZADO!
+========================================
+14-Aug-2020 08:09:13 INFO ACESSO À PÁGINA EFETUADO!
+14-Aug-2020 08:09:19 INFO Logou com sucesso!
+14-Aug-2020 08:09:23 INFO Inserindo registro 1 ...
+14-Aug-2020 08:09:23 INFO Inseriu data 14/08/2020.
+14-Aug-2020 08:09:25 INFO Inseriu turma Nono Ano / 1M9A / Manhã.
+14-Aug-2020 08:09:26 INFO Inseriu disciplina Física / Pedro Pompermayer Bittencourt.
+14-Aug-2020 08:09:27 INFO Inseriu estudante 1 Antônio Soldi Sartori Seixas.
+14-Aug-2020 08:09:28 INFO Inseriu ocorrência: C6AE796F-E4BA-47C2-A725-98C36CD12E11.
+14-Aug-2020 08:09:32 INFO Inseriu descrição: Não respondeu ao questionário de introdução à eletrostática, com vencimento no dia 13 de agosto. Como este era um preparo para a aula do dia 14 de agosto, sexta-feira, não há possibilidade de 2ª entrega..
+14-Aug-2020 08:09:34 INFO Ocorrência adicionada!
+14-Aug-2020 08:09:38 INFO Inserindo registro 2 ...
+14-Aug-2020 08:09:39 INFO Inseriu data 14/08/2020.
+14-Aug-2020 08:09:40 INFO Inseriu turma Nono Ano / 1M9A / Manhã.
+14-Aug-2020 08:09:42 INFO Inseriu disciplina Física / Pedro Pompermayer Bittencourt.
+14-Aug-2020 08:09:43 INFO Inseriu estudante 2 Arthur Mônico Munhoz.
+14-Aug-2020 08:09:44 INFO Inseriu ocorrência: C6AE796F-E4BA-47C2-A725-98C36CD12E11.
+14-Aug-2020 08:09:47 INFO Inseriu descrição: Não respondeu ao questionário de introdução à eletrostática, com vencimento no dia 13 de agosto. Como este era um preparo para a aula do dia 14 de agosto, sexta-feira, não há possibilidade de 2ª entrega..
+14-Aug-2020 08:09:49 INFO Ocorrência adicionada!
+14-Aug-2020 08:09:54 INFO Inserindo registro 3 ...
+14-Aug-2020 08:09:54 INFO Inseriu data 14/08/2020.
+14-Aug-2020 08:09:56 INFO Inseriu turma Nono Ano / 1M9A / Manhã.
+14-Aug-2020 08:09:57 INFO Inseriu disciplina Física / Pedro Pompermayer Bittencourt.
+14-Aug-2020 08:09:58 INFO Inseriu estudante 3 Bárbara Varoto Arruda.
+14-Aug-2020 08:09:59 INFO Inseriu ocorrência: C6AE796F-E4BA-47C2-A725-98C36CD12E11.
+14-Aug-2020 08:10:02 INFO Inseriu descrição: Não respondeu ao questionário de introdução à eletrostática, com vencimento no dia 13 de agosto. Como este era um preparo para a aula do dia 14 de agosto, sexta-feira, não há possibilidade de 2ª entrega..
+14-Aug-2020 08:10:04 INFO Ocorrência adicionada!
+14-Aug-2020 08:10:09 INFO Inserindo registro 4 ...
+14-Aug-2020 08:10:09 INFO Inseriu data 14/08/2020.
+14-Aug-2020 08:10:10 INFO Inseriu turma Nono Ano / 1M9A / Manhã.
+14-Aug-2020 08:10:12 INFO Inseriu disciplina Física / Pedro Pompermayer Bittencourt.
+14-Aug-2020 08:10:13 INFO Inseriu estudante 5 João Vitor Mattos Lam.
+14-Aug-2020 08:10:14 INFO Inseriu ocorrência: C6AE796F-E4BA-47C2-A725-98C36CD12E11.
+14-Aug-2020 08:10:17 INFO Inseriu descrição: Não respondeu ao questionário de introdução à eletrostática, com vencimento no dia 13 de agosto. Como este era um preparo para a aula do dia 14 de agosto, sexta-feira, não há possibilidade de 2ª entrega..
+14-Aug-2020 08:10:19 INFO Ocorrência adicionada!
+14-Aug-2020 08:10:24 INFO Inserindo registro 5 ...
+14-Aug-2020 08:10:24 INFO Inseriu data 14/08/2020.
+14-Aug-2020 08:10:26 INFO Inseriu turma Nono Ano / 1M9A / Manhã.
+14-Aug-2020 08:10:27 INFO Inseriu disciplina Física / Pedro Pompermayer Bittencourt.
+14-Aug-2020 08:10:28 INFO Inseriu estudante 6 Maria Eduarda Santana Brito.
+14-Aug-2020 08:10:29 INFO Inseriu ocorrência: C6AE796F-E4BA-47C2-A725-98C36CD12E11.
+14-Aug-2020 08:10:32 INFO Inseriu descrição: Não respondeu ao questionário de introdução à eletrostática, com vencimento no dia 13 de agosto. Como este era um preparo para a aula do dia 14 de agosto, sexta-feira, não há possibilidade de 2ª entrega..
+14-Aug-2020 08:10:34 INFO Ocorrência adicionada!
+14-Aug-2020 08:10:39 INFO Inserindo registro 6 ...
+14-Aug-2020 08:10:39 INFO Inseriu data 14/08/2020.
+14-Aug-2020 08:10:40 INFO Inseriu turma Nono Ano / 1M9A / Manhã.
+14-Aug-2020 08:10:42 INFO Inseriu disciplina Física / Pedro Pompermayer Bittencourt.
+14-Aug-2020 08:10:43 INFO Inseriu estudante 7 Mateus Guilardi de Souza.
+14-Aug-2020 08:10:44 INFO Inseriu ocorrência: C6AE796F-E4BA-47C2-A725-98C36CD12E11.
+14-Aug-2020 08:10:47 INFO Inseriu descrição: Não respondeu ao questionário de introdução à eletrostática, com vencimento no dia 13 de agosto. Como este era um preparo para a aula do dia 14 de agosto, sexta-feira, não há possibilidade de 2ª entrega..
+14-Aug-2020 08:10:49 INFO Ocorrência adicionada!
+14-Aug-2020 08:10:53 INFO Inserindo registro 7 ...
+14-Aug-2020 08:10:54 INFO Inseriu data 14/08/2020.
+14-Aug-2020 08:10:55 INFO Inseriu turma Segunda Série / 2M2A / Manhã.
+14-Aug-2020 08:10:57 INFO Inseriu disciplina Física / Pedro Pompermayer Bittencourt.
+14-Aug-2020 08:10:58 INFO Inseriu estudante 1 Amanda Cassiano Vasconcelos.
+14-Aug-2020 08:10:59 INFO Inseriu ocorrência: C6AE796F-E4BA-47C2-A725-98C36CD12E11.
+14-Aug-2020 08:11:02 INFO Inseriu descrição: Não respondeu ao questionário de introdução à eletrostática, com vencimento no dia 13 de agosto. Como este era um preparo para a aula do dia 14 de agosto, sexta-feira, não há possibilidade de 2ª entrega..
+14-Aug-2020 08:11:04 INFO Ocorrência adicionada!
+14-Aug-2020 08:11:08 INFO Inserindo registro 8 ...
+14-Aug-2020 08:11:09 INFO Inseriu data 14/08/2020.
+14-Aug-2020 08:11:10 INFO Inseriu turma Segunda Série / 2M2A / Manhã.
+14-Aug-2020 08:11:11 INFO Inseriu disciplina Física / Pedro Pompermayer Bittencourt.
+14-Aug-2020 08:11:13 INFO Inseriu estudante 2 Bianca de Paula Nogueira.
+14-Aug-2020 08:11:14 INFO Inseriu ocorrência: C6AE796F-E4BA-47C2-A725-98C36CD12E11.
+14-Aug-2020 08:11:17 INFO Inseriu descrição: Não respondeu ao questionário de introdução à eletrostática, com vencimento no dia 13 de agosto. Como este era um preparo para a aula do dia 14 de agosto, sexta-feira, não há possibilidade de 2ª entrega..
+14-Aug-2020 08:11:19 INFO Ocorrência adicionada!
+14-Aug-2020 08:11:23 INFO Inserindo registro 9 ...
+14-Aug-2020 08:11:24 INFO Inseriu data 14/08/2020.
+14-Aug-2020 08:11:25 INFO Inseriu turma Segunda Série / 2M2A / Manhã.
+14-Aug-2020 08:11:26 INFO Inseriu disciplina Física / Pedro Pompermayer Bittencourt.
+14-Aug-2020 08:11:27 INFO Inseriu estudante 5 Hugo Henrique Lavander Heger.
+14-Aug-2020 08:11:29 INFO Inseriu ocorrência: C6AE796F-E4BA-47C2-A725-98C36CD12E11.
+14-Aug-2020 08:11:33 INFO Inseriu descrição: Não respondeu ao questionário de introdução à eletrostática, com vencimento no dia 13 de agosto. Como este era um preparo para a aula do dia 14 de agosto, sexta-feira, não há possibilidade de 2ª entrega..
+14-Aug-2020 08:11:35 INFO Ocorrência adicionada!
+14-Aug-2020 08:11:40 INFO Inserindo registro 10 ...
+14-Aug-2020 08:11:40 INFO Inseriu data 14/08/2020.
+14-Aug-2020 08:11:42 INFO Inseriu turma Segunda Série / 2M2A / Manhã.
+14-Aug-2020 08:11:43 INFO Inseriu disciplina Física / Pedro Pompermayer Bittencourt.
+14-Aug-2020 08:11:44 INFO Inseriu estudante 6 Hyann De Bretas Mello.
+14-Aug-2020 08:11:46 INFO Inseriu ocorrência: C6AE796F-E4BA-47C2-A725-98C36CD12E11.
+14-Aug-2020 08:11:51 INFO Inseriu descrição: Não respondeu ao questionário de introdução à eletrostática, com vencimento no dia 13 de agosto. Como este era um preparo para a aula do dia 14 de agosto, sexta-feira, não há possibilidade de 2ª entrega..
+14-Aug-2020 08:11:53 INFO Ocorrência adicionada!
+14-Aug-2020 08:11:58 INFO Inserindo registro 11 ...
+14-Aug-2020 08:11:58 INFO Inseriu data 14/08/2020.
+14-Aug-2020 08:12:00 INFO Inseriu turma Segunda Série / 2M2A / Manhã.
+14-Aug-2020 08:12:01 INFO Inseriu disciplina Física / Pedro Pompermayer Bittencourt.
+14-Aug-2020 08:12:02 INFO Inseriu estudante 7 Julia Altieri David.
+14-Aug-2020 08:12:04 INFO Inseriu ocorrência: C6AE796F-E4BA-47C2-A725-98C36CD12E11.
+14-Aug-2020 08:12:07 INFO Inseriu descrição: Não respondeu ao questionário de introdução à eletrostática, com vencimento no dia 13 de agosto. Como este era um preparo para a aula do dia 14 de agosto, sexta-feira, não há possibilidade de 2ª entrega..
+14-Aug-2020 08:12:08 INFO Ocorrência adicionada!
+14-Aug-2020 08:12:13 INFO Inserindo registro 12 ...
+14-Aug-2020 08:12:13 INFO Inseriu data 14/08/2020.
+14-Aug-2020 08:12:15 INFO Inseriu turma Segunda Série / 2M2A / Manhã.
+14-Aug-2020 08:12:16 INFO Inseriu disciplina Física / Pedro Pompermayer Bittencourt.
+14-Aug-2020 08:12:17 INFO Inseriu estudante 12 Pedro Enrico Rosa Nascente.
+14-Aug-2020 08:12:19 INFO Inseriu ocorrência: C6AE796F-E4BA-47C2-A725-98C36CD12E11.
+14-Aug-2020 08:12:22 INFO Inseriu descrição: Não respondeu ao questionário de introdução à eletrostática, com vencimento no dia 13 de agosto. Como este era um preparo para a aula do dia 14 de agosto, sexta-feira, não há possibilidade de 2ª entrega..
+14-Aug-2020 08:12:23 INFO Ocorrência adicionada!
+14-Aug-2020 08:12:28 INFO Inserindo registro 13 ...
+14-Aug-2020 08:12:28 INFO Inseriu data 14/08/2020.
+14-Aug-2020 08:12:30 INFO Inseriu turma Segunda Série / 2M2A / Manhã.
+14-Aug-2020 08:12:31 INFO Inseriu disciplina Física / Pedro Pompermayer Bittencourt.
+14-Aug-2020 08:12:32 INFO Inseriu estudante 13 Pedro Henrique Rinke.
+14-Aug-2020 08:12:33 INFO Inseriu ocorrência: C6AE796F-E4BA-47C2-A725-98C36CD12E11.
+14-Aug-2020 08:12:36 INFO Inseriu descrição: Não respondeu ao questionário de introdução à eletrostática, com vencimento no dia 13 de agosto. Como este era um preparo para a aula do dia 14 de agosto, sexta-feira, não há possibilidade de 2ª entrega..
+14-Aug-2020 08:12:38 INFO Ocorrência adicionada!
+14-Aug-2020 08:12:43 INFO Inserindo registro 14 ...
+14-Aug-2020 08:12:43 INFO Inseriu data 14/08/2020.
+14-Aug-2020 08:12:44 INFO Inseriu turma Segunda Série / 2M2A / Manhã.
+14-Aug-2020 08:12:46 INFO Inseriu disciplina Física / Pedro Pompermayer Bittencourt.
+14-Aug-2020 08:12:47 INFO Inseriu estudante 14 Ricardo Luís de Oliveira Cheschini.
+14-Aug-2020 08:12:48 INFO Inseriu ocorrência: C6AE796F-E4BA-47C2-A725-98C36CD12E11.
+14-Aug-2020 08:12:51 INFO Inseriu descrição: Não respondeu ao questionário de introdução à eletrostática, com vencimento no dia 13 de agosto. Como este era um preparo para a aula do dia 14 de agosto, sexta-feira, não há possibilidade de 2ª entrega..
+14-Aug-2020 08:12:52 INFO Ocorrência adicionada!
+14-Aug-2020 08:12:53 INFO PROCESSO FINALIZADO!
+========================================
