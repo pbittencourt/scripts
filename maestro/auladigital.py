@@ -1,9 +1,20 @@
 #!/usr/bin/env python3
+"""
+AUTOMATIZANDO INSERÇÃO DE AULA DIGITAL
+Acessa o site do plurall via selenium e
+insere aulas digitais, cujos registros
+se encontram em auladigital.csv.
+
+Autor: Pedro P. Bittencourt
+Email: contato@pedrobittencourt.com.br
+Site: pedrobittencourt.com.br
+"""
 
 from selenium import webdriver
 from time import sleep
 from csv import reader
 import logging
+import getpass
 
 
 # configuration
@@ -52,6 +63,10 @@ logger.addHandler(console)
 # END OF SETUP LOGGING
 ##############################
 
+# ask for user and pass
+username = str(input('Usuário: _ '))
+password = getpass.getpass('Senha: _ ')
+
 # abre página
 browser = webdriver.Firefox(executable_path=r'/home/monolito/selenium_drivers/geckodriver')
 browser.get('https://login.plurall.net/login')
@@ -59,12 +74,9 @@ logger.info('Acesso à página efetuado!')
 
 # faz login
 try:
-    form_username = browser.find_element_by_id('username')
-    form_username.send_keys('pedrogabrieltt@gmail.com')
-    form_password = browser.find_element_by_id('password')
-    form_password.send_keys('qwpo1209')
-    form = browser.find_element_by_name('loginForm')
-    form.submit()
+    browser.find_element_by_id('username').send_keys(username)
+    browser.find_element_by_id('password').send_keys(password)
+    browser.find_element_by_name('loginForm').submit()
     logger.info('Login efetuado com sucesso.')
 except:
     logger.error('Não foi possível efetuar o login.')
