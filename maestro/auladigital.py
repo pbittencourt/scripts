@@ -15,6 +15,7 @@ from time import sleep
 from csv import reader
 import logging
 import getpass
+import os
 
 
 # configuration
@@ -42,7 +43,7 @@ disciplinas = {
 logging.basicConfig(level=logging.INFO,
                    format='%(asctime)s %(levelname)s %(message)s',
                    datefmt='%d-%b-%Y %H:%M:%S',
-                   filename='auladigital.log',
+                   filename=os.getcwd() + '/auladigital.log',
                    filemode='a')
 # create logger object
 logger = logging.getLogger()
@@ -97,7 +98,7 @@ except:
 sleep(15)
 
 # le csv contendo aulas para criar
-with open('/home/monolito/scripts/maestro/auladigital.csv') as file:
+with open(os.getcwd() + '/auladigital.csv') as file:
     handle = reader(file)
     line_count = 0
     for row in handle:
