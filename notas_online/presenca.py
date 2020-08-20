@@ -9,6 +9,7 @@ Email: contato@pedrobittencourt.com.br
 Site: pedrobittencourt.com.br
 """
 
+
 from selenium import webdriver
 from selenium.webdriver.support.ui import Select
 from selenium.webdriver.common.alert import Alert
@@ -18,7 +19,36 @@ import logging
 import getpass
 
 
-# configuration
+def login(username: str, password: str) -> None:
+    """
+    Recebe username e password do usuário e utiliza essas credenciais
+    para tentar fazer login no sistema do notas online. Após a
+    submissão do formulário, verifica se o conteúdo exibido corresponde
+    à página inicial do sistema, retornando True ou False.
+    """
+
+    # abre página de login
+    driver.get('https://www.notasonline.com/pages/nol_logon.asp')
+    logger.info(f'ACESSO À PÁGINA EFETUADO POR {username}!')
+    sleep(1)
+
+    # preenche credenciais do usuário
+    driver.find_element_by_id('txtLogin').send_keys(username)
+    sleep(0.3)
+    driver.find_element_by_id('txtPassword').send_keys(password)
+    sleep(0.3)
+    driver.find_element_by_id('frmForm').submit()
+
+    # verifica se o login foi efetuado, através da url atual
+    if driver.current_url == 'https://www.notasonline.com/pages/home_teacher.asp':
+        logger.info('Logou com sucesso!')
+        return True
+    else:
+        logger.error('Não foi possível logar no sistema. Você digitou as credenciais corretas?')
+        return False
+
+
+# globals
 turmas = {
     '6A': 'Sexto Ano / 1M6A / Manhã',
     '6B': 'Sexto Ano / 1M6B / Manhã',
@@ -78,213 +108,202 @@ logger.addHandler(console)
 # END OF SETUP LOGGING
 ##############################
 
-# ask for user and pass
+# inicializa driver
+driver = webdriver.Chrome(executable_path=r'/home/monolito/selenium_drivers/chromedriver')
+
+# verifica login
 username = str(input('Usuário: _ '))
 password = getpass.getpass('Senha: _ ')
+if login(username, password):
 
-# abre página de login
-browser = webdriver.Chrome(executable_path=r'/home/monolito/selenium_drivers/chromedriver')
-browser.get('https://www.notasonline.com/pages/nol_logon.asp')
-logger.info('ACESSO À PÁGINA EFETUADO!')
-sleep(2)
+    # le csv com registros de aulas
+    with open('presenca.csv') as handle:
+        file = reader(handle)
+        line_count = 0
+        for row in file:
+            if line_count > 0:
+                mes, turma, disciplina, dia, ausencias = row
+                success = True
 
-# faz login no sistema
+                logger.info(f'Preenchendo diário {line_count} ...')
 
-browser.find_element_by_id('txtLogin').send_keys(username)
-sleep(0.3)
-browser.find_element_by_id('txtPassword').send_keys(password)
-sleep(0.3)
-browser.find_element_by_id('frmForm').submit()
-logger.info('Logou com sucesso!')
+                ####################
+                # PREENCHENDO DIÁRIO
+                ####################
 
-# le csv com registros de aulas
-with open('presenca.csv') as handle:
-    file = reader(handle)
-    line_count = 0
-    for row in file:
-        if line_count > 0:
-            mes, turma, disciplina, dia, ausencias = row
-            success = True
+                # variável diário: junção de turma com disciplina, 
+                # no formato '6ADG' ou '3AFIS', por exemplo
+                diario = turma + disciplina
 
-            logger.info(f'Preenchendo diário {line_count} ...')
+                # monta a url
+                urlpresenca = f'https://www.notasonline.com/pages/diario.asp?fkey_division_teacher_subject={diarios[diario]}&bimester={mes}&type=regular'
 
-            ####################
-            # PREENCHENDO DIÁRIO
-            ####################
-
-            # variável diário: junção de turma com disciplina, 
-            # no formato '6ADG' ou '3AFIS', por exemplo
-            diario = turma + disciplina
-
-            # monta a url
-            urlpresenca = f'https://www.notasonline.com/pages/diario.asp?fkey_division_teacher_subject={diarios[diario]}&bimester={mes}&type=regular'
-
-            # acessa diário da turma
-            try:
-                browser.get(urlpresenca)
-                logger.info(f'Acessou diário da turma {diario}, mês {mes}.')
-            except:
-                logger.error(f'Não foi possível acessar diário da turma {diario}, mês {mes}. Verifique o registro!')
-                success = False
-            sleep(1)
-
-            # verifica qual é a primeira coluna vazia no diário,
-            # a partir da qual preencheremos com o registro do dia
-            col = 2  # a primeira coluna contém os nomes dos alunos
-            while True:
-                xpath = f'/html/body/form/table/tbody/tr[2]/td/table/tbody/tr[2]/td[{col}]'
-                novo_dia = browser.find_element_by_xpath(xpath)
-                novo_dia_texto = novo_dia.text.replace('__', '').strip()
-                if len(novo_dia_texto) == 0:
-                    break
-
-                col += 1
-                
-            logger.info(f'Uma nova data será inserida na coluna {col-1}.')
-
-            # é preciso clicar na célula correspondente ao dia para
-            # ativar um prompt javascript e preencher com o dia
-            try:
-                novo_dia.click()
-                alert = Alert(browser)
-                alert.send_keys(dia)
-                alert.accept()
-                logger.info(f'Inserido dia {dia} no diário.')
-            except:
-                logger.error(f'Não foi possível inserir dia {dia} no diário. Verifique o registro!')
-                success = False
-            sleep(1)
-
-            # clica no checkbox correspondente ao dia para
-            # marcar presença a todos os alunos, por padrão
-            try:
-                box_dia = browser.find_element_by_id('day_' + str(col-1))
-                box_dia.click()
-                logger.info('Marcando presença para os estudantes.')
-            except:
-                logger.info('Não foi possível dar presença para os estudantes. Verifique o registro!')
-                success = False
-            sleep(1)
-
-            # verifica as ausências do dia
-            ausente = ausencias.split('|')
-            if (ausente[0] != ''):
-                logger.info(f'Temos {len(ausente)} ausência(s) nesta data:')
-                for aluno in ausente:
-                    row = int(aluno) + 2
-                    try:
-                        xpath = f'/html/body/form/table/tbody/tr[2]/td/table/tbody/tr[{row}]/td[{col}]/input'
-                        ausente_box = browser.find_element_by_xpath(xpath)
-                        ausente_box.click()
-                        logger.info(f'Inserida ausência para estudante num {aluno}.')
-                    except:
-                        logger.error(f'Não foi possível inserir ausência para estudante num {aluno}. Verifique o registro!')
-                        success = False
-            sleep(1)
-
-            # finaliza o preenchimento
-            if success:
+                # acessa diário da turma
                 try:
-                    gravar = browser.find_element_by_id('btSave')
-                    gravar.click()
-                    logger.info('Preenchimento do diário efetuado com sucesso!')
+                    driver.get(urlpresenca)
+                    logger.info(f'Acessou diário da turma {diario}, mês {mes}.')
                 except:
-                    logger.error('Não foi possível finalizar o preenchimento do diário.')
-            else:
-                logger.warning('''Não foi possível preencher o diário por falha em uma
-                    ou mais requisições. Verifique o registro para maiores detalhes.''')
-            sleep(1)
+                    logger.error(f'Não foi possível acessar diário da turma {diario}, mês {mes}. Verifique o registro!')
+                    success = False
+                sleep(1)
 
-            ###################################
-            # ENVIANDO NOTIFICAÇÕES DE AUSÊNCIA
-            ###################################
+                # verifica qual é a primeira coluna vazia no diário,
+                # a partir da qual preencheremos com o registro do dia
+                col = 2  # a primeira coluna contém os nomes dos alunos
+                while True:
+                    xpath = f'/html/body/form/table/tbody/tr[2]/td/table/tbody/tr[2]/td[{col}]'
+                    novo_dia = driver.find_element_by_xpath(xpath)
+                    novo_dia_texto = novo_dia.text.replace('__', '').strip()
+                    if len(novo_dia_texto) == 0:
+                        break
 
-            if (ausente[0] != ''):
-                for i in range(0, len(ausente)):
-                    success = True
-                    # acessa página de notificações
-                    try:
-                        browser.get('https://www.notasonline.com/pages/user_occurrence.asp')
-                        logger.info(f'Inserindo {i+1}a ausência de {len(ausente)} no diário {diario} ...')
-                    except:
-                        logger.error('Não foi possível inserir {i+1}a ausência do diário de {diario}!')
-                        success = False
-                    sleep(1)
+                    col += 1
                     
-                    # insere data da ocorrência
-                    data = dia.zfill(2) + '/' + mes.zfill(2) + '/2020'
-                    try:
-                        insert_data = browser.find_element_by_id('txtOccurrence_date')
-                        insert_data.clear()
-                        insert_data.send_keys(data)
-                        logger.info(f'Inseriu data {data}.')
-                    except:
-                        logger.error(f'Não foi possível inserir a data {data}. Algo deu errado!')
-                        success = False
-                    sleep(1)
+                logger.info(f'Uma nova data será inserida na coluna {col-1}.')
 
-                    # insere turma
-                    try:
-                        insert_turma = Select(browser.find_element_by_id('selDivisions'))
-                        insert_turma.select_by_visible_text(turmas[turma])
-                        logger.info(f'Inseriu turma {turmas[turma]}.')
-                    except:
-                        logger.error(f'Não foi possível inserir a turma {turmas[turma]}. Verifique o registro!')
-                        success = False
-                    sleep(1)
+                # é preciso clicar na célula correspondente ao dia para
+                # ativar um prompt javascript e preencher com o dia
+                try:
+                    novo_dia.click()
+                    alert = Alert(driver)
+                    alert.send_keys(dia)
+                    alert.accept()
+                    logger.info(f'Inserido dia {dia} no diário.')
+                except:
+                    logger.error(f'Não foi possível inserir dia {dia} no diário. Verifique o registro!')
+                    success = False
+                sleep(1)
 
-                    # insere disciplina
-                    try:
-                        insert_disciplina = Select(browser.find_element_by_id('selSubjects_Teachers'))
-                        insert_disciplina.select_by_visible_text(disciplinas[disciplina])
-                        logger.info(f'Inseriu disciplina {disciplinas[disciplina]}.')
-                    except:
-                        logger.error(f'''Não foi possível inserir a disciplina
-                              {disciplinas[disciplina]}. Algo deu errado!''')
-                        success = False
-                    sleep(1)
+                # clica no checkbox correspondente ao dia para
+                # marcar presença a todos os alunos, por padrão
+                try:
+                    box_dia = driver.find_element_by_id('day_' + str(col-1))
+                    box_dia.click()
+                    logger.info('Marcando presença para os estudantes.')
+                except:
+                    logger.info('Não foi possível dar presença para os estudantes. Verifique o registro!')
+                    success = False
+                sleep(1)
 
-                    # recebe nome do estudante a partir do número
-                    with open(turma) as turma_arquivo:
-                        file = turma_arquivo.read()
-                        lista = file.split(',')
-                        estudante = lista[int(ausente[i]) - 1]
-
-                    # insere estudante
-                    try:
-                        insert_estudante = Select(browser.find_element_by_id('selStudents'))
-                        insert_estudante.select_by_visible_text(estudante)
-                        logger.info(f'Inseriu estudante {ausente[i]} {estudante}.')
-                    except:
-                        logger.error(f'''Não foi possível inserir estudante {estudante}.
-                              Algo deu errado!''')
-                        success = False
-                    sleep(1)
-
-                    # insere ocorrência
-                    try:
-                        insert_ocorrencia = Select(browser.find_element_by_id('selOccurrences_codes'))
-                        insert_ocorrencia.select_by_value('8C8A120C-755E-4650-883B-1EB8D033513C')
-                        logger.info(f'Inseriu ocorrência: ausente na aula síncrona (P).')
-                    except:
-                        logger.error(f'''Não foi possível inserir ocorrência: {ocorrencias[ocorrencia]}.
-                              Algo deu errado!''')
-                        success = False
-                    sleep(1)
-
-                    # envia formulário
-                    if success:
+                # verifica as ausências do dia
+                ausente = ausencias.split('|')
+                if (ausente[0] != ''):
+                    logger.info(f'Temos {len(ausente)} ausência(s) nesta data:')
+                    for aluno in ausente:
+                        row = int(aluno) + 2
                         try:
-                            ok_button = browser.find_element_by_xpath('//*[@id="OKbutton"]/a')
-                            ok_button.click()
-                            logger.info('Ausência adicionada!')
+                            xpath = f'/html/body/form/table/tbody/tr[2]/td/table/tbody/tr[{row}]/td[{col}]/input'
+                            ausente_box = driver.find_element_by_xpath(xpath)
+                            ausente_box.click()
+                            logger.info(f'Inserida ausência para estudante num {aluno}.')
                         except:
-                            logger.warning('Houve algum erro ao enviar o formulário ...')
-                    else:
-                        logger.warning('''Não foi possível enviar o formulário por falha em uma 
-                              ou mais requisições. Verifique o registro para maiores detalhes.''')
-                    sleep(1)
+                            logger.error(f'Não foi possível inserir ausência para estudante num {aluno}. Verifique o registro!')
+                            success = False
+                sleep(1)
 
-        line_count += 1
+                # finaliza o preenchimento
+                if success:
+                    try:
+                        gravar = driver.find_element_by_id('btSave')
+                        #gravar.click()
+                        logger.info('Preenchimento do diário efetuado com sucesso!')
+                    except:
+                        logger.error('Não foi possível finalizar o preenchimento do diário.')
+                else:
+                    logger.warning('''Não foi possível preencher o diário por falha em uma
+                        ou mais requisições. Verifique o registro para maiores detalhes.''')
+                sleep(1)
 
-logger.info(f'PROCESSO FINALIZADO!\n' +  '='*40)
+                ###################################
+                # ENVIANDO NOTIFICAÇÕES DE AUSÊNCIA
+                ###################################
+
+                if (ausente[0] != ''):
+                    for i in range(0, len(ausente)):
+                        success = True
+                        # acessa página de notificações
+                        try:
+                            driver.get('https://www.notasonline.com/pages/user_occurrence.asp')
+                            logger.info(f'Inserindo {i+1}a ausência de {len(ausente)} no diário {diario} ...')
+                        except:
+                            logger.error('Não foi possível inserir {i+1}a ausência do diário de {diario}!')
+                            success = False
+                        sleep(1)
+                        
+                        # insere data da ocorrência
+                        data = dia.zfill(2) + '/' + mes.zfill(2) + '/2020'
+                        try:
+                            insert_data = driver.find_element_by_id('txtOccurrence_date')
+                            insert_data.clear()
+                            insert_data.send_keys(data)
+                            logger.info(f'Inseriu data {data}.')
+                        except:
+                            logger.error(f'Não foi possível inserir a data {data}. Algo deu errado!')
+                            success = False
+                        sleep(1)
+
+                        # insere turma
+                        try:
+                            insert_turma = Select(driver.find_element_by_id('selDivisions'))
+                            insert_turma.select_by_visible_text(turmas[turma])
+                            logger.info(f'Inseriu turma {turmas[turma]}.')
+                        except:
+                            logger.error(f'Não foi possível inserir a turma {turmas[turma]}. Verifique o registro!')
+                            success = False
+                        sleep(1)
+
+                        # insere disciplina
+                        try:
+                            insert_disciplina = Select(driver.find_element_by_id('selSubjects_Teachers'))
+                            insert_disciplina.select_by_visible_text(disciplinas[disciplina])
+                            logger.info(f'Inseriu disciplina {disciplinas[disciplina]}.')
+                        except:
+                            logger.error(f'''Não foi possível inserir a disciplina
+                                  {disciplinas[disciplina]}. Algo deu errado!''')
+                            success = False
+                        sleep(1)
+
+                        # recebe nome do estudante a partir do número
+                        with open(turma) as turma_arquivo:
+                            file = turma_arquivo.read()
+                            lista = file.split(',')
+                            estudante = lista[int(ausente[i]) - 1]
+
+                        # insere estudante
+                        try:
+                            insert_estudante = Select(driver.find_element_by_id('selStudents'))
+                            insert_estudante.select_by_visible_text(estudante)
+                            logger.info(f'Inseriu estudante {ausente[i]} {estudante}.')
+                        except:
+                            logger.error(f'''Não foi possível inserir estudante {estudante}.
+                                  Algo deu errado!''')
+                            success = False
+                        sleep(1)
+
+                        # insere ocorrência
+                        try:
+                            insert_ocorrencia = Select(driver.find_element_by_id('selOccurrences_codes'))
+                            insert_ocorrencia.select_by_value('8C8A120C-755E-4650-883B-1EB8D033513C')
+                            logger.info(f'Inseriu ocorrência: ausente na aula síncrona (P).')
+                        except:
+                            logger.error(f'''Não foi possível inserir ocorrência: {ocorrencias[ocorrencia]}.
+                                  Algo deu errado!''')
+                            success = False
+                        sleep(1)
+
+                        # envia formulário
+                        if success:
+                            try:
+                                ok_button = driver.find_element_by_xpath('//*[@id="OKbutton"]/a')
+                                #ok_button.click()
+                                logger.info('Ausência adicionada!')
+                            except:
+                                logger.warning('Houve algum erro ao enviar o formulário ...')
+                        else:
+                            logger.warning('''Não foi possível enviar o formulário por falha em uma 
+                                  ou mais requisições. Verifique o registro para maiores detalhes.''')
+                        sleep(1)
+
+            line_count += 1
+
+    logger.info(f'PROCESSO FINALIZADO!\n' +  '='*40)

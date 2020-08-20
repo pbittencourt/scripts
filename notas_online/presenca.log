@@ -116,3 +116,36 @@
 20-Aug-2020 11:29:25 INFO Ausência adicionada!
 20-Aug-2020 11:29:26 INFO PROCESSO FINALIZADO!
 ========================================
+20-Aug-2020 14:31:20 INFO ACESSO À PÁGINA EFETUADO POR pedro.bittencourt!
+20-Aug-2020 14:31:23 INFO Logou com sucesso!
+20-Aug-2020 14:31:23 INFO Preenchendo diário 1 ...
+20-Aug-2020 14:31:24 INFO Acessou diário da turma 1AGMT, mês 8.
+20-Aug-2020 14:31:25 INFO Uma nova data será inserida na coluna 4.
+20-Aug-2020 14:31:25 INFO Inserido dia 17 no diário.
+20-Aug-2020 14:31:26 INFO Marcando presença para os estudantes.
+20-Aug-2020 14:31:39 INFO ACESSO À PÁGINA EFETUADO POR ped!
+20-Aug-2020 14:31:41 ERROR Não foi possível logar no sistema. Você digitou as credenciais corretas?
+20-Aug-2020 14:34:04 INFO ACESSO À PÁGINA EFETUADO POR pedro.bittencourt!
+20-Aug-2020 14:34:07 INFO Logou com sucesso!
+20-Aug-2020 14:34:07 INFO Preenchendo diário 1 ...
+20-Aug-2020 14:34:08 INFO Acessou diário da turma 1AGMT, mês 8.
+20-Aug-2020 14:34:09 INFO Uma nova data será inserida na coluna 4.
+20-Aug-2020 14:34:09 INFO Inserido dia 17 no diário.
+20-Aug-2020 14:34:10 INFO Marcando presença para os estudantes.
+20-Aug-2020 14:35:13 INFO ACESSO À PÁGINA EFETUADO POR pedro.bittencourt!
+20-Aug-2020 14:35:16 INFO Logou com sucesso!
+20-Aug-2020 14:35:16 INFO Preenchendo diário 1 ...
+20-Aug-2020 14:35:16 ERROR Não foi possível acessar diário da turma 1AGMT, mês 8. Verifique o registro!
+20-Aug-2020 14:53:18 INFO ACESSO À PÁGINA EFETUADO POR pedro.bittencourt!
+20-Aug-2020 14:53:23 INFO Logou com sucesso!
+20-Aug-2020 14:53:23 INFO Preenchendo diário 1 ...
+20-Aug-2020 14:53:23 INFO Acessou diário da turma 1AGMT, mês 8.
+20-Aug-2020 14:53:25 INFO Uma nova data será inserida na coluna 4.
+20-Aug-2020 14:53:25 INFO Inserido dia 17 no diário.
+20-Aug-2020 14:53:26 INFO Marcando presença para os estudantes.
+20-Aug-2020 14:53:28 INFO Preenchimento do diário efetuado com sucesso!
+20-Aug-2020 14:53:29 INFO Preenchendo diário 2 ...
+20-Aug-2020 14:53:29 INFO Acessou diário da turma 2AGMT, mês 8.
+20-Aug-2020 14:53:31 INFO Uma nova data será inserida na coluna 4.
+20-Aug-2020 14:53:31 INFO Inserido dia 17 no diário.
+20-Aug-2020 14:53:32 INFO Marcando presença para os estudantes.
