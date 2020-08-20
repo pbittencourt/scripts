@@ -108,12 +108,14 @@ logger.addHandler(console)
 # END OF SETUP LOGGING
 ##############################
 
+# credenciais do usuário
+username = str(input('Usuário: _ '))
+password = getpass.getpass('Senha: _ ')
+
 # inicializa driver
 driver = webdriver.Chrome(executable_path=r'/home/monolito/selenium_drivers/chromedriver')
 
 # verifica login
-username = str(input('Usuário: _ '))
-password = getpass.getpass('Senha: _ ')
 if login(username, password):
 
     # le csv com registros de aulas

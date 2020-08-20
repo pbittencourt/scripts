@@ -149,3 +149,9 @@
 20-Aug-2020 14:53:31 INFO Uma nova data será inserida na coluna 4.
 20-Aug-2020 14:53:31 INFO Inserido dia 17 no diário.
 20-Aug-2020 14:53:32 INFO Marcando presença para os estudantes.
+20-Aug-2020 14:55:42 INFO ACESSO À PÁGINA EFETUADO POR pedro.bittencourt!
+20-Aug-2020 14:55:45 INFO Logou com sucesso!
+20-Aug-2020 14:55:45 INFO Preenchendo diário 1 ...
+20-Aug-2020 14:55:46 INFO Acessou diário da turma 1AGMT, mês 8.
+20-Aug-2020 14:55:47 INFO Uma nova data será inserida na coluna 4.
+20-Aug-2020 14:55:48 ERROR Não foi possível inserir dia 17 no diário. Verifique o registro!
