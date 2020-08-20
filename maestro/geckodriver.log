@@ -314,3 +314,29 @@ TimedPromise@chrome://marionette/content/sync.js:230:10
 interaction.flushEventLoop@chrome://marionette/content/interaction.js:416:10
 webdriverClickElement@chrome://marionette/content/interaction.js:182:31
 1597613994658	Marionette	INFO	Stopped listening on port 41837
+1597953331943	geckodriver	INFO	Listening on 127.0.0.1:35725
+1597953331985	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "--marionette" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofileuBiah4"
+console.error: SearchCache: "_readCacheFile: Error reading cache file:" (new Error("", "(unknown module)"))
+1597953343778	Marionette	INFO	Listening on port 36847
+1597953343837	Marionette	WARN	TLS certificate errors will be ignored for this session
+1597953377315	Marionette	INFO	Stopped listening on port 36847
+1597953381765	geckodriver	INFO	Listening on 127.0.0.1:35501
+1597953381789	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "--marionette" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofilelH99oV"
+console.error: SearchCache: "_readCacheFile: Error reading cache file:" (new Error("", "(unknown module)"))
+1597953393383	Marionette	INFO	Listening on port 43085
+1597953393504	Marionette	WARN	TLS certificate errors will be ignored for this session
+1597953432844	Marionette	INFO	Stopped listening on port 43085
+1597953510069	geckodriver	INFO	Listening on 127.0.0.1:41289
+1597953510090	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "--marionette" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofileU8mJt6"
+console.error: SearchCache: "_readCacheFile: Error reading cache file:" (new Error("", "(unknown module)"))
+1597953519130	Marionette	INFO	Listening on port 43441
+1597953519383	Marionette	WARN	TLS certificate errors will be ignored for this session
+1597953594732	Marionette	WARN	TimedPromise timed out after 500 ms: stacktrace:
+TimedPromise/<@chrome://marionette/content/sync.js:245:13
+TimedPromise@chrome://marionette/content/sync.js:230:10
+interaction.flushEventLoop@chrome://marionette/content/interaction.js:416:10
+webdriverClickElement@chrome://marionette/content/interaction.js:182:31
+Exiting due to channel error.
+[GFX1-]: Receive IPC close with reason=AbnormalShutdown
+Exiting due to channel error.
+Exiting due to channel error.

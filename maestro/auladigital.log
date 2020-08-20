@@ -306,3 +306,19 @@
 16-Aug-2020 18:36:27 INFO Aula adicionada com sucesso!
 16-Aug-2020 18:36:57 INFO PROCESSO FINALIZADO!
 ========================================
+20-Aug-2020 16:55:55 INFO ACESSO À PÁGINA EFETUADO POR pedro.bittencourt!
+20-Aug-2020 16:55:56 ERROR Não foi possível logar no sistema. Você digitou as credenciais corretas?
+20-Aug-2020 16:56:39 INFO ACESSO À PÁGINA EFETUADO POR pedrogabrieltt@gmail.com!
+20-Aug-2020 16:56:39 ERROR Não foi possível logar no sistema. Você digitou as credenciais corretas?
+20-Aug-2020 16:58:57 INFO ACESSO À PÁGINA EFETUADO POR pedrogabrieltt@gmail.com!
+20-Aug-2020 16:59:07 INFO Logou com sucesso!
+20-Aug-2020 16:59:11 INFO Página de aula digital acessada.
+20-Aug-2020 16:59:26 INFO Perfil de professor selecionado.
+20-Aug-2020 16:59:41 INFO Inserindo registro 1 ...
+20-Aug-2020 16:59:44 INFO Selecionou a série 1ª Série EM.
+20-Aug-2020 16:59:50 INFO Selecinou a disciplina 1º MÉDIO 2020-Matemática.
+20-Aug-2020 16:59:54 INFO Clicou em criar nova aula.
+20-Aug-2020 16:59:58 INFO Inseriu título da aula: 1EM_GMT Aula 17-08-2020.
+20-Aug-2020 17:00:01 INFO Inseriu a data 17/08/2020.
+20-Aug-2020 17:00:03 INFO Inseriu o horário 09:00.
+20-Aug-2020 17:00:05 INFO Aula adicionada com sucesso!
