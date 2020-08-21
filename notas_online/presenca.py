@@ -205,7 +205,7 @@ if login(username, password):
                 if success:
                     try:
                         gravar = driver.find_element_by_id('btSave')
-                        #gravar.click()
+                        gravar.click()
                         logger.info('Preenchimento do diário efetuado com sucesso!')
                     except:
                         logger.error('Não foi possível finalizar o preenchimento do diário.')
@@ -295,7 +295,7 @@ if login(username, password):
                         if success:
                             try:
                                 ok_button = driver.find_element_by_xpath('//*[@id="OKbutton"]/a')
-                                #ok_button.click()
+                                ok_button.click()
                                 logger.info('Ausência adicionada!')
                             except:
                                 logger.warning('Houve algum erro ao enviar o formulário ...')

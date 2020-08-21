@@ -155,3 +155,56 @@
 20-Aug-2020 14:55:46 INFO Acessou diário da turma 1AGMT, mês 8.
 20-Aug-2020 14:55:47 INFO Uma nova data será inserida na coluna 4.
 20-Aug-2020 14:55:48 ERROR Não foi possível inserir dia 17 no diário. Verifique o registro!
+21-Aug-2020 11:58:30 INFO ACESSO À PÁGINA EFETUADO POR pedro.bittencourt!
+21-Aug-2020 11:58:33 INFO Logou com sucesso!
+21-Aug-2020 11:58:33 INFO Preenchendo diário 1 ...
+21-Aug-2020 11:58:33 INFO Acessou diário da turma 8AFIS, mês 8.
+21-Aug-2020 11:58:35 INFO Uma nova data será inserida na coluna 3.
+21-Aug-2020 11:58:35 INFO Inserido dia 21 no diário.
+21-Aug-2020 11:58:36 INFO Marcando presença para os estudantes.
+21-Aug-2020 11:58:38 INFO Preenchimento do diário efetuado com sucesso!
+21-Aug-2020 11:58:39 INFO Preenchendo diário 2 ...
+21-Aug-2020 11:58:40 INFO Acessou diário da turma 9AFIS, mês 8.
+21-Aug-2020 11:58:41 INFO Uma nova data será inserida na coluna 3.
+21-Aug-2020 11:58:41 INFO Inserido dia 21 no diário.
+21-Aug-2020 11:58:42 INFO Marcando presença para os estudantes.
+21-Aug-2020 11:58:44 INFO Preenchimento do diário efetuado com sucesso!
+21-Aug-2020 11:58:45 INFO Preenchendo diário 3 ...
+21-Aug-2020 11:58:46 INFO Acessou diário da turma 2AFIS, mês 8.
+21-Aug-2020 11:58:47 INFO Uma nova data será inserida na coluna 5.
+21-Aug-2020 11:58:47 INFO Inserido dia 21 no diário.
+21-Aug-2020 11:58:48 INFO Marcando presença para os estudantes.
+21-Aug-2020 11:58:50 INFO Preenchimento do diário efetuado com sucesso!
+21-Aug-2020 11:58:51 INFO PROCESSO FINALIZADO!
+========================================
+21-Aug-2020 12:03:37 INFO ACESSO À PÁGINA EFETUADO POR pedro.bittencourt!
+21-Aug-2020 12:03:39 INFO Logou com sucesso!
+21-Aug-2020 12:03:39 INFO Preenchendo diário 1 ...
+21-Aug-2020 12:03:40 INFO Acessou diário da turma 8AFIS, mês 8.
+21-Aug-2020 12:03:41 INFO Uma nova data será inserida na coluna 3.
+21-Aug-2020 12:03:41 INFO Inserido dia 21 no diário.
+21-Aug-2020 12:03:42 INFO Marcando presença para os estudantes.
+21-Aug-2020 12:03:43 INFO Temos 1 ausência(s) nesta data:
+21-Aug-2020 12:03:43 INFO Inserida ausência para estudante num 4.
+21-Aug-2020 12:03:45 INFO Preenchimento do diário efetuado com sucesso!
+21-Aug-2020 12:03:47 INFO Inserindo 1a ausência de 1 no diário 8AFIS ...
+21-Aug-2020 12:03:48 INFO Inseriu data 21/08/2020.
+21-Aug-2020 12:03:50 INFO Inseriu turma Oitavo Ano / 1M8A / Manhã.
+21-Aug-2020 12:03:51 INFO Inseriu disciplina Física / Pedro Pompermayer Bittencourt.
+21-Aug-2020 12:03:52 INFO Inseriu estudante 4 Enzo Fontes Sarmento.
+21-Aug-2020 12:03:54 INFO Inseriu ocorrência: ausente na aula síncrona (P).
+21-Aug-2020 12:03:55 INFO Ausência adicionada!
+21-Aug-2020 12:03:56 INFO Preenchendo diário 2 ...
+21-Aug-2020 12:03:57 INFO Acessou diário da turma 9AFIS, mês 8.
+21-Aug-2020 12:03:58 INFO Uma nova data será inserida na coluna 3.
+21-Aug-2020 12:03:58 INFO Inserido dia 21 no diário.
+21-Aug-2020 12:03:59 INFO Marcando presença para os estudantes.
+21-Aug-2020 12:04:02 INFO Preenchimento do diário efetuado com sucesso!
+21-Aug-2020 12:04:03 INFO Preenchendo diário 3 ...
+21-Aug-2020 12:04:03 INFO Acessou diário da turma 2AFIS, mês 8.
+21-Aug-2020 12:04:05 INFO Uma nova data será inserida na coluna 5.
+21-Aug-2020 12:04:05 INFO Inserido dia 21 no diário.
+21-Aug-2020 12:04:06 INFO Marcando presença para os estudantes.
+21-Aug-2020 12:04:09 INFO Preenchimento do diário efetuado com sucesso!
+21-Aug-2020 12:04:10 INFO PROCESSO FINALIZADO!
+========================================
