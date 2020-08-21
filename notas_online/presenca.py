@@ -111,7 +111,7 @@ username = str(input('Usuário: _ '))
 password = getpass.getpass('Senha: _ ')
 
 # inicializa driver
-driver = webdriver.Chrome(executable_path=r'/home/monolito/selenium_drivers/chromedriver')
+driver = webdriver.Chrome(executable_path=os.getcwd() + r'/drivers/chromedriver')
 
 # verifica login
 if login(username, password):

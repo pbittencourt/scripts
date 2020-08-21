@@ -96,7 +96,7 @@ username = str(input('Usuário: _ '))
 password = getpass.getpass('Senha: _ ')
 
 # inicializa driver
-driver = webdriver.Firefox(executable_path=r'/home/monolito/selenium_drivers/geckodriver')
+driver = webdriver.Firefox(executable_path=os.getcwd() + r'/drivers/geckodriver')
 
 # verifica login
 if login(username, password):
