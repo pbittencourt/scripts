@@ -34,9 +34,7 @@ def login(username: str, password: str) -> None:
 
     # preenche credenciais do usuário
     driver.find_element_by_id('txtLogin').send_keys(username)
-    sleep(0.3)
     driver.find_element_by_id('txtPassword').send_keys(password)
-    sleep(0.3)
     driver.find_element_by_id('frmForm').submit()
 
     # verifica se o login foi efetuado, através da url atual
