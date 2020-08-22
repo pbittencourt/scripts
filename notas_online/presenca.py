@@ -111,7 +111,7 @@ username = str(input('Usuário: _ '))
 password = getpass.getpass('Senha: _ ')
 
 # inicializa driver
-driver = webdriver.Chrome(executable_path=os.getcwd() + r'/drivers/chromedriver')
+driver = webdriver.Chrome(executable_path=os.getcwd() + r'/../drivers/chromedriver')
 
 # verifica login
 if login(username, password):
@@ -307,3 +307,6 @@ if login(username, password):
             line_count += 1
 
     logger.info(f'PROCESSO FINALIZADO!\n' +  '='*40)
+
+# encerra driver
+driver.quit()

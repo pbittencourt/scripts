@@ -1,0 +1,26 @@
+22-Aug-2020 14:36:39 INFO ACESSO À PÁGINA EFETUADO POR pedro.bittencourt!
+22-Aug-2020 14:38:07 INFO ACESSO À PÁGINA EFETUADO POR pedro.bittencourt!
+22-Aug-2020 14:40:45 INFO ACESSO À PÁGINA EFETUADO POR pedro.bittencourt!
+22-Aug-2020 14:40:54 INFO Inserindo registro 1 ...
+22-Aug-2020 14:40:54 ERROR Não foi possível inserir a data 21/08/2020. Algo deu errado!
+22-Aug-2020 14:40:55 ERROR Não foi possível inserir a turma Oitavo Ano / 1M8A / Manhã. Verifique o registro!
+22-Aug-2020 14:40:56 ERROR Não foi possível inserir a disciplina
+                          Física / Pedro Pompermayer Bittencourt. Algo deu errado!
+22-Aug-2020 14:40:58 ERROR Não foi possível inserir estudante Gabriel Toffoletto Papaiz.
+                          Algo deu errado!
+22-Aug-2020 14:45:19 INFO ACESSO À PÁGINA EFETUADO POR pedro.bittencourt!
+22-Aug-2020 14:45:25 INFO Inserindo registro 1 ...
+22-Aug-2020 14:45:25 ERROR Não foi possível inserir a data 21/08/2020. Algo deu errado!
+22-Aug-2020 14:46:20 INFO ACESSO À PÁGINA EFETUADO POR pedro.bittencourt!
+22-Aug-2020 14:46:22 INFO Inserindo registro 1 ...
+22-Aug-2020 14:46:22 INFO Inseriu data 21/08/2020.
+22-Aug-2020 14:46:24 INFO Inseriu turma Oitavo Ano / 1M8A / Manhã.
+22-Aug-2020 14:46:25 INFO Inseriu disciplina Física / Pedro Pompermayer Bittencourt.
+22-Aug-2020 14:46:26 INFO Inseriu estudante 5 Gabriel Toffoletto Papaiz.
+22-Aug-2020 14:46:27 INFO Inseriu ocorrência: Não apresentou a lição de casa.
+22-Aug-2020 14:46:32 INFO Inseriu descrição: Não entregou atividades 1 a 3, p. 338-342, feitas durante aula síncrona do dia 14/agosto, com vencimento em 20/agosto. Como 2ª data, aceita-se novo prazo até 27/agosto..
+22-Aug-2020 14:46:33 INFO Ocorrência adicionada!
+22-Aug-2020 14:46:35 INFO Inserindo registro 2 ...
+22-Aug-2020 14:46:35 INFO Inseriu data 21/08/2020.
+22-Aug-2020 14:46:37 INFO Inseriu turma Oitavo Ano / 1M8A / Manhã.
+22-Aug-2020 14:46:38 INFO Inseriu disciplina Física / Pedro Pompermayer Bittencourt.

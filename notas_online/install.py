@@ -45,6 +45,18 @@ def login(username: str, password: str) -> None:
         return False
 
 
+def errorquit(msg: str = 'ERRO NÃO ESPECIFICADO') -> str:
+    """
+    Quando falhar numa requisição importante, exibe
+    mensagem de erro, registra no log, fecha o driver
+    e encerra o programa.
+    """
+    logger.error(f'Não foi possível continuar devido ao seguinte problema: {msg}.')
+    logger.info('O programa será encerrado agora. Verifique o registro para detalhes!')
+    driver.quit()
+    sys.exit(1)
+
+
 ###############
 # SETUP LOGGING
 ###############
@@ -94,19 +106,20 @@ if login(username, password):
 
     # acessa página de diários de classe
     try:
-        page = driver.get('https://www.notasonline.com/pages/admin_divisions_diaries_fill_in.asp?default_year=2020')
+        url = 'https://www.notasonline.com/pages/admin_divisions_diaries_fill_in.asp?default_year=2020'
+        page = driver.get(url)
         logger.info('Página com diários de classe acessada.')
     except:
-        logger.error('Não foi possível acessar página com os diários de classe.')
+        errorquit(f'não foi possível acessar página com os diários de classe, url {url}')
 
     try:
-        html = driver.find_element_by_id('seldivisions_teachers_subjects').get_attribute('innerHTML')
+        objid = 'seldivisions_teachers_subjects'
+        html = driver.find_element_by_id(objid).get_attribute('innerHTML')
         soup = bs(html, 'html.parser')
         options = soup.find_all('option')
-        logger.info('Elementos da página capturados com sucesso.')
+        logger.info(f'Objeto {objid} localizado com sucesso.')
     except:
-        logger.error('Não foi possível capturar todos os elementos necessários.')
-        logger.warning('Contate o administrador!')
+        errorquit(f'não foi possível localizar objeto {objid}')
 
     # insere dict 'diarios' e 'disciplinas' no arquivo
     with open('config.py', 'a') as f:
@@ -121,34 +134,44 @@ if login(username, password):
         print('}', file=f)
         logger.info('Instalação dos diários de classe concluída!')
 
+        store = []
         print('disciplinas = {', file=f)
         for option in options:
             line = option.get_text().strip().split(' / ')
             if len(line) > 1:
                 turma, codigo, periodo, disciplina, professor = line
                 text = f"    '{disc[disciplina[:1]]}': '{disciplina} / {professor}',"
-                print(text, file=f)
+                if text not in store:
+                    store.append(text)
+                    print(text, file=f)
         print('}', file=f)
         logger.info('Instalação das disciplinas concluída!')
 
     # acessa página de ocorrências
     try:
-        page = driver.get('https://www.notasonline.com/pages/user_occurrence.asp')
+        url = 'https://www.notasonline.com/pages/user_occurrence.asp'
+        page = driver.get(url)
         logger.info('Página de ocorrências acessada.')
     except:
-        logger.error('Não foi possível acessar página de ocorrências.')
+        errorquit(f'não foi possível acessar página de ocorrências, url {url}')
 
+    # localiza turmas e ocorrências
     try:
-        html = driver.find_element_by_id('selDivisions').get_attribute('innerHTML')
+        objid = 'selDivisions'
+        html = driver.find_element_by_id(objid).get_attribute('innerHTML')
         soup = bs(html, 'html.parser')
         turmas = soup.find_all('option')
-        html = driver.find_element_by_id('selOccurrences_codes').get_attribute('innerHTML')
+        logger.info(f'Objeto {objid} localizado com sucesso.')
+    except:
+        errorquit(f'não foi possível localizar objeto {objid}')
+    try:
+        objid = 'selOccurrences_codes'
+        html = driver.find_element_by_id(objid).get_attribute('innerHTML')
         soup = bs(html, 'html.parser')
         ocorrencias = soup.find_all('option')
-        logger.info('Elementos da página capturados com sucesso.')
+        logger.info(f'Objeto {objid} localizado com sucesso.')
     except:
-        logger.error('Não foi possível capturar todos os elementos necessários.')
-        logger.warning('Contate o administrador!')
+        errorquit(f'não foi possível localizar objeto {objid}')
 
     # insere dict 'turmas' e 'ocorrencias' no arquivo
     with open('config.py', 'a') as f:
