@@ -60,8 +60,8 @@ def errorquit(msg: str = 'ERRO NÃO ESPECIFICADO') -> str:
 
 # globals
 turmas = {
-    '5A': ('5º Ano EF', '5º ANO A'),
-    '5B': ('5º Ano EF', '5º ANO B'),
+    '5A': ('5º Ano EF', '5 ANO A'),
+    '5B': ('5º Ano EF', '5 ANO B'),
     '6A': ('6º Ano EF', '6º ANO A'),
     '6B': ('6º Ano EF', '6º ANO B'),
     '7A': ('7º Ano EF', '7º ANO 2020'),
@@ -142,7 +142,7 @@ if login(username, password):
 
                 # abre menu de séries
                 try:
-                    driver.find_element_by_xpath("//*[@aria-label='Ano/Serir']").click()
+                    driver.find_element_by_xpath("//*[@aria-label='Ano/Serie']").click()
                 except:
                     errorquit('não foi possível abrir o menu de séries')
                 sleep(2)
