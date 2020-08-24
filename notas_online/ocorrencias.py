@@ -237,7 +237,7 @@ if login(username, password):
                 if success:
                     try:
                         ok_button = driver.find_element_by_xpath('//*[@id="OKbutton"]/a')
-                        #ok_button.click()
+                        ok_button.click()
                         logger.info('Ocorrência adicionada!')
                     except:
                         logger.warning('Houve algum erro ao enviar o formulário ...')

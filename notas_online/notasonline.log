@@ -24,3 +24,35 @@
 22-Aug-2020 14:46:35 INFO Inseriu data 21/08/2020.
 22-Aug-2020 14:46:37 INFO Inseriu turma Oitavo Ano / 1M8A / Manhã.
 22-Aug-2020 14:46:38 INFO Inseriu disciplina Física / Pedro Pompermayer Bittencourt.
+24-Aug-2020 13:55:19 INFO ACESSO À PÁGINA EFETUADO POR pedro.bittencourt!
+24-Aug-2020 13:55:20 INFO Inserindo registro 1 ...
+24-Aug-2020 13:55:21 INFO Inseriu data 24/08/2020.
+24-Aug-2020 13:55:23 INFO Inseriu turma Primeira Série / 2M1A / Manhã.
+24-Aug-2020 13:55:24 INFO Inseriu disciplina Geometria / Pedro Pompermayer Bittencourt.
+24-Aug-2020 13:55:25 INFO Inseriu estudante 8 Rafael Santos Mendes.
+24-Aug-2020 13:55:26 INFO Inseriu ocorrência: Não assistiu a aula síncrona (ao vivo)..
+24-Aug-2020 13:55:29 INFO Ocorrência adicionada!
+24-Aug-2020 13:55:32 INFO Inserindo registro 2 ...
+24-Aug-2020 13:55:32 INFO Inseriu data 24/08/2020.
+24-Aug-2020 13:55:34 INFO Inseriu turma Primeira Série / 2M1A / Manhã.
+24-Aug-2020 13:55:35 INFO Inseriu disciplina Geometria / Pedro Pompermayer Bittencourt.
+24-Aug-2020 13:55:36 INFO Inseriu estudante 9 Rayane Lucena de Carvalho.
+24-Aug-2020 13:55:38 INFO Inseriu ocorrência: Não assistiu a aula síncrona (ao vivo)..
+24-Aug-2020 13:55:40 INFO Ocorrência adicionada!
+24-Aug-2020 13:55:43 INFO Inserindo registro 3 ...
+24-Aug-2020 13:55:43 INFO Inseriu data 24/08/2020.
+24-Aug-2020 13:55:45 INFO Inseriu turma Terceira Série / 2M3A / Manhã.
+24-Aug-2020 13:55:46 INFO Inseriu disciplina Geometria / Pedro Pompermayer Bittencourt.
+24-Aug-2020 13:55:47 INFO Inseriu estudante 8 Gabriel Elias Louzada Gonçalves.
+24-Aug-2020 13:55:49 INFO Inseriu ocorrência: Não assistiu a aula síncrona (ao vivo)..
+24-Aug-2020 13:55:51 INFO Ocorrência adicionada!
+24-Aug-2020 13:55:54 INFO Inserindo registro 4 ...
+24-Aug-2020 13:55:54 INFO Inseriu data 24/08/2020.
+24-Aug-2020 13:55:56 INFO Inseriu turma Segunda Série / 2M2A / Manhã.
+24-Aug-2020 13:55:57 INFO Inseriu disciplina Geometria / Pedro Pompermayer Bittencourt.
+24-Aug-2020 13:55:58 INFO Inseriu estudante 5 Hugo Henrique Lavander Heger.
+24-Aug-2020 13:56:00 INFO Inseriu ocorrência: Lição de casa incompleta.
+24-Aug-2020 13:56:03 INFO Inseriu descrição: Não entregou todos os exercícios da aula de 17/08, exercícios 1 a 4, p. 148-149, com vencimento em 24/agosto. Como 2ª data, aceita-se novo prazo em 30/agosto..
+24-Aug-2020 13:56:05 INFO Ocorrência adicionada!
+24-Aug-2020 13:56:06 INFO PROCESSO FINALIZADO!
+========================================

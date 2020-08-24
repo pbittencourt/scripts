@@ -17,6 +17,7 @@ from csv import reader
 from time import sleep
 import logging
 import getpass
+import os
 
 
 def login(username: str, password: str) -> None:
