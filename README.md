@@ -12,3 +12,7 @@ classe [Notas Online](https://www.notasonline.com), utilizando pela instituiçã
 muitas vezes preciso exercer uma série de comandos com ambas as mãos, o que se torna um pouco inviável ao longo de uma aula de 40 minutos. 
 Escrevi um pequeno programa em python que mapeia as entradas do teclado e *move o mouse* até a posição na qual se encontra a ferramenta 
 desejada, clicando-na em seguida. Uma solução talvez pouco elegante, porém mais viável que reescrever o programa e compilá-lo na unha!.
+
+## autor
+
+* **Pedro Bittencourt** - [Professor da educação básica](http://pedrobittencourt.com.br/) and [programador aspirante](https://github.com/pbittencourt).
