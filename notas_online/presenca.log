@@ -256,3 +256,49 @@
 24-Aug-2020 13:57:39 INFO Ausência adicionada!
 24-Aug-2020 13:57:40 INFO PROCESSO FINALIZADO!
 ========================================
+25-Aug-2020 12:52:59 INFO ACESSO À PÁGINA EFETUADO POR pedro.bittencourt!
+25-Aug-2020 12:53:02 INFO Logou com sucesso!
+25-Aug-2020 12:53:02 INFO Preenchendo diário 1 ...
+25-Aug-2020 12:53:02 INFO Acessou diário da turma 1AFIS, mês 8.
+25-Aug-2020 12:53:04 INFO Uma nova data será inserida na coluna 6.
+25-Aug-2020 12:53:04 INFO Inserido dia 25 no diário.
+25-Aug-2020 12:53:05 INFO Marcando presença para os estudantes.
+25-Aug-2020 12:53:06 INFO Temos 1 ausência(s) nesta data:
+25-Aug-2020 12:53:06 INFO Inserida ausência para estudante num 9.
+25-Aug-2020 12:53:08 INFO Preenchimento do diário efetuado com sucesso!
+25-Aug-2020 12:53:10 INFO Inserindo 1a ausência de 1 no diário 1AFIS ...
+25-Aug-2020 12:53:11 INFO Inseriu data 25/08/2020.
+25-Aug-2020 12:53:13 INFO Inseriu turma Primeira Série / 2M1A / Manhã.
+25-Aug-2020 12:53:14 INFO Inseriu disciplina Física / Pedro Pompermayer Bittencourt.
+25-Aug-2020 12:53:15 INFO Inseriu estudante 9 Rayane Lucena de Carvalho.
+25-Aug-2020 12:53:16 INFO Inseriu ocorrência: ausente na aula síncrona (P).
+25-Aug-2020 12:53:19 INFO Ausência adicionada!
+25-Aug-2020 12:53:20 INFO Preenchendo diário 2 ...
+25-Aug-2020 12:53:21 INFO Acessou diário da turma 3AFIS, mês 8.
+25-Aug-2020 12:53:22 INFO Uma nova data será inserida na coluna 6.
+25-Aug-2020 12:53:22 INFO Inserido dia 25 no diário.
+25-Aug-2020 12:53:24 INFO Marcando presença para os estudantes.
+25-Aug-2020 12:53:25 INFO Temos 1 ausência(s) nesta data:
+25-Aug-2020 12:53:25 INFO Inserida ausência para estudante num 8.
+25-Aug-2020 12:53:26 INFO Preenchimento do diário efetuado com sucesso!
+25-Aug-2020 12:53:28 INFO Inserindo 1a ausência de 1 no diário 3AFIS ...
+25-Aug-2020 12:53:29 INFO Inseriu data 25/08/2020.
+25-Aug-2020 12:53:31 INFO Inseriu turma Terceira Série / 2M3A / Manhã.
+25-Aug-2020 12:53:32 INFO Inseriu disciplina Física / Pedro Pompermayer Bittencourt.
+25-Aug-2020 12:53:33 INFO Inseriu estudante 8 Gabriel Elias Louzada Gonçalves.
+25-Aug-2020 12:53:34 INFO Inseriu ocorrência: ausente na aula síncrona (P).
+25-Aug-2020 12:53:36 INFO Ausência adicionada!
+25-Aug-2020 12:53:37 INFO Preenchendo diário 3 ...
+25-Aug-2020 12:53:38 INFO Acessou diário da turma 7ADG, mês 8.
+25-Aug-2020 12:53:39 INFO Uma nova data será inserida na coluna 4.
+25-Aug-2020 12:53:39 INFO Inserido dia 25 no diário.
+25-Aug-2020 12:53:40 INFO Marcando presença para os estudantes.
+25-Aug-2020 12:53:43 INFO Preenchimento do diário efetuado com sucesso!
+25-Aug-2020 12:53:44 INFO Preenchendo diário 4 ...
+25-Aug-2020 12:53:44 INFO Acessou diário da turma 8ADG, mês 8.
+25-Aug-2020 12:53:46 INFO Uma nova data será inserida na coluna 4.
+25-Aug-2020 12:53:46 INFO Inserido dia 25 no diário.
+25-Aug-2020 12:53:47 INFO Marcando presença para os estudantes.
+25-Aug-2020 12:53:50 INFO Preenchimento do diário efetuado com sucesso!
+25-Aug-2020 12:53:51 INFO PROCESSO FINALIZADO!
+========================================
