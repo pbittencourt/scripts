@@ -23,12 +23,17 @@ try:
             sleep(30)
             pomodoro_time -= 30
 
-        # avisa que o pomodoro acabou com alerta sonoro
-        # (futuramente notificação tb!)
-        Popen(['aplay', '-q', 'alert.wav'])
+        if pomodoro % 4 > 0:
+            time_pause = short_break
+            message = 'Hora de uma pausa curta!'
+        else:
+            time_pause = long_break
+            message = 'Hora uma pausa longa!'
 
-        # pausa longa após 4 pomodoros
-        time_pause = short_break if pomodoro % 4 > 0 else long_break
+        # avisa que o pomodoro acabou
+        Popen(['aplay', '-q', 'alert.wav'])
+        Popen(['notify-send', '-t', '3500', 'TOMATO', message])
+
         minutes = str(int(time_pause / 60)).zfill(2)
         seconds = str(time_pause % 60).zfill(2)
         print(f'\nPomodoro nº {pomodoro} finalizado. Tire uma pausa de {minutes}:{seconds}!')
@@ -40,6 +45,10 @@ try:
             print(f'{mins}:{secs}')
             sleep(15)
             time_pause -= 15
+
+        # avisa que a pausa acabou
+        Popen(['aplay', '-q', 'alert.wav'])
+        Popen(['notify-send', '-t', '3500', 'TOMATO', 'Pausa encerrada! Voltando aos trabalhos ...'])
 
         pomodoro_time = 1500
         pomodoro += 1
