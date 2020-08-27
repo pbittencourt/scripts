@@ -302,3 +302,106 @@
 25-Aug-2020 12:53:50 INFO Preenchimento do diário efetuado com sucesso!
 25-Aug-2020 12:53:51 INFO PROCESSO FINALIZADO!
 ========================================
+26-Aug-2020 13:02:35 INFO ACESSO À PÁGINA EFETUADO POR pedro.bittencourt!
+26-Aug-2020 13:02:38 INFO Logou com sucesso!
+26-Aug-2020 13:02:38 INFO Preenchendo diário 1 ...
+26-Aug-2020 13:02:39 INFO Acessou diário da turma 6ADG, mês 8.
+26-Aug-2020 13:02:40 INFO Uma nova data será inserida na coluna 4.
+26-Aug-2020 13:02:40 INFO Inserido dia 26 no diário.
+26-Aug-2020 13:02:41 INFO Marcando presença para os estudantes.
+26-Aug-2020 13:02:44 INFO Preenchimento do diário efetuado com sucesso!
+26-Aug-2020 13:02:45 INFO Preenchendo diário 2 ...
+26-Aug-2020 13:02:45 INFO Acessou diário da turma 6BDG, mês 8.
+26-Aug-2020 13:02:47 INFO Uma nova data será inserida na coluna 4.
+26-Aug-2020 13:02:47 INFO Inserido dia 26 no diário.
+26-Aug-2020 13:02:48 INFO Marcando presença para os estudantes.
+26-Aug-2020 13:02:49 INFO Temos 4 ausência(s) nesta data:
+26-Aug-2020 13:02:49 INFO Inserida ausência para estudante num 1.
+26-Aug-2020 13:02:49 INFO Inserida ausência para estudante num 2.
+26-Aug-2020 13:02:50 INFO Inserida ausência para estudante num 9.
+26-Aug-2020 13:02:50 INFO Inserida ausência para estudante num 13.
+26-Aug-2020 13:02:51 INFO Preenchimento do diário efetuado com sucesso!
+26-Aug-2020 13:02:53 INFO Inserindo 1a ausência de 4 no diário 6BDG ...
+26-Aug-2020 13:02:55 INFO Inseriu data 26/08/2020.
+26-Aug-2020 13:02:56 INFO Inseriu turma Sexto Ano / 1M6B / Manhã.
+26-Aug-2020 13:02:57 INFO Inseriu disciplina Desenho Geométrico / Pedro Pompermayer Bittencourt.
+26-Aug-2020 13:02:58 INFO Inseriu estudante 1 Alexandre Cavalcante Ribeiro.
+26-Aug-2020 13:03:00 INFO Inseriu ocorrência: ausente na aula síncrona (P).
+26-Aug-2020 13:03:02 INFO Ausência adicionada!
+26-Aug-2020 13:03:03 INFO Inserindo 2a ausência de 4 no diário 6BDG ...
+26-Aug-2020 13:03:05 INFO Inseriu data 26/08/2020.
+26-Aug-2020 13:03:06 INFO Inseriu turma Sexto Ano / 1M6B / Manhã.
+26-Aug-2020 13:03:08 INFO Inseriu disciplina Desenho Geométrico / Pedro Pompermayer Bittencourt.
+26-Aug-2020 13:03:09 INFO Inseriu estudante 2 Enzo de Lima.
+26-Aug-2020 13:03:10 INFO Inseriu ocorrência: ausente na aula síncrona (P).
+26-Aug-2020 13:03:12 INFO Ausência adicionada!
+26-Aug-2020 13:03:14 INFO Inserindo 3a ausência de 4 no diário 6BDG ...
+26-Aug-2020 13:03:15 INFO Inseriu data 26/08/2020.
+26-Aug-2020 13:03:17 INFO Inseriu turma Sexto Ano / 1M6B / Manhã.
+26-Aug-2020 13:03:18 INFO Inseriu disciplina Desenho Geométrico / Pedro Pompermayer Bittencourt.
+26-Aug-2020 13:03:19 INFO Inseriu estudante 9 Marcos Vinícios de Luna.
+26-Aug-2020 13:03:20 INFO Inseriu ocorrência: ausente na aula síncrona (P).
+26-Aug-2020 13:03:22 INFO Ausência adicionada!
+26-Aug-2020 13:03:24 INFO Inserindo 4a ausência de 4 no diário 6BDG ...
+26-Aug-2020 13:03:26 INFO Inseriu data 26/08/2020.
+26-Aug-2020 13:03:27 INFO Inseriu turma Sexto Ano / 1M6B / Manhã.
+26-Aug-2020 13:03:29 INFO Inseriu disciplina Desenho Geométrico / Pedro Pompermayer Bittencourt.
+26-Aug-2020 13:03:30 INFO Inseriu estudante 13 Pedro Cezar Sousa da Costa.
+26-Aug-2020 13:03:31 INFO Inseriu ocorrência: ausente na aula síncrona (P).
+26-Aug-2020 13:03:33 INFO Ausência adicionada!
+26-Aug-2020 13:03:34 INFO Preenchendo diário 3 ...
+26-Aug-2020 13:03:34 INFO Acessou diário da turma 9ADG, mês 8.
+26-Aug-2020 13:03:36 INFO Uma nova data será inserida na coluna 4.
+26-Aug-2020 13:03:36 INFO Inserido dia 26 no diário.
+26-Aug-2020 13:03:37 INFO Marcando presença para os estudantes.
+26-Aug-2020 13:03:39 INFO Preenchimento do diário efetuado com sucesso!
+26-Aug-2020 13:03:40 INFO Preenchendo diário 4 ...
+26-Aug-2020 13:03:41 INFO Acessou diário da turma 2AFIS, mês 8.
+26-Aug-2020 13:03:42 INFO Uma nova data será inserida na coluna 6.
+26-Aug-2020 13:03:42 INFO Inserido dia 26 no diário.
+26-Aug-2020 13:03:44 INFO Marcando presença para os estudantes.
+26-Aug-2020 13:03:46 INFO Preenchimento do diário efetuado com sucesso!
+26-Aug-2020 13:03:47 INFO PROCESSO FINALIZADO!
+========================================
+27-Aug-2020 10:49:39 INFO ACESSO À PÁGINA EFETUADO POR pedro.bittencourt!
+27-Aug-2020 10:49:43 INFO Logou com sucesso!
+27-Aug-2020 10:49:43 INFO Preenchendo diário 1 ...
+27-Aug-2020 10:49:44 INFO Acessou diário da turma 3AFIS, mês 8.
+27-Aug-2020 10:49:45 INFO Uma nova data será inserida na coluna 7.
+27-Aug-2020 10:49:45 INFO Inserido dia 27 no diário.
+27-Aug-2020 10:49:47 INFO Marcando presença para os estudantes.
+27-Aug-2020 10:49:48 INFO Temos 2 ausência(s) nesta data:
+27-Aug-2020 10:49:48 INFO Inserida ausência para estudante num 6.
+27-Aug-2020 10:49:48 INFO Inserida ausência para estudante num 8.
+27-Aug-2020 10:49:49 INFO Preenchimento do diário efetuado com sucesso!
+27-Aug-2020 10:49:51 INFO Inserindo 1a ausência de 2 no diário 3AFIS ...
+27-Aug-2020 10:49:52 INFO Inseriu data 27/08/2020.
+27-Aug-2020 10:49:54 INFO Inseriu turma Terceira Série / 2M3A / Manhã.
+27-Aug-2020 10:49:55 INFO Inseriu disciplina Física / Pedro Pompermayer Bittencourt.
+27-Aug-2020 10:49:56 INFO Inseriu estudante 6 Livia Borges Tagliapietra.
+27-Aug-2020 10:49:58 INFO Inseriu ocorrência: ausente na aula síncrona (P).
+27-Aug-2020 10:49:59 INFO Ausência adicionada!
+27-Aug-2020 10:50:01 INFO Inserindo 2a ausência de 2 no diário 3AFIS ...
+27-Aug-2020 10:50:02 INFO Inseriu data 27/08/2020.
+27-Aug-2020 10:50:04 INFO Inseriu turma Terceira Série / 2M3A / Manhã.
+27-Aug-2020 10:50:05 INFO Inseriu disciplina Física / Pedro Pompermayer Bittencourt.
+27-Aug-2020 10:50:06 INFO Inseriu estudante 8 Gabriel Elias Louzada Gonçalves.
+27-Aug-2020 10:50:07 INFO Inseriu ocorrência: ausente na aula síncrona (P).
+27-Aug-2020 10:50:09 INFO Ausência adicionada!
+27-Aug-2020 10:50:10 INFO Preenchendo diário 2 ...
+27-Aug-2020 10:50:11 INFO Acessou diário da turma 1AFIS, mês 8.
+27-Aug-2020 10:50:12 INFO Uma nova data será inserida na coluna 7.
+27-Aug-2020 10:50:13 INFO Inserido dia 27 no diário.
+27-Aug-2020 10:50:14 INFO Marcando presença para os estudantes.
+27-Aug-2020 10:50:15 INFO Temos 1 ausência(s) nesta data:
+27-Aug-2020 10:50:15 INFO Inserida ausência para estudante num 9.
+27-Aug-2020 10:50:16 INFO Preenchimento do diário efetuado com sucesso!
+27-Aug-2020 10:50:18 INFO Inserindo 1a ausência de 1 no diário 1AFIS ...
+27-Aug-2020 10:50:19 INFO Inseriu data 27/08/2020.
+27-Aug-2020 10:50:21 INFO Inseriu turma Primeira Série / 2M1A / Manhã.
+27-Aug-2020 10:50:22 INFO Inseriu disciplina Física / Pedro Pompermayer Bittencourt.
+27-Aug-2020 10:50:23 INFO Inseriu estudante 9 Rayane Lucena de Carvalho.
+27-Aug-2020 10:50:25 INFO Inseriu ocorrência: ausente na aula síncrona (P).
+27-Aug-2020 10:50:26 INFO Ausência adicionada!
+27-Aug-2020 10:50:27 INFO PROCESSO FINALIZADO!
+========================================

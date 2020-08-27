@@ -81,43 +81,52 @@ def double_menu(x, y1, y2, msg):
     print(msg)
 
 
+def bp(i):
+    """ Color positions, based on 'black' """
+    return 1015 + 30 * i
+
+
 combination_to_function = {
     # Create a mapping of keys to function (use frozenset
     # as sets/lists are not hashable - so they can't be
     # used as keys)
 
     # INK COLORS
+    # based on 'bp', ie, the position of black color
     frozenset([KeyCode(vk=114)]): [  # R
-        single_menu, [1210, 'ink_red']
+        single_menu, [bp(6), 'ink_red']
     ],
     frozenset([KeyCode(vk=103)]): [  # G
-        single_menu, [1060, 'ink_green']
+        single_menu, [bp(1), 'ink_green']
     ],
     frozenset([KeyCode(vk=98)]): [  # B
-        single_menu, [1150, 'ink_blue']
+        single_menu, [bp(4), 'ink_blue']
     ],
 
     frozenset([KeyCode(vk=107)]): [  # K
-        single_menu, [1030, 'ink_black']
+        single_menu, [bp(0), 'ink_black']
     ],
     frozenset([KeyCode(vk=108)]): [  # L
-        single_menu, [1180, 'ink_grey']
+        single_menu, [bp(5), 'ink_grey']
     ],
 
     frozenset([Key.ctrl, KeyCode(vk=114)]): [  # Ctrl + R
-        single_menu, [1240, 'ink_pink']
+        single_menu, [bp(7), 'ink_pink']
     ],
     frozenset([Key.ctrl, KeyCode(vk=103)]): [  # Ctrl + G
-        single_menu, [1120, 'ink_light_green']
+        single_menu, [bp(3), 'ink_light_green']
     ],
     frozenset([Key.ctrl, KeyCode(vk=98)]): [  # Ctrl + B
-        single_menu, [1090, 'ink_light_blue']
+        single_menu, [bp(2), 'ink_light_blue']
     ],
     frozenset([KeyCode(vk=111)]): [  # O
-        single_menu, [1270, 'ink_orange']
+        single_menu, [bp(8), 'ink_orange']
     ],
     frozenset([KeyCode(vk=121)]): [  # Y
-        single_menu, [1300, 'ink_yellow']
+        single_menu, [bp(9), 'ink_yellow']
+    ],
+    frozenset([KeyCode(vk=119)]): [  # W
+        single_menu, [bp(10), 'ink_white']
     ],
 
     # STROKE FORMATS
@@ -144,6 +153,9 @@ combination_to_function = {
     frozenset([KeyCode(vk=104)]): [  # H
         single_menu, [480, 'highlighter']
     ],
+    frozenset([KeyCode(vk=109)]): [  # M
+        single_menu, [800, 'move']
+    ],
 
     frozenset([KeyCode(vk=231)]): [  # ç
         double_menu, [660, 50, 70, 'rectangle']
@@ -165,13 +177,13 @@ combination_to_function = {
 
     # THICKNESS
     frozenset([KeyCode(vk=48)]): [  # )
-        single_menu, [810, 'thickness light']
+        single_menu, [850, 'thickness light']
     ],
     frozenset([KeyCode(vk=45)]): [  # -
-        single_menu, [844, 'thickness medium']
+        single_menu, [890, 'thickness medium']
     ],
     frozenset([KeyCode(vk=61)]): [  # +
-        single_menu, [877, 'thickness strong']
+        single_menu, [930, 'thickness strong']
     ],
 }
 
