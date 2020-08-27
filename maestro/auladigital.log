@@ -442,3 +442,16 @@
 22-Aug-2020 13:43:27 INFO Inserindo registro 1 ...
 22-Aug-2020 13:43:27 ERROR Não foi possível continuar devido ao seguinte problema: {msg}.
 22-Aug-2020 13:43:27 INFO O programa será encerrado agora. Verifique o registro para detalhes!
+27-Aug-2020 11:57:57 INFO ACESSO À PÁGINA EFETUADO POR pedrogabrieltt@gmail.com!
+27-Aug-2020 11:58:08 INFO Logou com sucesso!
+27-Aug-2020 11:58:12 INFO Página de aula digital acessada.
+27-Aug-2020 11:58:27 INFO Perfil de professor selecionado.
+27-Aug-2020 11:58:34 INFO Inserindo registro 1 ...
+27-Aug-2020 11:58:34 WARNING Retrying (Retry(total=2, connect=None, read=None, redirect=None, status=None)) after connection broken by 'NewConnectionError('<urllib3.connection.HTTPConnection object at 0x7f17e349ec88>: Failed to establish a new connection: [Errno 111] Connection refused',)': /session/59bb6223ba95017169b5d283a4695f5d/element
+27-Aug-2020 11:58:34 WARNING Retrying (Retry(total=1, connect=None, read=None, redirect=None, status=None)) after connection broken by 'NewConnectionError('<urllib3.connection.HTTPConnection object at 0x7f17e34b92b0>: Failed to establish a new connection: [Errno 111] Connection refused',)': /session/59bb6223ba95017169b5d283a4695f5d/element
+27-Aug-2020 11:58:34 WARNING Retrying (Retry(total=0, connect=None, read=None, redirect=None, status=None)) after connection broken by 'NewConnectionError('<urllib3.connection.HTTPConnection object at 0x7f17e34b9470>: Failed to establish a new connection: [Errno 111] Connection refused',)': /session/59bb6223ba95017169b5d283a4695f5d/element
+27-Aug-2020 11:58:34 ERROR Não foi possível continuar devido ao seguinte problema: não foi possível abrir o menu de séries.
+27-Aug-2020 11:58:34 INFO O programa será encerrado agora. Verifique o registro para detalhes!
+27-Aug-2020 11:58:34 WARNING Retrying (Retry(total=2, connect=None, read=None, redirect=None, status=None)) after connection broken by 'NewConnectionError('<urllib3.connection.HTTPConnection object at 0x7f17e34b9320>: Failed to establish a new connection: [Errno 111] Connection refused',)': /session/59bb6223ba95017169b5d283a4695f5d
+27-Aug-2020 11:58:34 WARNING Retrying (Retry(total=1, connect=None, read=None, redirect=None, status=None)) after connection broken by 'NewConnectionError('<urllib3.connection.HTTPConnection object at 0x7f17e34b98d0>: Failed to establish a new connection: [Errno 111] Connection refused',)': /session/59bb6223ba95017169b5d283a4695f5d
+27-Aug-2020 11:58:34 WARNING Retrying (Retry(total=0, connect=None, read=None, redirect=None, status=None)) after connection broken by 'NewConnectionError('<urllib3.connection.HTTPConnection object at 0x7f17e34b99b0>: Failed to establish a new connection: [Errno 111] Connection refused',)': /session/59bb6223ba95017169b5d283a4695f5d

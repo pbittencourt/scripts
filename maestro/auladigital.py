@@ -123,13 +123,21 @@ if login(username, password):
     logger.info('Página de aula digital acessada.')
     sleep(15)
 
-    # seleciona perfil de professor 
+    # verifica existência de popup para seleção de perfil
     try:
-        driver.find_element_by_xpath("//*[@aria-label = 'Professor']").click()
-        logger.info('Perfil de professor selecionado.')
+        driver.find_element_by_xpath("//*[@aria-label = 'perfil']")
+        profile = True
     except:
-        errorquit('não foi possível selecionar perfil de professor')
-    sleep(10)
+        profile = False
+
+    if profile:
+        # seleciona perfil de professor 
+        try:
+            driver.find_element_by_xpath("//*[@aria-label = 'Professor']").click()
+            logger.info('Perfil de professor selecionado.')
+        except:
+            errorquit('não foi possível selecionar perfil de professor')
+        sleep(10)
 
     # le csv contendo aulas para criar
     with open(os.getcwd() + '/auladigital.csv') as file:
