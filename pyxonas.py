@@ -17,6 +17,7 @@ https://www.reddit.com/r/learnpython/comments/h1457d/execute_function_via_dictio
 from pynput.keyboard import Key, KeyCode, Listener
 from pynput.mouse import Button, Controller
 from time import sleep
+from subprocess import check_output
 
 
 def get_vk(key):
@@ -60,25 +61,37 @@ def on_release(key):
         return False
 
 
+def isxournal():
+    """ Check if xournal is active window """
+    active = check_output(['xdotool', 'getwindowfocus', 'getwindowname'])
+    active = active.decode('utf-8')
+    active = active.strip()
+    active = active[-9:]
+    if active == 'Xournal++':
+        return True
+    return False
+
+
 def single_menu(x, msg):
     """ Press only one button """
-    mouse.position = (x, 45)
-    mouse.click(Button.left, 1)
-    print(msg)
-    pass
+    if isxournal():
+        mouse.position = (x, 45)
+        mouse.click(Button.left, 1)
+        print(msg)
 
 
 def double_menu(x, y1, y2, msg):
     """ Open a dropdown menu and then select a tool """
-    # click on arrow to open menu
-    mouse.position = (x, y1)
-    mouse.click(Button.left, 1)
-    sleep(0.25)
+    if isxournal():
+        # click on arrow to open menu
+        mouse.position = (x, y1)
+        mouse.click(Button.left, 1)
+        sleep(0.25)
 
-    # select tool
-    mouse.position = (x, y2)
-    mouse.click(Button.left, 1)
-    print(msg)
+        # select tool
+        mouse.position = (x, y2)
+        mouse.click(Button.left, 1)
+        print(msg)
 
 
 def bp(i):
@@ -113,7 +126,7 @@ combination_to_function = {
     frozenset([Key.ctrl, KeyCode(vk=114)]): [  # Ctrl + R
         single_menu, [bp(7), 'ink_pink']
     ],
-    frozenset([Key.ctrl, KeyCode(vk=103)]): [  # Ctrl + G
+    frozenset([Key.ctrl, KeyCode(vk=106)]): [  # Ctrl + J
         single_menu, [bp(3), 'ink_light_green']
     ],
     frozenset([Key.ctrl, KeyCode(vk=98)]): [  # Ctrl + B
