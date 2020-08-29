@@ -455,3 +455,137 @@
 27-Aug-2020 11:58:34 WARNING Retrying (Retry(total=2, connect=None, read=None, redirect=None, status=None)) after connection broken by 'NewConnectionError('<urllib3.connection.HTTPConnection object at 0x7f17e34b9320>: Failed to establish a new connection: [Errno 111] Connection refused',)': /session/59bb6223ba95017169b5d283a4695f5d
 27-Aug-2020 11:58:34 WARNING Retrying (Retry(total=1, connect=None, read=None, redirect=None, status=None)) after connection broken by 'NewConnectionError('<urllib3.connection.HTTPConnection object at 0x7f17e34b98d0>: Failed to establish a new connection: [Errno 111] Connection refused',)': /session/59bb6223ba95017169b5d283a4695f5d
 27-Aug-2020 11:58:34 WARNING Retrying (Retry(total=0, connect=None, read=None, redirect=None, status=None)) after connection broken by 'NewConnectionError('<urllib3.connection.HTTPConnection object at 0x7f17e34b99b0>: Failed to establish a new connection: [Errno 111] Connection refused',)': /session/59bb6223ba95017169b5d283a4695f5d
+29-Aug-2020 11:48:06 INFO ACESSO À PÁGINA EFETUADO POR pedrogabrieltt@gmail.com!
+29-Aug-2020 11:48:17 INFO Logou com sucesso!
+29-Aug-2020 11:48:24 INFO Página de aula digital acessada.
+29-Aug-2020 11:48:39 INFO Perfil de professor selecionado.
+29-Aug-2020 11:48:49 INFO Inserindo registro 1 ...
+29-Aug-2020 11:48:53 INFO Selecionou a série 1ª Série EM.
+29-Aug-2020 11:48:59 INFO Selecinou a disciplina 1º MÉDIO 2020-Matemática.
+29-Aug-2020 11:49:03 INFO Clicou em criar nova aula.
+29-Aug-2020 11:49:08 INFO Inseriu título da aula: 1EM_GMT Aula 31-08-2020.
+29-Aug-2020 11:49:10 INFO Inseriu a data 31/08/2020.
+29-Aug-2020 11:49:13 INFO Inseriu o horário 09:00.
+29-Aug-2020 11:49:15 INFO Aula adicionada com sucesso!
+29-Aug-2020 11:49:45 INFO Inserindo registro 2 ...
+29-Aug-2020 11:49:48 INFO Selecionou a série 3ª Série EM.
+29-Aug-2020 11:49:54 INFO Selecinou a disciplina 3º MÉDIO 2020-Matemática.
+29-Aug-2020 11:49:58 INFO Clicou em criar nova aula.
+29-Aug-2020 11:50:02 INFO Inseriu título da aula: 3EM_GMT Aula 31-08-2020.
+29-Aug-2020 11:50:05 INFO Inseriu a data 31/08/2020.
+29-Aug-2020 11:50:08 INFO Inseriu o horário 10:00.
+29-Aug-2020 11:50:10 INFO Aula adicionada com sucesso!
+29-Aug-2020 11:50:40 INFO Inserindo registro 3 ...
+29-Aug-2020 11:50:43 INFO Selecionou a série 2ª Série EM.
+29-Aug-2020 11:50:48 INFO Selecinou a disciplina 2º MÉDIO 2020-Matemática.
+29-Aug-2020 11:50:52 INFO Clicou em criar nova aula.
+29-Aug-2020 11:50:56 INFO Inseriu título da aula: 2EM_GMT Aula 31-08-2020.
+29-Aug-2020 11:50:59 INFO Inseriu a data 31/08/2020.
+29-Aug-2020 11:51:02 INFO Inseriu o horário 11:00.
+29-Aug-2020 11:51:04 INFO Aula adicionada com sucesso!
+29-Aug-2020 11:51:34 INFO Inserindo registro 4 ...
+29-Aug-2020 11:51:37 INFO Selecionou a série 7º Ano EF.
+29-Aug-2020 11:51:43 INFO Selecinou a disciplina 7º ANO 2020-Desenho Geométrico.
+29-Aug-2020 11:51:47 INFO Clicou em criar nova aula.
+29-Aug-2020 11:51:51 INFO Inseriu título da aula: 7EF_DG Aula 01-09-2020.
+29-Aug-2020 11:51:54 INFO Inseriu a data 01/09/2020.
+29-Aug-2020 11:51:56 INFO Inseriu o horário 09:00.
+29-Aug-2020 11:51:59 INFO Aula adicionada com sucesso!
+29-Aug-2020 11:52:29 INFO Inserindo registro 5 ...
+29-Aug-2020 11:52:31 INFO Selecionou a série 8º Ano EF.
+29-Aug-2020 11:52:37 INFO Selecinou a disciplina 8º ANO 2020-Desenho Geométrico.
+29-Aug-2020 11:52:41 INFO Clicou em criar nova aula.
+29-Aug-2020 11:52:45 INFO Inseriu título da aula: 8EF_DG Aula 01-09-2020.
+29-Aug-2020 11:52:48 INFO Inseriu a data 01/09/2020.
+29-Aug-2020 11:52:51 INFO Inseriu o horário 10:00.
+29-Aug-2020 11:52:53 INFO Aula adicionada com sucesso!
+29-Aug-2020 11:53:23 INFO Inserindo registro 6 ...
+29-Aug-2020 11:53:26 INFO Selecionou a série 3ª Série EM.
+29-Aug-2020 11:53:32 INFO Selecinou a disciplina 3º MÉDIO 2020-Física.
+29-Aug-2020 11:53:35 INFO Clicou em criar nova aula.
+29-Aug-2020 11:53:40 INFO Inseriu título da aula: 3EM_FIS Aula 01-09-2020.
+29-Aug-2020 11:53:43 INFO Inseriu a data 01/09/2020.
+29-Aug-2020 11:53:45 INFO Inseriu o horário 11:00.
+29-Aug-2020 11:53:48 INFO Aula adicionada com sucesso!
+29-Aug-2020 11:54:18 INFO Inserindo registro 7 ...
+29-Aug-2020 11:54:21 INFO Selecionou a série 1ª Série EM.
+29-Aug-2020 11:54:26 INFO Selecinou a disciplina 1º MÉDIO 2020-Física.
+29-Aug-2020 11:54:30 INFO Clicou em criar nova aula.
+29-Aug-2020 11:54:34 INFO Inseriu título da aula: 1EM_FIS Aula 01-09-2020.
+29-Aug-2020 11:54:37 INFO Inseriu a data 01/09/2020.
+29-Aug-2020 11:54:40 INFO Inseriu o horário 12:00.
+29-Aug-2020 11:54:43 INFO Aula adicionada com sucesso!
+29-Aug-2020 11:55:13 INFO Inserindo registro 8 ...
+29-Aug-2020 11:55:15 INFO Selecionou a série 6º Ano EF.
+29-Aug-2020 11:55:21 INFO Selecinou a disciplina 6º ANO A-Desenho Geométrico.
+29-Aug-2020 11:55:25 INFO Clicou em criar nova aula.
+29-Aug-2020 11:55:29 INFO Inseriu título da aula: 6AB_DG Aula 02-09-2020.
+29-Aug-2020 11:55:33 INFO Inseriu a data 02/09/2020.
+29-Aug-2020 11:55:36 INFO Inseriu o horário 09:00.
+29-Aug-2020 11:55:38 INFO Aula adicionada com sucesso!
+29-Aug-2020 11:56:08 INFO Inserindo registro 9 ...
+29-Aug-2020 11:56:11 INFO Selecionou a série 6º Ano EF.
+29-Aug-2020 11:56:18 INFO Selecinou a disciplina 6º ANO B-Desenho Geométrico.
+29-Aug-2020 11:56:22 INFO Clicou em criar nova aula.
+29-Aug-2020 11:56:26 INFO Inseriu título da aula: 6AB_DG Aula 02-09-2020.
+29-Aug-2020 11:56:29 INFO Inseriu a data 02/09/2020.
+29-Aug-2020 11:56:33 INFO Inseriu o horário 10:00.
+29-Aug-2020 11:56:35 INFO Aula adicionada com sucesso!
+29-Aug-2020 11:57:05 INFO Inserindo registro 10 ...
+29-Aug-2020 11:57:08 INFO Selecionou a série 2ª Série EM.
+29-Aug-2020 11:57:13 INFO Selecinou a disciplina 2º MÉDIO 2020-Física.
+29-Aug-2020 11:57:17 INFO Clicou em criar nova aula.
+29-Aug-2020 11:57:21 INFO Inseriu título da aula: 2EM_FIS Aula 02-09-2020.
+29-Aug-2020 11:57:24 INFO Inseriu a data 02/09/2020.
+29-Aug-2020 11:57:28 INFO Inseriu o horário 11:00.
+29-Aug-2020 11:57:30 INFO Aula adicionada com sucesso!
+29-Aug-2020 11:58:00 INFO Inserindo registro 11 ...
+29-Aug-2020 11:58:03 INFO Selecionou a série 9º Ano EF.
+29-Aug-2020 11:58:08 INFO Selecinou a disciplina 9º ANO 2020-Desenho Geométrico.
+29-Aug-2020 11:58:12 INFO Clicou em criar nova aula.
+29-Aug-2020 11:58:17 INFO Inseriu título da aula: 9EF_DG Aula 02-09-2020.
+29-Aug-2020 11:58:20 INFO Inseriu a data 02/09/2020.
+29-Aug-2020 11:58:23 INFO Inseriu o horário 12:00.
+29-Aug-2020 11:58:25 INFO Aula adicionada com sucesso!
+29-Aug-2020 11:58:55 INFO Inserindo registro 12 ...
+29-Aug-2020 11:58:58 INFO Selecionou a série 3ª Série EM.
+29-Aug-2020 11:59:04 INFO Selecinou a disciplina 3º MÉDIO 2020-Física.
+29-Aug-2020 11:59:08 INFO Clicou em criar nova aula.
+29-Aug-2020 11:59:12 INFO Inseriu título da aula: 3EM_FIS Aula 03-09-2020.
+29-Aug-2020 11:59:16 INFO Inseriu a data 03/09/2020.
+29-Aug-2020 11:59:19 INFO Inseriu o horário 09:00.
+29-Aug-2020 11:59:21 INFO Aula adicionada com sucesso!
+29-Aug-2020 11:59:51 INFO Inserindo registro 13 ...
+29-Aug-2020 11:59:54 INFO Selecionou a série 1ª Série EM.
+29-Aug-2020 12:00:00 INFO Selecinou a disciplina 1º MÉDIO 2020-Física.
+29-Aug-2020 12:00:05 INFO Clicou em criar nova aula.
+29-Aug-2020 12:00:11 INFO Inseriu título da aula: 1EM_FIS Aula 03-09-2020.
+29-Aug-2020 12:00:15 INFO Inseriu a data 03/09/2020.
+29-Aug-2020 12:00:18 INFO Inseriu o horário 10:00.
+29-Aug-2020 12:00:20 INFO Aula adicionada com sucesso!
+29-Aug-2020 12:00:50 INFO Inserindo registro 14 ...
+29-Aug-2020 12:00:53 INFO Selecionou a série 8º Ano EF.
+29-Aug-2020 12:00:59 INFO Selecinou a disciplina 8º ANO 2020-Física.
+29-Aug-2020 12:01:03 INFO Clicou em criar nova aula.
+29-Aug-2020 12:01:07 INFO Inseriu título da aula: 8EF_FIS Aula 04-09-2020.
+29-Aug-2020 12:01:10 INFO Inseriu a data 04/09/2020.
+29-Aug-2020 12:01:14 INFO Inseriu o horário 09:00.
+29-Aug-2020 12:01:16 INFO Aula adicionada com sucesso!
+29-Aug-2020 12:01:46 INFO Inserindo registro 15 ...
+29-Aug-2020 12:01:49 INFO Selecionou a série 2ª Série EM.
+29-Aug-2020 12:01:55 INFO Selecinou a disciplina 2º MÉDIO 2020-Física.
+29-Aug-2020 12:01:59 INFO Clicou em criar nova aula.
+29-Aug-2020 12:02:03 INFO Inseriu título da aula: 2EM_FIS Aula 04-09-2020.
+29-Aug-2020 12:02:07 INFO Inseriu a data 04/09/2020.
+29-Aug-2020 12:02:10 INFO Inseriu o horário 10:00.
+29-Aug-2020 12:02:12 INFO Aula adicionada com sucesso!
+29-Aug-2020 12:02:42 INFO Inserindo registro 16 ...
+29-Aug-2020 12:02:45 INFO Selecionou a série 9º Ano EF.
+29-Aug-2020 12:02:51 INFO Selecinou a disciplina 9º ANO 2020-Física.
+29-Aug-2020 12:02:55 INFO Clicou em criar nova aula.
+29-Aug-2020 12:02:59 INFO Inseriu título da aula: 9EF_FIS Aula 04-09-2020.
+29-Aug-2020 12:03:03 INFO Inseriu a data 04/09/2020.
+29-Aug-2020 12:03:06 INFO Inseriu o horário 11:00.
+29-Aug-2020 12:03:09 INFO Aula adicionada com sucesso!
+29-Aug-2020 12:03:39 INFO PROCESSO FINALIZADO!
+========================================

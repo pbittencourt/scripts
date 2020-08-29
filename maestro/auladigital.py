@@ -112,7 +112,7 @@ disciplinas = {
 logging.basicConfig(level=logging.INFO,
                    format='%(asctime)s %(levelname)s %(message)s',
                    datefmt='%d-%b-%Y %H:%M:%S',
-                   filename=os.getcwd() + '/auladigital.log',
+                   filename='./auladigital.log',
                    filemode='a')
 # create logger object
 logger = logging.getLogger()
@@ -140,7 +140,7 @@ username = str(input('Usuário: _ '))
 password = getpass.getpass('Senha: _ ')
 
 # inicializa driver
-driver = webdriver.Chrome(executable_path=os.getcwd() + r'/../drivers/chromedriver')
+driver = webdriver.Chrome(executable_path=r'./../drivers/chromedriver')
 
 # verifica login
 if login(username, password):
@@ -167,7 +167,7 @@ if login(username, password):
         sleep(10)
 
     # le csv contendo aulas para criar
-    with open(os.getcwd() + '/auladigital.csv') as file:
+    with open('./auladigital.csv') as file:
         handle = reader(file)
         line_count = 0
         for row in handle:
