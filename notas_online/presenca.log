@@ -445,3 +445,59 @@
 28-Aug-2020 11:58:01 INFO Ausência adicionada!
 28-Aug-2020 11:58:02 INFO PROCESSO FINALIZADO!
 ========================================
+31-Aug-2020 12:58:53 INFO ACESSO À PÁGINA EFETUADO POR pedro.bittencourt!
+31-Aug-2020 12:58:56 INFO Logou com sucesso!
+31-Aug-2020 12:58:56 INFO Preenchendo diário 1 ...
+31-Aug-2020 12:58:57 INFO Acessou diário da turma 1AGMT, mês 8.
+31-Aug-2020 12:58:58 INFO Uma nova data será inserida na coluna 5.
+31-Aug-2020 12:58:58 INFO Inserido dia 31 no diário.
+31-Aug-2020 12:58:59 INFO Marcando presença para os estudantes.
+31-Aug-2020 12:59:00 INFO Temos 3 ausência(s) nesta data:
+31-Aug-2020 12:59:01 INFO Inserida ausência para estudante num 5.
+31-Aug-2020 12:59:01 INFO Inserida ausência para estudante num 8.
+31-Aug-2020 12:59:01 INFO Inserida ausência para estudante num 9.
+31-Aug-2020 12:59:02 INFO Preenchimento do diário efetuado com sucesso!
+31-Aug-2020 12:59:04 INFO Inserindo 1a ausência de 3 no diário 1AGMT ...
+31-Aug-2020 12:59:05 INFO Inseriu data 31/08/2020.
+31-Aug-2020 12:59:07 INFO Inseriu turma Primeira Série / 2M1A / Manhã.
+31-Aug-2020 12:59:08 INFO Inseriu disciplina Geometria / Pedro Pompermayer Bittencourt.
+31-Aug-2020 12:59:10 INFO Inseriu estudante 5 Manuel Augusto Peralta.
+31-Aug-2020 12:59:11 INFO Inseriu ocorrência: ausente na aula síncrona (P).
+31-Aug-2020 12:59:12 INFO Ausência adicionada!
+31-Aug-2020 12:59:14 INFO Inserindo 2a ausência de 3 no diário 1AGMT ...
+31-Aug-2020 12:59:16 INFO Inseriu data 31/08/2020.
+31-Aug-2020 12:59:17 INFO Inseriu turma Primeira Série / 2M1A / Manhã.
+31-Aug-2020 12:59:19 INFO Inseriu disciplina Geometria / Pedro Pompermayer Bittencourt.
+31-Aug-2020 12:59:20 INFO Inseriu estudante 8 Rafael Santos Mendes.
+31-Aug-2020 12:59:21 INFO Inseriu ocorrência: ausente na aula síncrona (P).
+31-Aug-2020 12:59:22 INFO Ausência adicionada!
+31-Aug-2020 12:59:24 INFO Inserindo 3a ausência de 3 no diário 1AGMT ...
+31-Aug-2020 12:59:26 INFO Inseriu data 31/08/2020.
+31-Aug-2020 12:59:27 INFO Inseriu turma Primeira Série / 2M1A / Manhã.
+31-Aug-2020 12:59:28 INFO Inseriu disciplina Geometria / Pedro Pompermayer Bittencourt.
+31-Aug-2020 12:59:30 INFO Inseriu estudante 9 Rayane Lucena de Carvalho.
+31-Aug-2020 12:59:31 INFO Inseriu ocorrência: ausente na aula síncrona (P).
+31-Aug-2020 12:59:32 INFO Ausência adicionada!
+31-Aug-2020 12:59:33 INFO Preenchendo diário 2 ...
+31-Aug-2020 12:59:34 INFO Acessou diário da turma 3AGMT, mês 8.
+31-Aug-2020 12:59:36 INFO Uma nova data será inserida na coluna 5.
+31-Aug-2020 12:59:36 INFO Inserido dia 31 no diário.
+31-Aug-2020 12:59:37 INFO Marcando presença para os estudantes.
+31-Aug-2020 12:59:38 INFO Temos 1 ausência(s) nesta data:
+31-Aug-2020 12:59:38 INFO Inserida ausência para estudante num 8.
+31-Aug-2020 12:59:39 INFO Preenchimento do diário efetuado com sucesso!
+31-Aug-2020 12:59:41 INFO Inserindo 1a ausência de 1 no diário 3AGMT ...
+31-Aug-2020 12:59:42 INFO Inseriu data 31/08/2020.
+31-Aug-2020 12:59:44 INFO Inseriu turma Terceira Série / 2M3A / Manhã.
+31-Aug-2020 12:59:45 INFO Inseriu disciplina Geometria / Pedro Pompermayer Bittencourt.
+31-Aug-2020 12:59:46 INFO Inseriu estudante 8 Gabriel Elias Louzada Gonçalves.
+31-Aug-2020 12:59:48 INFO Inseriu ocorrência: ausente na aula síncrona (P).
+31-Aug-2020 12:59:49 INFO Ausência adicionada!
+31-Aug-2020 12:59:50 INFO Preenchendo diário 3 ...
+31-Aug-2020 12:59:51 INFO Acessou diário da turma 2AGMT, mês 8.
+31-Aug-2020 12:59:53 INFO Uma nova data será inserida na coluna 5.
+31-Aug-2020 12:59:53 INFO Inserido dia 31 no diário.
+31-Aug-2020 12:59:54 INFO Marcando presença para os estudantes.
+31-Aug-2020 12:59:57 INFO Preenchimento do diário efetuado com sucesso!
+31-Aug-2020 12:59:58 INFO PROCESSO FINALIZADO!
+========================================
