@@ -105,15 +105,20 @@ disciplinas = {
     'QUI': 'Química',
 }
 
+# relative paths
+dirname = os.path.dirname(__file__)
+
 ##############################
 # SETUP LOGGING
 ##############################
 
-logging.basicConfig(level=logging.INFO,
-                   format='%(asctime)s %(levelname)s %(message)s',
-                   datefmt='%d-%b-%Y %H:%M:%S',
-                   filename='./auladigital.log',
-                   filemode='a')
+logging.basicConfig(
+    level=logging.INFO,
+    format='%(asctime)s %(levelname)s %(message)s',
+    datefmt='%d-%b-%Y %H:%M:%S',
+    filename=os.path.join(dirname, 'auladigital.log'),
+    filemode='a'
+)
 # create logger object
 logger = logging.getLogger()
 logger.setLevel(logging.INFO)
@@ -133,6 +138,7 @@ logger.addHandler(console)
 # END OF SETUP LOGGING
 ##############################
 
+# show nice warm hello message!
 title()
 
 # credenciais do usuário
@@ -140,7 +146,8 @@ username = str(input('Usuário: _ '))
 password = getpass.getpass('Senha: _ ')
 
 # inicializa driver
-driver = webdriver.Chrome(executable_path=r'./../drivers/chromedriver')
+driver_path=os.path.join(dirname, r'../drivers/chromedriver')
+driver = webdriver.Chrome(executable_path=driver_path)
 
 # verifica login
 if login(username, password):
@@ -167,7 +174,8 @@ if login(username, password):
         sleep(10)
 
     # le csv contendo aulas para criar
-    with open('./auladigital.csv') as file:
+    csv_path=os.path.join(dirname, 'auladigital.csv')
+    with open(csv_path) as file:
         handle = reader(file)
         line_count = 0
         for row in handle:
