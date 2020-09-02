@@ -556,3 +556,31 @@
 01-Sep-2020 16:37:20 INFO Ausência adicionada!
 01-Sep-2020 16:37:21 INFO PROCESSO FINALIZADO!
 ========================================
+02-Sep-2020 15:57:46 INFO ACESSO À PÁGINA EFETUADO POR pedro.bittencourt!
+02-Sep-2020 15:57:49 INFO Logou com sucesso!
+02-Sep-2020 15:57:49 INFO Preenchendo diário 1 ...
+02-Sep-2020 15:57:50 INFO Acessou diário da turma 6ADG, mês 9.
+02-Sep-2020 15:57:51 INFO Uma nova data será inserida na coluna 1.
+02-Sep-2020 15:57:51 INFO Inserido dia 2 no diário.
+02-Sep-2020 15:57:52 INFO Marcando presença para os estudantes.
+02-Sep-2020 15:57:55 INFO Preenchimento do diário efetuado com sucesso!
+02-Sep-2020 15:57:56 INFO Preenchendo diário 2 ...
+02-Sep-2020 15:57:56 INFO Acessou diário da turma 6BDG, mês 9.
+02-Sep-2020 15:57:57 INFO Uma nova data será inserida na coluna 1.
+02-Sep-2020 15:57:57 INFO Inserido dia 2 no diário.
+02-Sep-2020 15:57:59 INFO Marcando presença para os estudantes.
+02-Sep-2020 15:58:01 INFO Preenchimento do diário efetuado com sucesso!
+02-Sep-2020 15:58:02 INFO Preenchendo diário 3 ...
+02-Sep-2020 15:58:03 INFO Acessou diário da turma 9ADG, mês 9.
+02-Sep-2020 15:58:04 INFO Uma nova data será inserida na coluna 1.
+02-Sep-2020 15:58:04 INFO Inserido dia 2 no diário.
+02-Sep-2020 15:58:05 INFO Marcando presença para os estudantes.
+02-Sep-2020 15:58:08 INFO Preenchimento do diário efetuado com sucesso!
+02-Sep-2020 15:58:09 INFO Preenchendo diário 4 ...
+02-Sep-2020 15:58:09 INFO Acessou diário da turma 2AFIS, mês 9.
+02-Sep-2020 15:58:10 INFO Uma nova data será inserida na coluna 1.
+02-Sep-2020 15:58:10 INFO Inserido dia 2 no diário.
+02-Sep-2020 15:58:11 INFO Marcando presença para os estudantes.
+02-Sep-2020 15:58:14 INFO Preenchimento do diário efetuado com sucesso!
+02-Sep-2020 15:58:15 INFO PROCESSO FINALIZADO!
+========================================
