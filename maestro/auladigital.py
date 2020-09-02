@@ -17,6 +17,7 @@ import logging
 import getpass
 import os
 import sys
+import platform
 
 
 def login(username: str, password: str) -> None:
@@ -105,8 +106,14 @@ disciplinas = {
     'QUI': 'Química',
 }
 
-# relative paths
-dirname = os.path.dirname(__file__)
+# caminho deste arquivo
+abs_path = os.path.abspath(__file__)
+
+# diretório deste arquivo
+file_dir = os.path.dirname(abs_path)
+
+# diretorio parente
+parent_dir = os.path.dirname(file_dir)
 
 ##############################
 # SETUP LOGGING
@@ -116,7 +123,7 @@ logging.basicConfig(
     level=logging.INFO,
     format='%(asctime)s %(levelname)s %(message)s',
     datefmt='%d-%b-%Y %H:%M:%S',
-    filename=os.path.join(dirname, 'auladigital.log'),
+    filename=os.path.join(file_dir, 'auladigital.log'),
     filemode='a'
 )
 # create logger object
@@ -145,8 +152,18 @@ title()
 username = str(input('Usuário: _ '))
 password = getpass.getpass('Senha: _ ')
 
+# o executável do driver depende do SO
+drivers_dir = os.path.join(parent_dir, 'drivers')
+user_os = platform.system()
+if user_os == 'Linux':
+    driver_exe = 'chromedriver'
+elif user_os == 'Windows':
+    driver_exe = 'chromedriver.exe'
+else:
+    pass
+driver_path = os.path.join(drivers_dir, driver_exe)
+
 # inicializa driver
-driver_path=os.path.join(dirname, r'../drivers/chromedriver')
 driver = webdriver.Chrome(executable_path=driver_path)
 
 # verifica login
@@ -174,8 +191,7 @@ if login(username, password):
         sleep(10)
 
     # le csv contendo aulas para criar
-    csv_path=os.path.join(dirname, 'auladigital.csv')
-    with open(csv_path) as file:
+    with open(os.path.join(file_dir, 'auladigital.csv')) as file:
         handle = reader(file)
         line_count = 0
         for row in handle:
