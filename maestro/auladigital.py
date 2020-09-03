@@ -149,8 +149,8 @@ logger.addHandler(console)
 title()
 
 # credenciais do usuário
-username = str(input('\033[1;30;45m [ USUÁRIO ] \033[m \t >>  '))
-password = getpass.getpass('\033[1;30;41m [ SENHA ] \033[m \t >>  ')
+username = str(input('USUÁRIO:\t >>  '))
+password = getpass.getpass('SENHA:\t\t >>  ')
 
 # o executável do driver depende do SO
 drivers_dir = os.path.join(parent_dir, 'drivers')
@@ -271,7 +271,7 @@ if login(username, password):
 
                 # salva a aula
                 try:
-                    #driver.find_element_by_xpath("//*[@ng-click='save()']").click()
+                    driver.find_element_by_xpath("//*[@ng-click='save()']").click()
                     logger.info('Aula adicionada com sucesso!')
                 except:
                     logger.warning('Houve algum erro ao salvar a aula.')
