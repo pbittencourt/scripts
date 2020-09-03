@@ -96,6 +96,7 @@ disciplinas = {
     'DG': 'Desenho Geométrico',
     'FIS': 'Física',
     'GMT': 'Matemática',
+    'MAT': 'Matemática',
     'CIE': 'Ciências',
     'QUI': 'Química',
 }

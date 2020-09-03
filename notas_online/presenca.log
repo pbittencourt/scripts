@@ -584,3 +584,28 @@
 02-Sep-2020 15:58:14 INFO Preenchimento do diário efetuado com sucesso!
 02-Sep-2020 15:58:15 INFO PROCESSO FINALIZADO!
 ========================================
+03-Sep-2020 10:56:59 INFO ACESSO À PÁGINA EFETUADO POR pedro.bittencourt!
+03-Sep-2020 10:57:02 INFO Logou com sucesso!
+03-Sep-2020 10:57:02 INFO Preenchendo diário 1 ...
+03-Sep-2020 10:57:02 INFO Acessou diário da turma 1AFIS, mês 9.
+03-Sep-2020 10:57:04 INFO Uma nova data será inserida na coluna 2.
+03-Sep-2020 10:57:04 INFO Inserido dia 3 no diário.
+03-Sep-2020 10:57:05 INFO Marcando presença para os estudantes.
+03-Sep-2020 10:57:07 INFO Preenchimento do diário efetuado com sucesso!
+03-Sep-2020 10:57:08 INFO Preenchendo diário 2 ...
+03-Sep-2020 10:57:09 INFO Acessou diário da turma 3AFIS, mês 9.
+03-Sep-2020 10:57:10 INFO Uma nova data será inserida na coluna 2.
+03-Sep-2020 10:57:10 INFO Inserido dia 3 no diário.
+03-Sep-2020 10:57:11 INFO Marcando presença para os estudantes.
+03-Sep-2020 10:57:12 INFO Temos 1 ausência(s) nesta data:
+03-Sep-2020 10:57:12 INFO Inserida ausência para estudante num 8.
+03-Sep-2020 10:57:14 INFO Preenchimento do diário efetuado com sucesso!
+03-Sep-2020 10:57:15 INFO Inserindo 1a ausência de 1 no diário 3AFIS ...
+03-Sep-2020 10:57:17 INFO Inseriu data 03/09/2020.
+03-Sep-2020 10:57:18 INFO Inseriu turma Terceira Série / 2M3A / Manhã.
+03-Sep-2020 10:57:20 INFO Inseriu disciplina Física / Pedro Pompermayer Bittencourt.
+03-Sep-2020 10:57:21 INFO Inseriu estudante 8 Gabriel Elias Louzada Gonçalves.
+03-Sep-2020 10:57:22 INFO Inseriu ocorrência: ausente na aula síncrona (P).
+03-Sep-2020 10:57:24 INFO Ausência adicionada!
+03-Sep-2020 10:57:25 INFO PROCESSO FINALIZADO!
+========================================
