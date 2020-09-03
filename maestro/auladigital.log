@@ -595,3 +595,49 @@
 02-Sep-2020 15:51:11 INFO Perfil de professor selecionado.
 02-Sep-2020 15:51:21 INFO Inserindo registro 1 ...
 02-Sep-2020 15:51:23 INFO Selecionou a s�rie 1� S�rie EM.
+03-Sep-2020 11:06:12 INFO ACESSO À PÁGINA EFETUADO POR pedrogabrieltt@gmail.com!
+03-Sep-2020 11:06:24 INFO Logou com sucesso!
+03-Sep-2020 11:06:27 INFO Página de aula digital acessada.
+03-Sep-2020 11:06:43 INFO Perfil de professor selecionado.
+03-Sep-2020 11:06:53 INFO Inserindo registro 1 ...
+03-Sep-2020 11:06:55 INFO Selecionou a série 5º Ano EF.
+03-Sep-2020 11:07:00 ERROR Não foi possível continuar devido ao seguinte problema: não foi possível selecionar a disciplina 5 ANO A-Ciências.
+03-Sep-2020 11:07:00 INFO O programa será encerrado agora. Verifique o registro para detalhes!
+03-Sep-2020 11:07:45 INFO ACESSO À PÁGINA EFETUADO POR pedrogabrieltt@gmail.com!
+03-Sep-2020 11:07:56 INFO Logou com sucesso!
+03-Sep-2020 11:07:59 INFO Página de aula digital acessada.
+03-Sep-2020 11:08:15 INFO Perfil de professor selecionado.
+03-Sep-2020 11:08:25 INFO Inserindo registro 1 ...
+03-Sep-2020 11:08:27 INFO Selecionou a série 5º Ano EF.
+03-Sep-2020 11:08:33 INFO Selecinou a disciplina 5 ANO B-Ciências.
+03-Sep-2020 11:08:36 INFO Clicou em criar nova aula.
+03-Sep-2020 11:08:41 INFO Inseriu título da aula: 1EM_GMT Aula 31-08-2020.
+03-Sep-2020 11:08:43 ERROR Não foi possível continuar devido ao seguinte problema: não foi possível inserir a data 31/08/2020.
+03-Sep-2020 11:08:43 INFO O programa será encerrado agora. Verifique o registro para detalhes!
+03-Sep-2020 11:08:43 WARNING Retrying (Retry(total=2, connect=None, read=None, redirect=None, status=None)) after connection broken by 'ProtocolError('Connection aborted.', ConnectionResetError(104, 'Connection reset by peer'))': /session/4a083923760625d84369a9068e897c65
+03-Sep-2020 11:08:43 WARNING Retrying (Retry(total=1, connect=None, read=None, redirect=None, status=None)) after connection broken by 'NewConnectionError('<urllib3.connection.HTTPConnection object at 0x7fa40ba3f898>: Failed to establish a new connection: [Errno 111] Connection refused',)': /session/4a083923760625d84369a9068e897c65
+03-Sep-2020 11:08:43 WARNING Retrying (Retry(total=0, connect=None, read=None, redirect=None, status=None)) after connection broken by 'NewConnectionError('<urllib3.connection.HTTPConnection object at 0x7fa40ba3fba8>: Failed to establish a new connection: [Errno 111] Connection refused',)': /session/4a083923760625d84369a9068e897c65
+03-Sep-2020 11:33:33 INFO ACESSO À PÁGINA EFETUADO POR pedrogabrieltt@gmail.com!
+03-Sep-2020 11:33:46 INFO Logou com sucesso!
+03-Sep-2020 11:33:52 INFO Página de aula digital acessada.
+03-Sep-2020 11:34:08 INFO Perfil de professor selecionado.
+03-Sep-2020 11:34:18 INFO Inserindo registro 1 ...
+03-Sep-2020 11:34:21 INFO Selecionou a série 5º Ano EF.
+03-Sep-2020 11:34:31 INFO Selecinou a disciplina 5 ANO B-Ciências.
+03-Sep-2020 11:34:35 INFO Clicou em criar nova aula.
+03-Sep-2020 11:34:41 INFO Inseriu título da aula: Um teste bem bonito.
+03-Sep-2020 11:34:44 INFO Inseriu a data 03/09/2020.
+03-Sep-2020 11:34:47 INFO Inseriu o horário 22:00.
+03-Sep-2020 11:34:49 INFO Aula adicionada com sucesso!
+03-Sep-2020 11:42:50 INFO ACESSO À PÁGINA EFETUADO POR pedrogabrieltt@gmail.com!
+03-Sep-2020 11:43:03 INFO Logou com sucesso!
+03-Sep-2020 11:43:09 INFO Página de aula digital acessada.
+03-Sep-2020 11:43:25 INFO Perfil de professor selecionado.
+03-Sep-2020 11:43:35 INFO Inserindo registro 1 ...
+03-Sep-2020 11:43:39 INFO Selecionou a série 5º Ano EF.
+03-Sep-2020 11:43:45 INFO Selecinou a disciplina 5 ANO B-Ciências.
+03-Sep-2020 11:43:49 INFO Clicou em criar nova aula.
+03-Sep-2020 11:43:54 INFO Inseriu título da aula: Um teste bem bonito.
+03-Sep-2020 11:43:57 INFO Inseriu a data 03/09/2020.
+03-Sep-2020 11:44:00 INFO Inseriu o horário 22:00.
+03-Sep-2020 11:44:02 INFO Aula adicionada com sucesso!
