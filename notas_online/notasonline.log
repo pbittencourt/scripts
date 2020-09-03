@@ -662,3 +662,38 @@
 02-Sep-2020 07:25:09 INFO Ocorrência adicionada!
 02-Sep-2020 07:25:10 INFO PROCESSO FINALIZADO!
 ========================================
+03-Sep-2020 11:03:17 INFO ACESSO À PÁGINA EFETUADO POR pedro.bittencourt!
+03-Sep-2020 11:03:18 INFO Inserindo registro 1 ...
+03-Sep-2020 11:03:19 INFO Inseriu data 03/09/2020.
+03-Sep-2020 11:03:20 INFO Inseriu turma Primeira Série / 2M1A / Manhã.
+03-Sep-2020 11:03:21 INFO Inseriu disciplina Física / Pedro Pompermayer Bittencourt.
+03-Sep-2020 11:03:23 INFO Inseriu estudante 2 Danilo Abramowicz.
+03-Sep-2020 11:03:24 INFO Inseriu ocorrência: Não apresentou a lição de casa.
+03-Sep-2020 11:03:27 INFO Inseriu descrição: Não entregou exercícios 1 a 3, p. 183-184, com vencimento em 3/setembro. Aceita-se a data de 8/setembro como prazo para 2ª entrega..
+03-Sep-2020 11:03:29 INFO Ocorrência adicionada!
+03-Sep-2020 11:03:32 INFO Inserindo registro 2 ...
+03-Sep-2020 11:03:32 INFO Inseriu data 03/09/2020.
+03-Sep-2020 11:03:34 INFO Inseriu turma Primeira Série / 2M1A / Manhã.
+03-Sep-2020 11:03:35 INFO Inseriu disciplina Física / Pedro Pompermayer Bittencourt.
+03-Sep-2020 11:03:36 INFO Inseriu estudante 5 Manuel Augusto Peralta.
+03-Sep-2020 11:03:37 INFO Inseriu ocorrência: Não apresentou a lição de casa.
+03-Sep-2020 11:03:40 INFO Inseriu descrição: Não entregou exercícios 1 a 3, p. 183-184, com vencimento em 3/setembro. Aceita-se a data de 8/setembro como prazo para 2ª entrega..
+03-Sep-2020 11:03:42 INFO Ocorrência adicionada!
+03-Sep-2020 11:03:45 INFO Inserindo registro 3 ...
+03-Sep-2020 11:03:45 INFO Inseriu data 03/09/2020.
+03-Sep-2020 11:03:47 INFO Inseriu turma Primeira Série / 2M1A / Manhã.
+03-Sep-2020 11:03:48 INFO Inseriu disciplina Física / Pedro Pompermayer Bittencourt.
+03-Sep-2020 11:03:49 INFO Inseriu estudante 9 Rayane Lucena de Carvalho.
+03-Sep-2020 11:03:50 INFO Inseriu ocorrência: Não apresentou a lição de casa.
+03-Sep-2020 11:03:53 INFO Inseriu descrição: Não entregou exercícios 1 a 3, p. 183-184, com vencimento em 3/setembro. Aceita-se a data de 8/setembro como prazo para 2ª entrega..
+03-Sep-2020 11:03:54 INFO Ocorrência adicionada!
+03-Sep-2020 11:03:57 INFO Inserindo registro 4 ...
+03-Sep-2020 11:03:57 INFO Inseriu data 03/09/2020.
+03-Sep-2020 11:03:59 INFO Inseriu turma Segunda Série / 2M2A / Manhã.
+03-Sep-2020 11:04:00 INFO Inseriu disciplina Física / Pedro Pompermayer Bittencourt.
+03-Sep-2020 11:04:01 INFO Inseriu estudante 5 Hugo Henrique Lavander Heger.
+03-Sep-2020 11:04:03 INFO Inseriu ocorrência: Não fez atividades em classe.
+03-Sep-2020 11:04:05 INFO Inseriu descrição: Não entregou atividades de verificação de carga e força elétricas, realizadas durante aula síncrona de 2/setembro..
+03-Sep-2020 11:04:06 INFO Ocorrência adicionada!
+03-Sep-2020 11:04:07 INFO PROCESSO FINALIZADO!
+========================================
