@@ -1,2 +1,22 @@
 .pytest_cache
 __pycache__
+
+################
+# NOTAS ONLINE #
+################
+
+# remove some logs
+notas_online/ocorrencias.log
+notas_online/presenca.log
+notas_online/notasonline.log
+
+# remove sensible data (students names)
+notas_online/1A
+notas_online/2A
+notas_online/3A
+notas_online/6A
+notas_online/6B
+notas_online/7A
+notas_online/8A
+notas_online/9A
+notas_online/lista_alunos.txt
