@@ -1,6 +1,6 @@
 # workflow
 
-Alguns scripts escritos em python e bash para automatizar meu fluxo de trabalho. 
+Alguns scripts escritos em python para automatizar meu fluxo de trabalho. 
 Até o presente momento, temos:
 
 1. **[maestro/](https://github.com/pbittencourt/scripts/tree/master/maestro)** _ 
