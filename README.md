@@ -20,18 +20,6 @@ que mapeia as entradas do teclado e *move o mouse* até a posição na qual se e
 desejada, clicando-na em seguida. Uma solução talvez pouco elegante, porém mais viável que 
 reescrever o programa e compilá-lo na unha!.
 
-Temos também alguns scripts de *miscelâneas*, que servem a outros propósitos não relacionados a 
-trabalho, diretamente:
-
-1. **[color/](https://github.com/pbittencourt/scripts/tree/master/color)** _ pasta contendo 
-scripts para testar cores no terminal. À exceção de `coloretta.py`, todo o restante é um fork 
-de [Color-Scripts](https://github.com/stark/Color-Scripts).
-1. **[metronome.py](https://github.com/pbittencourt/scripts/blob/master/misc/metronome.py)** _ 
-pequeno metrônomo escrito em python para estudos de bateria. Um pouco mais *à mão* do que
-utilizar aplicativos ou sites para uma finalidade tão básica. Permite definir compasso e bpm.
-1. **[timer.py](https://github.com/pbittencourt/scripts/blob/master/misc/timer.py)** _
-um simples timer pomodoro, escrito em python.
-
 ## autor
 
 * **Pedro Bittencourt** - [Professor da educação básica](http://pedrobittencourt.com.br/) 
