@@ -7,6 +7,7 @@ registros contidos em presenca.csv
 Autor: Pedro P. Bittencourt
 Email: contato@pedrobittencourt.com.br
 Site: pedrobittencourt.com.br
+Github: https://github.com/pbittencourt/workflow
 """
 
 
@@ -19,7 +20,7 @@ import os
 
 
 # inicializa programa
-p = Main()
+p = Main('presença')
 
 # verifica login
 if p.login():
@@ -106,7 +107,7 @@ if p.login():
                 # finaliza o preenchimento
                 try:
                     gravar = p.driver.find_element_by_id('btSave')
-                    #gravar.click()
+                    gravar.click()
                     p.logger.info('Preenchimento do diário efetuado com sucesso!')
                 except:
                     p.errorquit('Não foi possível finalizar o preenchimento do diário.')
@@ -182,7 +183,7 @@ if p.login():
                         # envia formulário
                         try:
                             ok_button = p.driver.find_element_by_xpath('//*[@id="OKbutton"]/a')
-                            #ok_button.click()
+                            ok_button.click()
                             p.logger.info('Ausência adicionada!')
                         except:
                             p.logger.warning('Houve algum erro ao enviar o formulário ...')
@@ -193,7 +194,7 @@ if p.login():
     p.logger.info(f'PROCESSO FINALIZADO!\n' +  '='*40)
 
 else:
-    p.logger.error('Não foi possível efetuar o login. Você inseriu as credenciais corretas?')
+    p.logger.error('Não foi possível efetuar o login. Você inseriu as credenciais corretas?\n' + '='*40)
 
 # encerra o driver
 p.driver.quit()

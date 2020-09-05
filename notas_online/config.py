@@ -29,12 +29,14 @@ import platform
 
 class Main:
 
-    def __init__(self):
+    def __init__(self, programa):
         """
         Exibe mensagem de início do programa e grava os
         atributos essenciais: credenciais do usuário
         (username, password), logger e driver
         """
+
+        self.programa = programa
 
         # mensagem de BOAS VINDAS
         print('WELCOME!!\n')
@@ -46,16 +48,16 @@ class Main:
         # inicializa o logger
         logging.basicConfig(
             level=logging.INFO,
-            format='%(asctime)s %(levelname)s %(message)s',
+            format='%(asctime)s  %(name)-12s %(levelname)s %(message)s',
             datefmt='%d-%b-%Y %H:%M:%S',
-            filename=os.path.join(file_dir, 'logshow.log'),
+            filename=os.path.join(file_dir, 'notasonline.log'),
             filemode='a'
         )
-        self.logger = logging.getLogger('programinha topster')
+        self.logger = logging.getLogger(self.programa)
         self.logger.setLevel(logging.INFO)
         console = logging.StreamHandler()
         console.setLevel(logging.INFO)
-        formatter = logging.Formatter('%(levelname)-8s %(message)s')
+        formatter = logging.Formatter('%(name)-12s > %(levelname)-8s %(message)s')
         console.setFormatter(formatter)
         self.logger.addHandler(console)
 

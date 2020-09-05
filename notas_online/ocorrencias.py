@@ -1,12 +1,13 @@
 #!/usr/bin/env python3
 """
-AUTOMATIZANDO REGISTROS NO NOTAS ONLINE
+AUTOMATIZANDO OCORRÊNCIAS NO NOTAS ONLINE
 Acessa notasonline via selenium e insere
 registros contidos em ocorrencias.csv
 
 Autor: Pedro P. Bittencourt
 Email: contato@pedrobittencourt.com.br
 Site: pedrobittencourt.com.br
+Github: https://github.com/pbittencourt/workflow
 """
 
 from selenium.webdriver.support.ui import Select
@@ -16,7 +17,7 @@ from config import *
 import os
 
 # inicializa programa
-p = Main()
+p = Main('ocorrências')
 
 # verifica login
 if p.login():
@@ -113,7 +114,7 @@ if p.login():
     p.logger.info(f'PROCESSO FINALIZADO!\n' +  '='*40)
 
 else:
-    p.logger.error('Não foi possível efetuar o login. Você inseriu as credenciais corretas?')
+    p.logger.error('Não foi possível efetuar o login. Você inseriu as credenciais corretas?\n' + '='*40)
 
 # encerra o driver
 p.driver.quit()
