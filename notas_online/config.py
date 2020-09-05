@@ -10,78 +10,114 @@ Contato: contato@pedrobittencourt.com.br
 Site: pedrobittencourt.com.br
 """
 
+
+###########
+# IMPORTS #
+###########
+
 from selenium import webdriver
+from getpass import getpass
 import logging
 import os
 import sys
+import platform
 
 
-def login(username: str, password: str) -> None:
-    """
-    Recebe username e password do usuário e utiliza essas credenciais
-    para tentar fazer login no sistema do notas online. Após a
-    submissão do formulário, veriica se o conteúdo exibido corresponde
-    à página inicial do sistema, retornando True ou False.
-    """
+################
+# MAIN PROGRAM #
+################
 
-    # inicializa driver
-    driver = webdriver.Chrome(executable_path=os.getcwd() + r'/../drivers/chromedriver')
+class Main:
 
-    # abre página de login
-    driver.get('https://www.notasonline.com/pages/nol_logon.asp')
+    def __init__(self):
+        """
+        Exibe mensagem de início do programa e grava os
+        atributos essenciais: credenciais do usuário
+        (username, password), logger e driver
+        """
 
-    # preenche credenciais do usuário
-    driver.find_element_by_id('txtLogin').send_keys(username)
-    driver.find_element_by_id('txtPassword').send_keys(password)
-    driver.find_element_by_id('frmForm').submit()
+        # mensagem de BOAS VINDAS
+        print('WELCOME!!\n')
 
-    # verifica se o login foi efetuado, através da url atual
-    if driver.current_url == 'https://www.notasonline.com/pages/home_teacher.asp':
-        return driver
-    else:
-        errorquit('Não foi possível logar no sistema. Você digitou as credenciais corretas?')
-        return False
+        # credenciais do usuário
+        self.username = str(input('Usuário: _ '))
+        self.password = getpass('Senha: _ ')
+
+        # inicializa o logger
+        logging.basicConfig(
+            level=logging.INFO,
+            format='%(asctime)s %(levelname)s %(message)s',
+            datefmt='%d-%b-%Y %H:%M:%S',
+            filename=os.path.join(file_dir, 'logshow.log'),
+            filemode='a'
+        )
+        self.logger = logging.getLogger('programinha topster')
+        self.logger.setLevel(logging.INFO)
+        console = logging.StreamHandler()
+        console.setLevel(logging.INFO)
+        formatter = logging.Formatter('%(levelname)-8s %(message)s')
+        console.setFormatter(formatter)
+        self.logger.addHandler(console)
+
+        # inicializa o driver
+        # o executável depende do SO do usuário
+        drivers_dir = os.path.join(parent_dir, 'drivers')
+        user_os = platform.system()
+        if user_os == 'Linux':
+            driver_exe = 'chromedriver'
+        elif user_os == 'Windows':
+            driver_exe = 'chromedriver.exe'
+        else:
+            pass
+        driver_path = os.path.join(drivers_dir, driver_exe)
+        self.driver = webdriver.Chrome(executable_path=driver_path)
 
 
-def errorquit(msg: str = 'ERRO NÃO ESPECIFICADO') -> str:
-    """
-    Quando falhar numa requisição importante, exibe
-    mensagem de erro, registra no log, fecha o driver
-    e encerra o programa.
-    """
-    logger.error(f'Não foi possível continuar devido ao seguinte problema: {msg}.')
-    logger.info('O programa será encerrado agora. Verifique o registro para detalhes!')
-    driver.quit()
-    sys.exit(1)
+    def login(self) -> bool:
+        """
+        Abre página de login, preenche com as credenciais do usuário
+        e verifica se a url de retorno corresponde à página inicial
+        do notas online, retornando True ou False.
+        """
+        # abre página de login
+        self.driver.get('https://www.notasonline.com/pages/nol_logon.asp')
 
-##############################
-# SETUP LOGGING
-##############################
+        # preenche credenciais do usuário
+        self.driver.find_element_by_id('txtLogin').send_keys(self.username)
+        self.driver.find_element_by_id('txtPassword').send_keys(self.password)
+        self.driver.find_element_by_id('frmForm').submit()
 
-logging.basicConfig(level=logging.INFO,
-                   format='%(asctime)s %(levelname)s %(message)s',
-                   datefmt='%d-%b-%Y %H:%M:%S',
-                   filename='notasonline.log',
-                   filemode='a')
-# create logger object
-logger = logging.getLogger()
-logger.setLevel(logging.INFO)
+        # verifica se o login foi efetuado, através da url atual
+        if self.driver.current_url == 'https://www.notasonline.com/pages/home_teacher.asp':
+            return True
+        else:
+            return False
 
-# handle which writes INFO messages to stderr
-console = logging.StreamHandler()
-console.setLevel(logging.INFO)
 
-# format for console
-formatter = logging.Formatter('%(levelname)-8s %(message)s')
-console.setFormatter(formatter)
+    def errorquit(msg: str = 'ERRO NÃO ESPECIFICADO') -> str:
+        """
+        Quando falhar numa requisição importante, exibe
+        mensagem de erro, registra no log, fecha o driver
+        e encerra o programa.
+        """
+        self.logger.error(f'Não foi possível continuar devido ao seguinte problema: {msg}.')
+        self.logger.info('O programa será encerrado agora. Verifique o registro para detalhes!')
+        self.driver.quit()
+        sys.exit(1)
 
-# add console handler to logger
-logger.addHandler(console)
 
-##############################
-# END OF SETUP LOGGING
-##############################
+#############
+# VARIABLES #
+#############
 
+# caminho do arquivo
+abs_path = os.path.abspath(__file__)
+# diretório do arquivo
+file_dir = os.path.dirname(abs_path)
+# diretório parente
+parent_dir = os.path.dirname(file_dir)
+
+# Daqui para baixo, variáveis preenchidas via 'install.py'
 
 diarios = {
     '6ADG': '591D1214-CEC7-4511-B99D-38B64C224704',
