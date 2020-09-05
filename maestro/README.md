@@ -10,6 +10,8 @@ A criação de aulas digitais é bastante simples, bastando selecionar algumas i
 
 Foi pensando nisto que surgiu este pequeno script `auladigital.py`.
 
+![workflow](img/workflow.gif)
+
 ## Instalação
 
 Clone este o repositório:
@@ -36,7 +38,7 @@ O primeiro passo é preencher o arquivo `auladigital.csv`, que contém as inform
 
 ![auladigitalcsv](img/auladigital-csv.png)
 
-Com o arquivo csv preenchido, basta executar `auladigital.py`:
+Com o arquivo csv preenchido, basta executar `auladigital.py` num terminal:
 
 `python3 /caminho/para/maestro/auladigital.py`
 
@@ -44,15 +46,11 @@ O script abrirá uma janela do navegador, navegará pelas páginas necessárias 
 
 Enquanto o computador trabalha, o professor pode desfrutar de uma boa xícara de chá!
 
-![workflow](img/workflow.gif)
+![cupoftea](https://media.giphy.com/media/3Hw9ggazsWYtC8YzJW/giphy.gif)
 
 Você também pode executar o script diretamente de seu explorador de arquivos. Basta permitir que seu sistema operacional execute documentos `*.py` com o Python, ao invés de editá-los como documentos de texto comuns. No windows, por exemplo:
 
 ![abrewindows](img/abrewindows.png)
-
-No Ubuntu:
-
-![abreubuntu](img/abreubuntu.png)
 
 ## Alguns problemas
 

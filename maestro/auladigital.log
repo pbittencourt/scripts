@@ -641,3 +641,15 @@
 03-Sep-2020 11:43:57 INFO Inseriu a data 03/09/2020.
 03-Sep-2020 11:44:00 INFO Inseriu o horário 22:00.
 03-Sep-2020 11:44:02 INFO Aula adicionada com sucesso!
+05-Sep-2020 15:49:44 INFO ACESSO À PÁGINA EFETUADO POR pedrogabrieltt@gmail.com!
+05-Sep-2020 15:50:51 INFO ACESSO À PÁGINA EFETUADO POR pedrogabrieltt@gmail.com!
+05-Sep-2020 15:51:03 ERROR Não foi possível logar no sistema. Você digitou as credenciais corretas?
+05-Sep-2020 15:51:03 ERROR Encerrando programa devido ausência de credenciais.
+05-Sep-2020 15:52:53 INFO ACESSO À PÁGINA EFETUADO POR pedrogabrieltt@gmail.com!
+05-Sep-2020 15:53:05 INFO Logou com sucesso!
+05-Sep-2020 16:00:20 INFO ACESSO À PÁGINA EFETUADO POR pedrogabrieltt@gmail.com!
+05-Sep-2020 16:00:33 INFO Logou com sucesso!
+05-Sep-2020 16:00:37 INFO Página de aula digital acessada.
+05-Sep-2020 16:09:22 INFO ACESSO À PÁGINA EFETUADO POR pedrogabrieltt@gmail.com!
+05-Sep-2020 16:09:34 INFO Logou com sucesso!
+05-Sep-2020 16:09:37 INFO Página de aula digital acessada.
