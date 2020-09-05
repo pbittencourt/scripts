@@ -34,7 +34,7 @@ O primeiro passo é preencher o arquivo `auladigital.csv`, que contém as inform
 - Dia
 - Horário
 
-![auladigitalcsv]('./img/auladigital-csv.png')
+![auladigitalcsv](img/auladigital-csv.png)
 
 Com o arquivo csv preenchido, basta executar `auladigital.py`:
 
@@ -44,15 +44,15 @@ O script abrirá uma janela do navegador, navegará pelas páginas necessárias 
 
 Enquanto o computador trabalha, o professor pode desfrutar de uma boa xícara de chá!
 
-![workflow]('./img/workflow.gif')
+![workflow](img/workflow.gif)
 
 Você também pode executar o script diretamente de seu explorador de arquivos. Basta permitir que seu sistema operacional execute documentos `*.py` com o Python, ao invés de editá-los como documentos de texto comuns. No windows, por exemplo:
 
-![abrewindows]('./img/abrewindows.png')
+![abrewindows](img/abrewindows.png)
 
 No Ubuntu:
 
-![abreubuntu]('./img/abreubuntu.png')
+![abreubuntu](img/abreubuntu.png)
 
 ## Alguns problemas
 
