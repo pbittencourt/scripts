@@ -34,6 +34,8 @@ O primeiro passo é preencher o arquivo `auladigital.csv`, que contém as inform
 - Dia
 - Horário
 
+![auladigitalcsv]('./img/auladigital-csv.png')
+
 Com o arquivo csv preenchido, basta executar `auladigital.py`:
 
 `python3 /caminho/para/maestro/auladigital.py`
@@ -42,6 +44,16 @@ O script abrirá uma janela do navegador, navegará pelas páginas necessárias 
 
 Enquanto o computador trabalha, o professor pode desfrutar de uma boa xícara de chá!
 
+![workflow]('./img/workflow.gif')
+
+Você também pode executar o script diretamente de seu explorador de arquivos. Basta permitir que seu sistema operacional execute documentos `*.py` com o Python, ao invés de editá-los como documentos de texto comuns. No windows, por exemplo:
+
+![abrewindows]('./img/abrewindows.png')
+
+No Ubuntu:
+
+![abreubuntu]('./img/abreubuntu.png')
+
 ## Alguns problemas
 
 Eventualmente surgirão, uns mais conhecidos, outros nem tantos. Escrevi o script pensando somente no meu ambiente de trabalho, expandindo depois para outros colegas específicos utilizarem-no também. Mas podemos alterar algumas linhas de código, **na unha**, se for o caso.
@@ -49,7 +61,6 @@ Eventualmente surgirão, uns mais conhecidos, outros nem tantos. Escrevi o scrip
 ### A questão do driver
 
 O primeio problema que surge diz respeito ao driver de seu navegador, como mencionado na seção de instalação. Se você optar pela utilização do **Firefox** — como eu havia feito no início da programação — basta baixar o [driver correspondente à sua versão](https://github.com/mozilla/geckodriver/releases), salvá-lo dentro do diretório `drivers/` e realizar uma pequena modificação no arquivo `auladigital.py`. Localize este trecho de código
-
 ```
 # o executável do driver depende do SO
 drivers_dir = os.path.join(parent_dir, 'drivers')
@@ -66,7 +77,31 @@ Altere `driver_exe = chromedriver` e `driver_exe = chromedriver.exe` para `drive
 
 ### A questão das disciplinas
 
-[em escrita]
+Pensando somente no meu caso —  afinal, foi para facilitar a **minha** vida que o script surgiu, rs —  inseri somente as disciplinas que eu leciono (Desenho Geométrico, Física e Geometria) no dicionário `disciplinas{}`. Numa versão posterior, compartilhando o script com colegas, acrescentei Ciências, Matemática e Química. Você pode acrescentar o que bem entender, também! Basta localizar este trecho de código em `auladigital.py`:
+```
+disciplinas = {
+    'DG': 'Desenho Geométrico',
+    'FIS': 'Física',
+    'GMT': 'Matemática',
+    'MAT': 'Matemática',
+    'CIE': 'Ciências',
+    'QUI': 'Química',
+}
+```
+e acrescentar as disciplinas que você ministra. Repare que, em cada linha, há um "código" para a disciplina, a ser inserido em `auladigital.csv`, e o nome da disciplina como consta no maestro. Por exemplo, caso você lecione Redação e Português, pode acrescentar:
+```
+disciplinas = {
+    'DG': 'Desenho Geométrico',
+    'FIS': 'Física',
+    'GMT': 'Matemática',
+    'MAT': 'Matemática',
+    'CIE': 'Ciências',
+    'QUI': 'Química',
+    'RED': 'Redação',
+    'POR': 'Português',
+}
+```
+Não se esqueça de repetir essa mesma sintaxe: `    'COD': 'Disciplina',` —  os quatro espaços em branco são necessários, uma vez que estamos trabalhando com python!
 
 ## Autor
 
