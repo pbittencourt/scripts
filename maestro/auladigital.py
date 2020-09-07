@@ -1,4 +1,5 @@
 #!/usr/bin/env python3
+# -*- coding: utf-8 -*-
 """
 AUTOMATIZANDO INSERÇÃO DE AULA DIGITAL
 Acessa o site do plurall via selenium e
@@ -54,7 +55,7 @@ def errorquit(msg: str = 'ERRO NÃO ESPECIFICADO') -> str:
     e encerra o programa.
     """
     logger.error(f'Não foi possível continuar devido ao seguinte problema: {msg}.')
-    logger.info('O programa será encerrado agora. Verifique o registro para detalhes!')
+    logger.info('O programa será encerrado agora. Verifique o registro para detalhes!\n' + '='*40)
     driver.quit()
     sys.exit(1)
 
@@ -282,7 +283,7 @@ if login(username, password):
 
     logger.info(f'PROCESSO FINALIZADO!\n' +  '='*40)
 else:
-    logger.error('Encerrando programa devido ausência de credenciais.')
+    logger.error('Encerrando programa devido ausência de credenciais.\n' + '='*40)
 
 # encerra driver
 driver.quit()
