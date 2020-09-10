@@ -18,6 +18,7 @@ from pynput.keyboard import Key, KeyCode, Listener
 from pynput.mouse import Button, Controller
 from time import sleep
 from subprocess import check_output
+import sys
 
 
 def get_vk(key):
@@ -74,22 +75,36 @@ def isxournal():
 
 def single_menu(x, msg):
     """ Press only one button """
+    
+    # when using 'tabbed' mode on i3, we have a 'gap' on top,
+    # corresponding to title bar. we need to 'shift down'
+    # our mouse position. this is made by passing a argument
+    # to the program call (any argument, it doesn't matter!)
+    delta = 20 if len(sys.argv) > 1 else 0
+
     if isxournal():
-        mouse.position = (x, 45)
+        mouse.position = (x, 45 + delta)
         mouse.click(Button.left, 1)
         print(msg)
 
 
 def double_menu(x, y1, y2, msg):
     """ Open a dropdown menu and then select a tool """
+
+    # when using 'tabbed' mode on i3, we have a 'gap' on top,
+    # corresponding to title bar. we need to 'shift down'
+    # our mouse position. this is made by passing a argument
+    # to the program call (any argument, it doesn't matter!)
+    delta = 20 if len(sys.argv) > 1 else 0
+
     if isxournal():
         # click on arrow to open menu
-        mouse.position = (x, y1)
+        mouse.position = (x, y1 + delta)
         mouse.click(Button.left, 1)
         sleep(0.25)
 
         # select tool
-        mouse.position = (x, y2)
+        mouse.position = (x, y2 + delta)
         mouse.click(Button.left, 1)
         print(msg)
 
