@@ -1,5 +1,4 @@
-# Maestro: aula digital
-
+# Maestro: aula digital 
 Criação automatizada de aulas digitais na plataforma **Maestro** da [Somos Educação](https://www.somoseducacao.com.br/).
 
 ## Visão geral
@@ -22,7 +21,7 @@ O script se encontra no subdiretório `maestro/`. O restante corresponde a outro
 
 Se você não possui módulo [selenium](https://selenium-python.readthedocs.io/) instalado, pode fazê-lo via *pip*:
 
-`pip install selenium`
+`pip install -m selenium`
 
 Para maiores detalhes e problemas relacionados à instalação, recomendo uma [leitura na documentação](https://selenium-python.readthedocs.io/installation.html). Também será necessário baixar o [driver correspondente a seu navegador](https://selenium-python.readthedocs.io/installation.html#drivers). No diretório `drivers/` deste repositório, há drivers para **Google Chrome**, versões linux e windows — o sistema Notas Online, utilizado na instituição de ensino na qual leciono, por motivos sobrenaturais *não funciona no firefox*, então optei por reodar tudo no Google Chrome. Se você optar por utilizar outro navegador, avance para a seção de [Alguns problemas](#alguns-problemas).
 
