@@ -905,3 +905,49 @@
 13-Sep-2020 10:06:15 INFO Aula adicionada com sucesso!
 13-Sep-2020 10:06:45 INFO PROCESSO FINALIZADO!
 ========================================
+20-Sep-2020 17:28:31 INFO ACESSO À PÁGINA EFETUADO POR pedrogabrieltt@gmail.com!
+20-Sep-2020 17:28:42 INFO Logou com sucesso!
+20-Sep-2020 17:28:46 INFO Página de aula digital acessada.
+20-Sep-2020 17:29:02 INFO Perfil de professor selecionado.
+20-Sep-2020 17:29:12 INFO Inserindo registro 1 ...
+20-Sep-2020 17:29:14 INFO Selecionou a série 1ª Série EM.
+20-Sep-2020 17:29:20 INFO Selecinou a disciplina 1º MÉDIO 2020-Física.
+20-Sep-2020 17:29:24 INFO Clicou em criar nova aula.
+20-Sep-2020 17:29:28 INFO Inseriu título da aula: Avaliação bimestral de Física (3ºbim-2020).
+20-Sep-2020 17:29:31 INFO Inseriu a data 21/09/2020.
+20-Sep-2020 17:29:34 INFO Inseriu o horário 11:00.
+20-Sep-2020 17:29:36 INFO Aula adicionada com sucesso!
+20-Sep-2020 17:30:06 INFO Inserindo registro 2 ...
+20-Sep-2020 17:30:09 INFO Selecionou a série 9º Ano EF.
+20-Sep-2020 17:30:15 INFO Selecinou a disciplina 9º ANO 2020-Física.
+20-Sep-2020 17:30:18 INFO Clicou em criar nova aula.
+20-Sep-2020 17:30:22 INFO Inseriu título da aula: 9EF_FIS Aula 22-09-2020.
+20-Sep-2020 17:30:25 INFO Inseriu a data 22/09/2020.
+20-Sep-2020 17:30:27 INFO Inseriu o horário 09:00.
+20-Sep-2020 17:30:30 INFO Aula adicionada com sucesso!
+20-Sep-2020 17:31:00 INFO Inserindo registro 3 ...
+20-Sep-2020 17:31:02 INFO Selecionou a série 8º Ano EF.
+20-Sep-2020 17:31:08 INFO Selecinou a disciplina 8º ANO 2020-Física.
+20-Sep-2020 17:31:12 INFO Clicou em criar nova aula.
+20-Sep-2020 17:31:16 INFO Inseriu título da aula: 8EF_FIS Aula 22-09-2020.
+20-Sep-2020 17:31:19 INFO Inseriu a data 22/09/2020.
+20-Sep-2020 17:31:21 INFO Inseriu o horário 10:00.
+20-Sep-2020 17:31:24 INFO Aula adicionada com sucesso!
+20-Sep-2020 17:31:54 INFO Inserindo registro 4 ...
+20-Sep-2020 17:31:56 INFO Selecionou a série 1ª Série EM.
+20-Sep-2020 17:32:02 INFO Selecinou a disciplina 1º MÉDIO 2020-Matemática.
+20-Sep-2020 17:32:06 INFO Clicou em criar nova aula.
+20-Sep-2020 17:32:10 INFO Inseriu título da aula: Avaliação bimestral de Geometria (3ºbim-2020).
+20-Sep-2020 17:32:13 INFO Inseriu a data 23/09/2020.
+20-Sep-2020 17:32:16 INFO Inseriu o horário 11:00.
+20-Sep-2020 17:32:18 INFO Aula adicionada com sucesso!
+20-Sep-2020 17:32:48 INFO Inserindo registro 5 ...
+20-Sep-2020 17:32:51 INFO Selecionou a série 8º Ano EF.
+20-Sep-2020 17:32:57 INFO Selecinou a disciplina 8º ANO 2020-Física.
+20-Sep-2020 17:33:00 INFO Clicou em criar nova aula.
+20-Sep-2020 17:33:05 INFO Inseriu título da aula: Avaliação bimestral de Ciências/Física (3ºbim-2020).
+20-Sep-2020 17:33:08 INFO Inseriu a data 25/09/2020.
+20-Sep-2020 17:33:11 INFO Inseriu o horário 09:00.
+20-Sep-2020 17:33:13 INFO Aula adicionada com sucesso!
+20-Sep-2020 17:33:43 INFO PROCESSO FINALIZADO!
+========================================
