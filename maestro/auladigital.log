@@ -951,3 +951,58 @@
 20-Sep-2020 17:33:13 INFO Aula adicionada com sucesso!
 20-Sep-2020 17:33:43 INFO PROCESSO FINALIZADO!
 ========================================
+30-Sep-2020 21:45:39 INFO ACESSO À PÁGINA EFETUADO POR pedrogabrieltt@gmail.com!
+30-Sep-2020 21:45:50 INFO Logou com sucesso!
+30-Sep-2020 21:45:54 INFO Página de aula digital acessada.
+30-Sep-2020 21:46:09 INFO Perfil de professor selecionado.
+30-Sep-2020 21:46:19 INFO Inserindo registro 1 ...
+30-Sep-2020 21:46:22 INFO Selecionou a série 3ª Série EM.
+30-Sep-2020 21:46:26 ERROR Não foi possível continuar devido ao seguinte problema: não foi possível abrir menu de disciplinas.
+30-Sep-2020 21:46:26 INFO O programa será encerrado agora. Verifique o registro para detalhes!
+========================================
+30-Sep-2020 21:47:03 INFO ACESSO À PÁGINA EFETUADO POR pedrogabrieltt@gmail.com!
+30-Sep-2020 21:47:14 INFO Logou com sucesso!
+30-Sep-2020 21:47:18 INFO Página de aula digital acessada.
+30-Sep-2020 21:47:33 INFO Perfil de professor selecionado.
+30-Sep-2020 21:47:43 INFO Inserindo registro 1 ...
+30-Sep-2020 21:47:45 INFO Selecionou a série 3ª Série EM.
+30-Sep-2020 21:47:51 INFO Selecinou a disciplina 3º MÉDIO 2020-Física.
+30-Sep-2020 21:47:55 INFO Clicou em criar nova aula.
+30-Sep-2020 21:48:00 INFO Inseriu título da aula: 3EM_FIS Aula 01-10-2020.
+30-Sep-2020 21:48:03 INFO Inseriu a data 01/10/2020.
+30-Sep-2020 21:48:05 INFO Inseriu o horário 09:00.
+30-Sep-2020 21:48:08 INFO Aula adicionada com sucesso!
+30-Sep-2020 21:48:38 INFO Inserindo registro 2 ...
+30-Sep-2020 21:48:40 INFO Selecionou a série 1ª Série EM.
+30-Sep-2020 21:48:46 INFO Selecinou a disciplina 1º MÉDIO 2020-Física.
+30-Sep-2020 21:48:50 INFO Clicou em criar nova aula.
+30-Sep-2020 21:48:54 INFO Inseriu título da aula: 1EM_FIS Aula 01-10-2020.
+30-Sep-2020 21:48:57 INFO Inseriu a data 01/10/2020.
+30-Sep-2020 21:49:00 INFO Inseriu o horário 11:00.
+30-Sep-2020 21:49:02 INFO Aula adicionada com sucesso!
+30-Sep-2020 21:49:32 INFO Inserindo registro 3 ...
+30-Sep-2020 21:49:35 INFO Selecionou a série 2ª Série EM.
+30-Sep-2020 21:49:41 INFO Selecinou a disciplina 2º MÉDIO 2020-Física.
+30-Sep-2020 21:49:44 INFO Clicou em criar nova aula.
+30-Sep-2020 21:49:48 INFO Inseriu título da aula: 2EM_FIS Aula 02-10-2020.
+30-Sep-2020 21:49:51 INFO Inseriu a data 02/10/2020.
+30-Sep-2020 21:49:54 INFO Inseriu o horário 09:00.
+30-Sep-2020 21:49:56 INFO Aula adicionada com sucesso!
+30-Sep-2020 21:50:27 INFO Inserindo registro 4 ...
+30-Sep-2020 21:50:29 INFO Selecionou a série 8º Ano EF.
+30-Sep-2020 21:50:35 INFO Selecinou a disciplina 8º ANO 2020-Física.
+30-Sep-2020 21:50:39 INFO Clicou em criar nova aula.
+30-Sep-2020 21:50:43 INFO Inseriu título da aula: 8EF_FIS Aula 02-10-2020.
+30-Sep-2020 21:50:46 INFO Inseriu a data 02/10/2020.
+30-Sep-2020 21:50:49 INFO Inseriu o horário 10:00.
+30-Sep-2020 21:50:51 INFO Aula adicionada com sucesso!
+30-Sep-2020 21:51:21 INFO Inserindo registro 5 ...
+30-Sep-2020 21:51:24 INFO Selecionou a série 9º Ano EF.
+30-Sep-2020 21:51:30 INFO Selecinou a disciplina 9º ANO 2020-Física.
+30-Sep-2020 21:51:33 INFO Clicou em criar nova aula.
+30-Sep-2020 21:51:37 INFO Inseriu título da aula: 9EF_FIS Aula 02-10-2020.
+30-Sep-2020 21:51:40 INFO Inseriu a data 02/10/2020.
+30-Sep-2020 21:51:43 INFO Inseriu o horário 11:00.
+30-Sep-2020 21:51:46 INFO Aula adicionada com sucesso!
+30-Sep-2020 21:52:16 INFO PROCESSO FINALIZADO!
+========================================
