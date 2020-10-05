@@ -1,3 +1,4 @@
 mes,turma,disciplina,dia,ausencias
-10,3A,FIS,01,2|4|5|6|8
-10,1A,FIS,01,8|9
+10,3A,GMT,05,8
+10,2A,GMT,05,5|11|14
+10,1A,GMT,05,9
