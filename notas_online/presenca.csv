@@ -1,7 +1,8 @@
 mes,turma,disciplina,dia,ausencias
-10,6A,DG,28,
-10,6B,DG,28,
-10,9A,DG,28,
-10,2A,FIS,28,6
-10,3A,FIS,29,8
-10,1A,FIS,29,9
+10,2A,FIS,30,13
+10,8A,FIS,30,
+10,9A,FIS,30,
+11,1A,FIS,03,8|9
+11,3A,FIS,03,5|8
+11,7A,DG,03,
+11,8A,DG,03,
