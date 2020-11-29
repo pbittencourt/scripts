@@ -1900,3 +1900,89 @@
 22-Nov-2020 18:33:22 INFO Aula adicionada com sucesso!
 22-Nov-2020 18:33:52 INFO PROCESSO FINALIZADO!
 ========================================
+29-Nov-2020 20:10:59 INFO ACESSO À PÁGINA EFETUADO POR pedrogabrieltt@gmail.com!
+29-Nov-2020 20:11:11 INFO Logou com sucesso!
+29-Nov-2020 20:11:15 INFO Página de aula digital acessada.
+29-Nov-2020 20:11:30 INFO Perfil de professor selecionado.
+29-Nov-2020 20:11:40 INFO Inserindo registro 1 ...
+29-Nov-2020 20:11:43 INFO Selecionou a série 2ª Série EM.
+29-Nov-2020 20:11:49 INFO Selecinou a disciplina 2º MÉDIO 2020-Matemática.
+29-Nov-2020 20:11:52 INFO Clicou em criar nova aula.
+29-Nov-2020 20:11:57 INFO Inseriu título da aula: 2EM_GMT Aula 30-11-2020.
+29-Nov-2020 20:12:00 INFO Inseriu a data 30/11/2020.
+29-Nov-2020 20:12:02 INFO Inseriu o horário 09:00.
+29-Nov-2020 20:12:05 INFO Aula adicionada com sucesso!
+29-Nov-2020 20:12:35 INFO Inserindo registro 2 ...
+29-Nov-2020 20:12:37 INFO Selecionou a série 1ª Série EM.
+29-Nov-2020 20:12:43 INFO Selecinou a disciplina 1º MÉDIO 2020-Matemática.
+29-Nov-2020 20:12:47 INFO Clicou em criar nova aula.
+29-Nov-2020 20:12:51 INFO Inseriu título da aula: 1EM_GMT Aula 30-11-2020.
+29-Nov-2020 20:12:54 INFO Inseriu a data 30/11/2020.
+29-Nov-2020 20:12:57 INFO Inseriu o horário 11:00.
+29-Nov-2020 20:12:59 INFO Aula adicionada com sucesso!
+29-Nov-2020 20:13:29 INFO Inserindo registro 3 ...
+29-Nov-2020 20:13:32 INFO Selecionou a série 7º Ano EF.
+29-Nov-2020 20:13:38 INFO Selecinou a disciplina 7º ANO 2020-Desenho Geométrico.
+29-Nov-2020 20:13:41 INFO Clicou em criar nova aula.
+29-Nov-2020 20:13:45 INFO Inseriu título da aula: 7EF_DG Aula 01-12-2020.
+29-Nov-2020 20:13:48 INFO Inseriu a data 01/12/2020.
+29-Nov-2020 20:13:51 INFO Inseriu o horário 09:00.
+29-Nov-2020 20:13:53 INFO Aula adicionada com sucesso!
+29-Nov-2020 20:14:23 INFO Inserindo registro 4 ...
+29-Nov-2020 20:14:26 INFO Selecionou a série 8º Ano EF.
+29-Nov-2020 20:14:32 INFO Selecinou a disciplina 8º ANO 2020-Física.
+29-Nov-2020 20:14:37 INFO Clicou em criar nova aula.
+29-Nov-2020 20:14:41 INFO Inseriu título da aula: 8EF_FIS Aula 01-12-2020.
+29-Nov-2020 20:14:44 INFO Inseriu a data 01/12/2020.
+29-Nov-2020 20:14:47 INFO Inseriu o horário 10:00.
+29-Nov-2020 20:14:49 INFO Aula adicionada com sucesso!
+29-Nov-2020 20:15:19 INFO Inserindo registro 5 ...
+29-Nov-2020 20:15:22 INFO Selecionou a série 1ª Série EM.
+29-Nov-2020 20:15:27 INFO Selecinou a disciplina 1º MÉDIO 2020-Matemática.
+29-Nov-2020 20:15:31 INFO Clicou em criar nova aula.
+29-Nov-2020 20:15:36 INFO Inseriu título da aula: Avaliação Bimestral de Geometria —  4º bim/2020.
+29-Nov-2020 20:15:39 INFO Inseriu a data 01/12/2020.
+29-Nov-2020 20:15:42 INFO Inseriu o horário 12:00.
+29-Nov-2020 20:15:44 INFO Aula adicionada com sucesso!
+29-Nov-2020 20:16:14 INFO Inserindo registro 6 ...
+29-Nov-2020 20:16:17 INFO Selecionou a série 6º Ano EF.
+29-Nov-2020 20:16:23 INFO Selecinou a disciplina 6º ANO B-Desenho Geométrico.
+29-Nov-2020 20:16:27 INFO Clicou em criar nova aula.
+29-Nov-2020 20:16:31 INFO Inseriu título da aula: 6B_DG Aula 02-12-2020.
+29-Nov-2020 20:16:34 INFO Inseriu a data 02/12/2020.
+29-Nov-2020 20:16:37 INFO Inseriu o horário 09:00.
+29-Nov-2020 20:16:39 INFO Aula adicionada com sucesso!
+29-Nov-2020 20:17:09 INFO Inserindo registro 7 ...
+29-Nov-2020 20:17:12 INFO Selecionou a série 6º Ano EF.
+29-Nov-2020 20:17:18 INFO Selecinou a disciplina 6º ANO A-Desenho Geométrico.
+29-Nov-2020 20:17:22 INFO Clicou em criar nova aula.
+29-Nov-2020 20:17:27 INFO Inseriu título da aula: 6A_DG Aula 02-12-2020.
+29-Nov-2020 20:17:30 INFO Inseriu a data 02/12/2020.
+29-Nov-2020 20:17:33 INFO Inseriu o horário 10:00.
+29-Nov-2020 20:17:35 INFO Aula adicionada com sucesso!
+29-Nov-2020 20:18:05 INFO Inserindo registro 8 ...
+29-Nov-2020 20:18:08 INFO Selecionou a série 9º Ano EF.
+29-Nov-2020 20:18:14 INFO Selecinou a disciplina 9º ANO 2020-Física.
+29-Nov-2020 20:18:17 INFO Clicou em criar nova aula.
+29-Nov-2020 20:18:22 INFO Inseriu título da aula: 9EF_FIS Aula 02-12-2020.
+29-Nov-2020 20:18:25 INFO Inseriu a data 02/12/2020.
+29-Nov-2020 20:18:28 INFO Inseriu o horário 11:00.
+29-Nov-2020 20:18:30 INFO Aula adicionada com sucesso!
+29-Nov-2020 20:19:00 INFO Inserindo registro 9 ...
+29-Nov-2020 20:19:04 INFO Selecionou a série 8º Ano EF.
+29-Nov-2020 20:19:10 INFO Selecinou a disciplina 8º ANO 2020-Desenho Geométrico.
+29-Nov-2020 20:19:14 INFO Clicou em criar nova aula.
+29-Nov-2020 20:19:18 INFO Inseriu título da aula: 8EF_DG Aula 02-12-2020.
+29-Nov-2020 20:19:22 INFO Inseriu a data 02/12/2020.
+29-Nov-2020 20:19:25 INFO Inseriu o horário 12:00.
+29-Nov-2020 20:19:27 INFO Aula adicionada com sucesso!
+29-Nov-2020 20:19:57 INFO Inserindo registro 10 ...
+29-Nov-2020 20:20:00 INFO Selecionou a série 8º Ano EF.
+29-Nov-2020 20:20:05 INFO Selecinou a disciplina 8º ANO 2020-Física.
+29-Nov-2020 20:20:09 INFO Clicou em criar nova aula.
+29-Nov-2020 20:20:14 INFO Inseriu título da aula: Avaliação Bimestral de Física —  4º bim/2020.
+29-Nov-2020 20:20:18 INFO Inseriu a data 03/12/2020.
+29-Nov-2020 20:20:21 INFO Inseriu o horário 11:00.
+29-Nov-2020 20:20:23 INFO Aula adicionada com sucesso!
+29-Nov-2020 20:20:53 INFO PROCESSO FINALIZADO!
+========================================
