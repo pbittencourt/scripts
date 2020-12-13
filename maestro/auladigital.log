@@ -1986,3 +1986,61 @@
 29-Nov-2020 20:20:23 INFO Aula adicionada com sucesso!
 29-Nov-2020 20:20:53 INFO PROCESSO FINALIZADO!
 ========================================
+13-Dec-2020 14:08:30 INFO ACESSO À PÁGINA EFETUADO POR pedrogabrieltt@gmail.com!
+13-Dec-2020 14:08:42 ERROR Não foi possível logar no sistema. Você digitou as credenciais corretas?
+13-Dec-2020 14:08:42 ERROR Encerrando programa devido ausência de credenciais.
+========================================
+13-Dec-2020 14:09:29 INFO ACESSO À PÁGINA EFETUADO POR pedrogabrieltt@gmail.com!
+13-Dec-2020 14:09:40 INFO Logou com sucesso!
+13-Dec-2020 14:09:44 INFO Página de aula digital acessada.
+13-Dec-2020 14:10:00 INFO Perfil de professor selecionado.
+13-Dec-2020 14:10:10 INFO Inserindo registro 1 ...
+13-Dec-2020 14:10:12 INFO Selecionou a série 1ª Série EM.
+13-Dec-2020 14:10:18 INFO Selecinou a disciplina 1º MÉDIO 2020-Física.
+13-Dec-2020 14:10:21 INFO Clicou em criar nova aula.
+13-Dec-2020 14:10:26 INFO Inseriu título da aula: Plantão de Física (Exame final) 14/12/2020.
+13-Dec-2020 14:10:29 INFO Inseriu a data 14/12/2020.
+13-Dec-2020 14:10:32 INFO Inseriu o horário 09:00.
+13-Dec-2020 14:10:34 INFO Aula adicionada com sucesso!
+13-Dec-2020 14:11:04 INFO Inserindo registro 2 ...
+13-Dec-2020 14:11:07 INFO Selecionou a série 7º Ano EF.
+13-Dec-2020 14:11:12 INFO Selecinou a disciplina 7º ANO 2020-Desenho Geométrico.
+13-Dec-2020 14:11:16 INFO Clicou em criar nova aula.
+13-Dec-2020 14:11:21 INFO Inseriu título da aula: Plantão de Desenho Geométrico (Exame final) 14/12/2020.
+13-Dec-2020 14:11:24 INFO Inseriu a data 14/12/2020.
+13-Dec-2020 14:11:26 INFO Inseriu o horário 10:00.
+13-Dec-2020 14:11:29 INFO Aula adicionada com sucesso!
+13-Dec-2020 14:11:59 INFO Inserindo registro 3 ...
+13-Dec-2020 14:12:01 INFO Selecionou a série 6º Ano EF.
+13-Dec-2020 14:12:07 INFO Selecinou a disciplina 6º ANO B-Desenho Geométrico.
+13-Dec-2020 14:12:11 INFO Clicou em criar nova aula.
+13-Dec-2020 14:12:16 INFO Inseriu título da aula: Plantão de Desenho Geométrico (Exame final) 14/12/2020.
+13-Dec-2020 14:12:19 INFO Inseriu a data 14/12/2020.
+13-Dec-2020 14:12:21 INFO Inseriu o horário 11:00.
+13-Dec-2020 14:12:24 INFO Aula adicionada com sucesso!
+13-Dec-2020 14:12:54 INFO Inserindo registro 4 ...
+13-Dec-2020 14:12:56 INFO Selecionou a série 6º Ano EF.
+13-Dec-2020 14:13:02 INFO Selecinou a disciplina 6º ANO B-Desenho Geométrico.
+13-Dec-2020 14:13:06 INFO Clicou em criar nova aula.
+13-Dec-2020 14:13:11 INFO Inseriu título da aula: Plantão de Desenho Geométrico (Exame final) 16/12/2020.
+13-Dec-2020 14:13:14 INFO Inseriu a data 16/12/2020.
+13-Dec-2020 14:13:16 INFO Inseriu o horário 09:00.
+13-Dec-2020 14:13:19 INFO Aula adicionada com sucesso!
+13-Dec-2020 14:13:49 INFO Inserindo registro 5 ...
+13-Dec-2020 14:13:52 INFO Selecionou a série 7º Ano EF.
+13-Dec-2020 14:13:57 INFO Selecinou a disciplina 7º ANO 2020-Desenho Geométrico.
+13-Dec-2020 14:14:01 INFO Clicou em criar nova aula.
+13-Dec-2020 14:14:06 INFO Inseriu título da aula: Plantão de Desenho Geométrico (Exame final) 16/12/2020.
+13-Dec-2020 14:14:09 INFO Inseriu a data 16/12/2020.
+13-Dec-2020 14:14:12 INFO Inseriu o horário 10:00.
+13-Dec-2020 14:14:14 INFO Aula adicionada com sucesso!
+13-Dec-2020 14:14:44 INFO Inserindo registro 6 ...
+13-Dec-2020 14:14:47 INFO Selecionou a série 1ª Série EM.
+13-Dec-2020 14:14:52 INFO Selecinou a disciplina 1º MÉDIO 2020-Física.
+13-Dec-2020 14:14:56 INFO Clicou em criar nova aula.
+13-Dec-2020 14:15:01 INFO Inseriu título da aula: Plantão de Física (Exame final) 16/12/2020.
+13-Dec-2020 14:15:04 INFO Inseriu a data 16/12/2020.
+13-Dec-2020 14:15:07 INFO Inseriu o horário 11:00.
+13-Dec-2020 14:15:09 INFO Aula adicionada com sucesso!
+13-Dec-2020 14:15:39 INFO PROCESSO FINALIZADO!
+========================================

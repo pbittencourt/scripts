@@ -1,11 +1,7 @@
 turma,disciplina,titulo,dia,horario
-2A,GMT,2EM_GMT Aula 30-11-2020,30/11/2020,09:00
-1A,GMT,1EM_GMT Aula 30-11-2020,30/11/2020,11:00
-7A,DG,7EF_DG Aula 01-12-2020,01/12/2020,09:00
-8A,FIS,8EF_FIS Aula 01-12-2020,01/12/2020,10:00
-1A,GMT,Avaliação Bimestral de Geometria —  4º bim/2020,01/12/2020,12:00
-6B,DG,6B_DG Aula 02-12-2020,02/12/2020,09:00
-6A,DG,6A_DG Aula 02-12-2020,02/12/2020,10:00
-9A,FIS,9EF_FIS Aula 02-12-2020,02/12/2020,11:00
-8A,DG,8EF_DG Aula 02-12-2020,02/12/2020,12:00
-8A,FIS,Avaliação Bimestral de Física —  4º bim/2020,03/12/2020,11:00
+1A,FIS,Plantão de Física (Exame final) 14/12/2020,14/12/2020,09:00
+7A,DG,Plantão de Desenho Geométrico (Exame final) 14/12/2020,14/12/2020,10:00
+6B,DG,Plantão de Desenho Geométrico (Exame final) 14/12/2020,14/12/2020,11:00
+6B,DG,Plantão de Desenho Geométrico (Exame final) 16/12/2020,16/12/2020,09:00
+7A,DG,Plantão de Desenho Geométrico (Exame final) 16/12/2020,16/12/2020,10:00
+1A,FIS,Plantão de Física (Exame final) 16/12/2020,16/12/2020,11:00
